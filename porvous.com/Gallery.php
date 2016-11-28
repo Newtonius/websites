@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="CSS/art.css" type="text/css" />
         <link rel="shortcut icon" href="GFX/siteGFX/icon_heart1.png" />
         <style type="text/css">
-            <?php 
+            <?php
                 $a = rand(1,11);
                 $b = rand(1,12);
             ?>
@@ -20,7 +20,7 @@
                 background-size: cover;
                 -moz-background-size: cover;
                 -webkit-background-size: cover;
-            } 
+            }
 
             #heidiGallery  {
                 background: url("/GFX/artGFX/Icons/heidiGalleryIcons/<?php echo $b ?>.jpg") center no-repeat;
@@ -37,23 +37,23 @@
 
                 <div class="homeBox">
                     <p>
-                        Welcome to our gallery, if you can imagine it, it's probably in here somewhere ;) 
+                        Welcome to our gallery, if you can imagine it, it's probably in here somewhere ;)
                     </p>
                 </div>
 
-                <br/> 
-    			
+                <br/>
+
                 <article>
     				<h1>Heidi's Gallery ;)</h1>
                     <div id="heidiGallery">
                         <a href="/Sub/Art/heidiGallery.php" target="_self">
                             <p class="imgTextOverlay">
-                                Das gut stuff
+                                Das gut stuff ;)
                             </p>
                         </a>
                     </div>
                 </article>
-    			
+
                 <article>
                     <h1>Photoshop Gallery</h1>
                     <div id="psGallery">
@@ -65,7 +65,7 @@
                     </div>
                 </article>
                 <br/>
-                
+
         <?php include ($_SERVER['DOCUMENT_ROOT'].'/peripherals/footer.php') ?>
 
     </body>
