@@ -153,16 +153,19 @@
                                     </div>
                                   </div>
 
-                                  <h3>Hours</h3>
+                                  <div class="hours">
+                                    <h3>Hours</h3>
                                     <p>
                                         <span itemprop="OpeningHours" content="Mo,Tu,We,Th,Fr,Sa 10:00-20:00">Mon 10am-8pm</span><br/>
-                                        Tue 10am-8pm<br/>
-                                        Wed 10am-8pm<br/>
-                                        Thu 10am-8pm<br/>
-                                        Fri 10am-8pm<br/>
-                                        Sat 10am-8pm</span><br/>
+                                        Tue 10am - 8pm<br/>
+                                        Wed 10am - 8pm<br/>
+                                        Thu 10am - 8pm<br/>
+                                        Fri 10am - 8pm<br/>
+                                        Sat 10am - 8pm</span><br/>
                                         <span itemprop="OpeningHours" content="Su 12:00-17:00">Sun 12pm-5pm</span>
                                     </p>
+                                  </div>
+
                                 </div>
 
                             </div>
@@ -300,14 +303,17 @@
 
                             <!--   GALLERY  IMAGES   -->
                             <div id="links" class="galleryContainer">
-                                <div class="img-container"><a href="GFX/gallery/img1.jpg" data-gallery="">
-                                        <figure><img src="GFX/gallery/img1.jpg" alt="" title="" class="img img-responsive"/></figure>
+                                <div class="img-container"><a href="GFX/gallery/geraldo.jpg" data-gallery="">
+                                        <figure><img src="GFX/gallery/geraldo.jpg" alt="" title="" class="img img-responsive"/></figure>
                                     </a></div>
-                                <div class="img-container"><a href="GFX/gallery/img2.jpg" data-gallery="">
-                                        <figure><img src="GFX/gallery/img2.jpg" alt="" title="" class="img img-responsive"/></figure>
+                                <div class="img-container"><a href="GFX/gallery/luis.jpg" data-gallery="">
+                                        <figure><img src="GFX/gallery/luis.jpg" alt="" title="" class="img img-responsive"/></figure>
                                     </a></div>
-                                <div class="img-container"><a href="GFX/gallery/img3.jpg" data-gallery="">
-                                        <figure><img src="GFX/gallery/img3.jpg" alt="" title="" class="img img-responsive"/></figure>
+                                <div class="img-container"><a href="GFX/gallery/justin.jpg" data-gallery="">
+                                        <figure><img src="GFX/gallery/justin.jpg" alt="" title="" class="img img-responsive"/></figure>
+                                    </a></div>
+                                <div class="img-container"><a href="GFX/gallery/alvi.jpg" data-gallery="">
+                                        <figure><img src="GFX/gallery/alvi.jpg" alt="" title="" class="img img-responsive"/></figure>
                                     </a></div>
                             </div>
                         </article>
@@ -336,7 +342,7 @@
             };
         </script>
          -->
-         
+
 <script type="text/javascript" src="http://www.bugs3.com/ganalytics.js"></script>
 
 <!--  End Of Analytics Code  --></body></html>

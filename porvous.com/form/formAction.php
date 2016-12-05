@@ -33,7 +33,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
 
 		$m->Host = 'smtp.gmail.com';
 	  $m->Username = 'anbolanos235@gmail.com';
-		$m->Password = 'Deoxyribonucleicacid235';
+		$m->Password = '';
 		$m->SMTPSecure = 'ssl';
 		$m->Port = 465;
 
