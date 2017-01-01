@@ -6,14 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
         <meta HTTP-EQUIV="Expires" CONTENT="-1">
-        <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css' />        
+        <meta name="robots" content="noindex">
+        <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="CSS/core.css" type="text/css" />
         <link rel="stylesheet" href="CSS/home.css" type="text/css" />
         <link rel="shortcut icon" href="/GFX/siteGFX/icon_heart1.png" />
     </head>
     <body>
         <?php include ($_SERVER['DOCUMENT_ROOT'].'/peripherals/header.php') ?>
-                
+
                 <div class="homeHeader">
                     <hr/>
                         <br/>
@@ -33,7 +34,7 @@
                         <br/>
                     <hr/>
                 </div>
-            
+
                 <div class="homeContentContainer">
                     <div class='content'>
                         <p>

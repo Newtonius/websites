@@ -28,7 +28,6 @@
             <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"/>
             <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css"/>
 
-
         <!--  FONTS  -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Stoke" rel="stylesheet" type="text/css"/>

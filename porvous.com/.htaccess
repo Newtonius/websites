@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Enter Credentials"
+AuthUserFile /var/www/html/websites/porvous.com/private/.htpasswd
+require valid-user
