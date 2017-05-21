@@ -9,7 +9,8 @@
         <meta http-equiv="Expires" content="-1"/>
 
         <!--  meta tags for search engine analytics  -->
-        <meta name="description" content="We're a family run barbershop based in Long Island city. We give cuts, shaves, trims, even a hot towel facial to all clients, young and old."/>
+        <meta name="description" content="We're a family run barbershop based in Long Island city. We give cuts,
+        shaves, trims, even a hot towel facial to all clients, young and old."/>
 
         <!--  CUSTOM LIBRARIES  -->
         <link rel="shortcut icon" href="GFX/icon.png"/>
@@ -17,16 +18,6 @@
         <link rel="stylesheet" href="nav.css" type="text/css"/>
         <link rel="stylesheet" href="header.css" type="text/css"/>
         <link rel="stylesheet" href="content.css" type="text/css"/>
-
-        <!--  BOOTSTRAP  -->
-            <!--  BASICS   -->
-            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-            <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-            <!--  IMAGE GALLERY  -->
-            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
-            <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"/>
-            <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css"/>
 
         <!--  FONTS  -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
@@ -262,43 +253,8 @@
                     <span class="anchor" id="photos"></span>
                     <section id="photoSection" class="sections">
                         <article class="article">
-                            <h3><a href="http://lictonsorial.com/gallery.php" target="_blank" style="color: #ffffff; text-decoration: none;">
+                            <h3><a href="gallery.php" target="_blank" style="color: #ffffff; text-decoration: none;">
                                     Visit our Gallery!</a></h3>
-
-                            <!--  The Bootstrap Image Gallery lightbox [DON'T MODIFY]  -->
-                            <div id="blueimp-gallery" class="blueimp-gallery">
-                                <!--  The container for the modal slides  -->
-                                <div class="slides"></div>
-                                <!--  Controls for the borderless lightbox  -->
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="close">×</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                                <!--  The modal dialog, which will be used to wrap the lightbox content  -->
-                                <div class="modal fade">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" aria-hidden="true">×</button>
-                                                <h4 class="modal-title"></h4>
-                                            </div>
-                                            <div class="modal-body next"></div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default pull-left prev">
-                                                    <i class="glyphicon glyphicon-chevron-left"></i>
-                                                    Previous
-                                                </button>
-                                                <button type="button" class="btn btn-primary next">
-                                                    Next
-                                                    <i class="glyphicon glyphicon-chevron-right"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                             <!--   GALLERY  IMAGES   -->
                             <div id="scroller">
@@ -379,20 +335,6 @@
 
 <meta itemprop="name" content="Long Island City Tonsorial">
 <meta itemprop="url" content="http://lictonsorial.com/"></div>
-
-        <!--  IMAGE GALLERY SCRIPT LIBRARIES  -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-        <script src="js/bootstrap-image-gallery.min.js"></script>
-        <!--
-        <script>
-            window.onload = function() {
-                setTimeout( function() {
-                   document.getElementById("logoFade").style.opacity = "100";
-                },2000);
-            };
-        </script>
-         -->
 
 <script type="text/javascript" src="http://www.bugs3.com/ganalytics.js"></script>
 

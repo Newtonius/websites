@@ -12,11 +12,11 @@
         <meta name="description" content="We're a family run barbershop based in Long Island city. We give cuts, shaves, trims, even a hot towel facial to all clients, young and old."/>
 
         <!--  CUSTOM LIBRARIES  -->
-        <link rel="shortcut icon" href="GFX/icon.png"/>
-        <link rel="stylesheet" href="core.css" type="text/css"/>
-        <link rel="stylesheet" href="nav.css" type="text/css"/>
-        <link rel="stylesheet" href="header.css" type="text/css"/>
-        <link rel="stylesheet" href="content.css" type="text/css"/>
+        <link rel="shortcut icon" href="/GFX/icon.png"/>
+        <link rel="stylesheet" href="/core.css" type="text/css"/>
+        <link rel="stylesheet" href="/nav.css" type="text/css"/>
+        <link rel="stylesheet" href="/header.css" type="text/css"/>
+        <link rel="stylesheet" href="/content.css" type="text/css"/>
 
         <!--  BOOTSTRAP  -->
             <!--  BASICS   -->
@@ -41,7 +41,7 @@
 
         <!--  BACKGROUND  -->
         <figure class="background">
-            <img src="GFX/bg.jpg" alt=""/>
+            <img src="/GFX/bg.jpg" alt=""/>
         </figure>
 
         <!--  ENTIRE PAGE WRAPPER  -->
@@ -53,7 +53,7 @@
                 <!--  TITLE  -->
                 <a href="#top">
                     <p class="titleLogo">
-                        <span style="color: #fff;">L.I.C. <img src="GFX/razorHeader.png" width="50" height="43"/> Tonsorial</span>
+                        <span style="color: #fff;">L.I.C. <img src="/GFX/razorHeader.png" width="50" height="43"/> Tonsorial</span>
                     </p></a>
             </div>
 
@@ -64,7 +64,7 @@
                 <span class="anchor" id="topAnchor"></span>
                 <center>
                     <div id="logo_Container">
-                        <img itemprop = "logo" src="GFX/Logo.png" id="logoFade" class="logo" alt=""/>
+                        <img itemprop = "logo" src="/GFX/Logo.png" id="logoFade" class="logo" alt=""/>
                     </div>
                 </center>
                 <br/>
@@ -119,19 +119,19 @@
                                     <!--  SOCDIAL ICONS  -->
                                     <div class="socialIcons">
                                         <a href="https://www.facebook.com/longislandcitybarber/timeline" target="_blank">
-                                            <img src="GFX/fb.png" width="38" height="38" alt=""/>
+                                            <img src="/GFX/fb.png" width="38" height="38" alt=""/>
                                         </a>
                                         <a href="https://twitter.com/QueensFinests" target="_blank">
-                                            <img src="GFX/twit.png" width="38" height="38" alt=""/>
+                                            <img src="/GFX/twit.png" width="38" height="38" alt=""/>
                                         </a>
                                         <a href="https://www.instagram.com/l.i.ctonsorial2014/?ref=badge" target="_blank">
-                                            <img src="GFX/ins.png" width="38" height="38" alt=""/>
+                                            <img src="/GFX/ins.png" width="38" height="38" alt=""/>
                                         </a>
                                     </div>
                                 </div>
                                 <!--  ABOUT IMAGE  -->
                                 <div class="aboutContent">
-                                    <img itemprop="image" src="GFX/aboutUs.jpg" align="middle" alt=""/>
+                                    <img itemprop="image" src="/GFX/aboutUs.jpg" align="middle" alt=""/>
                                 </div>
 
                                 <!--  CONTACT INFO  -->
@@ -250,10 +250,10 @@
                             </div>
 
                             <div class="layriteCont">
-                                <p style="font-family: Calibri;">* We sell <i>Layrite</i> products *</p>
-                                <img class="layritePics" src="GFX/Layrite/deluxe_trans.png" alt="Layrite" title="Layrite Deluxe" width="125" height="125"/>
-                                <img class="layritePics" src="GFX/Layrite/lgSpray_trans.png" alt="Layrite" title="Layrite Spray" width="75" height="175"/>
-                                <img class="layritePics" src="GFX/Layrite/superhold_trans.png" alt="Layrite" title="Layrite Superhold" width="125" height="125"/>
+                                <p style="font-family: Calibri;">~ We sell <i>Layrite</i> products ~</p>
+                                <img class="layritePics" src="/GFX/Layrite/deluxe_trans.png" alt="Layrite" title="Layrite Deluxe" width="125" height="125"/>
+                                <img class="layritePics" src="/GFX/Layrite/lgSpray_trans.png" alt="Layrite" title="Layrite Spray" width="75" height="175"/>
+                                <img class="layritePics" src="/GFX/Layrite/superhold_trans.png" alt="Layrite" title="Layrite Superhold" width="125" height="125"/>
                             </div>
                         </article>
                     </section>
@@ -265,56 +265,22 @@
                             <h3><a href="http://lictonsorial.com/gallery.php" target="_blank" style="color: #ffffff; text-decoration: none;">
                                     Visit our Gallery!</a></h3>
 
-                            <!--  The Bootstrap Image Gallery lightbox [DON'T MODIFY]  -->
-                            <div id="blueimp-gallery" class="blueimp-gallery">
-                                <!--  The container for the modal slides  -->
-                                <div class="slides"></div>
-                                <!--  Controls for the borderless lightbox  -->
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="close">×</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                                <!--  The modal dialog, which will be used to wrap the lightbox content  -->
-                                <div class="modal fade">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" aria-hidden="true">×</button>
-                                                <h4 class="modal-title"></h4>
-                                            </div>
-                                            <div class="modal-body next"></div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default pull-left prev">
-                                                    <i class="glyphicon glyphicon-chevron-left"></i>
-                                                    Previous
-                                                </button>
-                                                <button type="button" class="btn btn-primary next">
-                                                    Next
-                                                    <i class="glyphicon glyphicon-chevron-right"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                             <!--   GALLERY  IMAGES   -->
                             <div id="scroller">
-                              <div id="links" class="galleryContainer">
-                                  <div class="img-container"><a href="GFX/gallery/geraldo.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/geraldo.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
-                                  <div class="img-container"><a href="GFX/gallery/luis.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/luis.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
-                                  <div class="img-container"><a href="GFX/gallery/justin.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/justin.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
-                                  <div class="img-container"><a href="GFX/gallery/alvi.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/alvi.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
+                              <div class="innerScrollArea">
+                                <ul>
+                                  <?php
+                                    $barbers = array("geraldo","alvi","justin","luis");
+                                    for ($i=0; $i < count($barbers); $i++):
+                                  ?>
+
+                                  <li>
+                                    <a href="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg">
+                                      <img src="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg" target="_blank" width="500" height="350" alt="" title="<?php echo $barbers[$i]; ?>">
+                                    </a>
+                                  </li>
+                                <?php endfor; ?>
+                                </ul>
                               </div>
                             </div>
 
@@ -343,7 +309,7 @@
                                     var tweenToNewSpeed = function(newSpeed, duration)
                                     {
                                         if (duration === undefined)
-                                            duration = 1250;
+                                            duration = 750;
                                         $controller.stop(true).animate({curSpeed:newSpeed}, duration);
                                     };
 
@@ -377,23 +343,10 @@
 
             </footer>
 
-<meta itemprop="name" content="Long Island City Tonsorial">
-<meta itemprop="url" content="http://lictonsorial.com/"></div>
+    <meta itemprop="name" content="Long Island City Tonsorial">
+    <meta itemprop="url" content="http://lictonsorial.com/"></div>
 
-        <!--  IMAGE GALLERY SCRIPT LIBRARIES  -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-        <script src="js/bootstrap-image-gallery.min.js"></script>
-        <!--
-        <script>
-            window.onload = function() {
-                setTimeout( function() {
-                   document.getElementById("logoFade").style.opacity = "100";
-                },2000);
-            };
-        </script>
-         -->
+    <script type="text/javascript" src="http://www.bugs3.com/ganalytics.js"></script>
 
-<script type="text/javascript" src="http://www.bugs3.com/ganalytics.js"></script>
-
-<!--  End Of Analytics Code  --></body></html>
+  </body>
+</html>

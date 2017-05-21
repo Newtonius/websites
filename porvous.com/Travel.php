@@ -27,7 +27,7 @@
                         <br/><br/>
                         <div>
                             <p class="title">
-                                Listen to music From around the world! Can you handle all this culture?  
+                                Listen to music From around the world! Can you handle all this culture?
                                 <img src='http://26.media.tumblr.com/tumblr_ltswn6XQcz1qm038ko1_500.gif' width='40' height='40' alt='Explosm.net' title='Cyanide And Happiness'/>
                             </p>
 
@@ -35,7 +35,7 @@
                             <div id="scroller">
                                 <div class="innerScrollArea">
                                     <ul>
-                                        <?php 
+                                        <?php
 
                                             $countryNames = array("America","Britain","Czech","Georgia","Germany","Greenland","Iceland",
                                                                "Netherlands","Russia","Sweden","Scotland");
@@ -47,7 +47,7 @@
 
                                             for ($i=0; $i < count($countryNames); $i++):
 
-                                        ?>
+                                          ?>
                                         <li>
                                             <a href="Sub/Travel/cultureMusic/<?php echo $countrySites[$i]; ?>Music.html" target="iframe">
                                                 <img src="GFX/travelGFX/flags/<?php echo $countryFlag[$i]; ?>" width="100" height="62" alt=""/>
@@ -63,7 +63,7 @@
                                     <iframe src="" name="iframe" id="frame"></iframe>
                                 </div>
                         </div>
-                        
+
         <?php include ($_SERVER['DOCUMENT_ROOT'].'/peripherals/footer.php') ?>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
