@@ -18,16 +18,6 @@
         <link rel="stylesheet" href="/header.css" type="text/css"/>
         <link rel="stylesheet" href="/content.css" type="text/css"/>
 
-        <!--  BOOTSTRAP  -->
-            <!--  BASICS   -->
-            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-            <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-            <!--  IMAGE GALLERY  -->
-            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
-            <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"/>
-            <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css"/>
-
         <!--  FONTS  -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Stoke" rel="stylesheet" type="text/css"/>
@@ -53,7 +43,7 @@
                 <!--  TITLE  -->
                 <a href="#top">
                     <p class="titleLogo">
-                        <span style="color: #fff;">L.I.C. <img src="/GFX/razorHeader.png" width="50" height="43"/> Tonsorial</span>
+                        <span style="color: #fff;">L.I.C. <img src="/GFX/razorHeader.png" width="43" height="38"/> Tonsorial</span>
                     </p></a>
             </div>
 
