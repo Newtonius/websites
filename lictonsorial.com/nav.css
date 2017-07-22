@@ -5,22 +5,40 @@
     position: fixed;
     z-index: 155;
     box-shadow: 2px 0px 10px #000;
-    background: #000;
+    background:rgba(79,61,44,1);
 }
+
+    .number {
+      font-family: 'Cantata One', serif;
+      color: white;
+      padding: 5px 100px;
+      float: right;
+    }
+    #day {
+      position: fixed;
+      color: white;
+      font-family: 'Cash Currency';
+    }
     .titleLogo {
-        width: 100%;
         position: fixed;
+        font-family: 'Wacamoler';
+        color: #fff;
+        width: 100%;
+        /*
         font-family: 'Playfair Display', serif;
-        font-size: 21pt;
+        transition: transform 0.5s;
+        */
+        font-size: 25pt;
         text-align: center;
         text-decoration: none;
         margin-left: 20px;
         padding: 0px;
-        transition: transform 0.5s;
     }
+    /*
     .titleLogo:hover {
         transform:scale(1.15);
     }
+    */
     .titleLogo img {
         margin-bottom: 0px;
     }
@@ -52,9 +70,11 @@
 #nav ul li a, visited {
     text-decoration: none;
     display: block;
+    font-family: 'Wacamoler';
+    /*
     font-family: 'IM Fell French Canon', serif;
-    font-weight: 400;
-    font-size: 14pt;
+    */
+    font-size: 18pt;
     color: #fff;
     height: 100%;
     padding: 7px;

@@ -28,11 +28,13 @@
             <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"/>
             <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css"/>
 
-        <!--  FONTS  -->
+        <!--  FONTS
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Stoke" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400italic" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
+      -->
 
         <style>
         </style>
@@ -50,11 +52,14 @@
             <!--  TOPBAR NAV -->
             <div id="top_bar">
 
-                <!--  TITLE  -->
                 <a href="#top">
-                    <p class="titleLogo">
-                        <span style="color: #fff;">L.I.C. <img src="GFX/razorHeader.png" width="50" height="43"/> Tonsorial</span>
-                    </p></a>
+                  <p class="titleLogo">
+                    L.I.C. <img src="GFX/razorHeader.png" width="50" height="43"/> Tonsorial
+                  </p>
+                </a>
+
+              <p id="day"></p>
+              <span class="number"><img class="nav_icons" src="GFX/products/vintage-phone.png" width="20" height="37"> 347 654 6386</span>
             </div>
 
             <!--  HEADER [LOGO]  -->
@@ -68,30 +73,29 @@
                     </div>
                 </center>
                 <br/>
-                <!--  BOOK APPOINTMENT BUTTON  -->
-                <p class="bookAppt">
-                    <a href="https://lictonsorial.resurva.com/book" target="_blank">
-                        <span style="color: #fff;">~ Book appointment ~</span>
-                    </a>
-                 </p>
                  <br/>
                  <!--  HEADER NAV  -->
                  <nav id="nav">
                      <ul>
                          <li>
                             <a href="#aboutSection">
-                                ~ About Us ~
+                                About Us
                             </a></li><li>
                             <a href="#info">
-                               ~ Services ~
+                               Services
                             </a></li><li>
                             <a href="#photos">
-                                ~ Gallery ~
+                                Gallery
                             </a></li>
                      </ul>
                  </nav>
+                <!--  BOOK APPOINTMENT BUTTON  -->
+                <p class="bookAppt">
+                  <a href="https://lictonsorial.resurva.com/book" target="_blank">
+                    Book appointment
+                  </a>
+                </p>
             </div>
-
 
             <!--  CONTENT  -->
             <div id="contentBackground">
@@ -103,6 +107,7 @@
                         <article class="article">
 
                             <h3>About us</h3>
+                            <img class="underline" src="/GFX/products/vintage-underline.png" />
                             <div id="aboutWrapper">
                                 <div class="aboutContent">
                                     <p itemprop = "description">
@@ -143,8 +148,6 @@
                                       </span>
                                     </div>
 
-                                    <div class="address_content" itemprop="telephone">347-654-6386</div>
-
                                     <div class="direction address_content">
                                       <a target="_blank" href="https://www.google.com/maps/place/41-10+34th+Ave,+Astoria,+NY+11101/@40.7561242,-73.9218469,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25f3b4a5624cf:0xe8ca6027e1d2c001">
                                         Map
@@ -177,6 +180,8 @@
                         <!--  <img src="GFX/services_head.jpg" alt="Look your best!" class="serviceImage" />  -->
                         <article>
                             <div class="cutWrapper">
+                              <h3>Services</h3>
+                              <img class="underline" src="/GFX/products/vintage-underline.png" />
                                 <!--  CUTS LIST  -->
                                 <h4>~ Cuts ~</h4>
 
@@ -248,12 +253,53 @@
 
                                 <p style="font-size: 9pt;">*Time of service may vary from 30min - 1hr</p>
                             </div>
-
-                            <div class="layriteCont">
-                                <p style="font-family: Calibri;">* We sell <i>Layrite</i> products *</p>
+<br/>
+<br/>
+<br/>
+<br/>
+                            <div class="products" id="products">
+                              <h3>Products</h3>
+                              <img class="underline" src="/GFX/products/vintage-underline.png" />
+                                <h4>
+                                  Baxter
+                                </h4>
+                                <ul>
+                                  <li>Cream Pomade $22</li>
+                                  <li>Hard Cream Pomade $22</li>
+                                  <li>Clay Pomade $22</li>
+                                  <li>Soft Water Pomade $22</li>
+                                  <li>Hard Water Pomade $22</li>
+                                  <li>Exfoliating Body Bar $17</li>
+                                  <li>Vitamin Body Bar $17</li>
+                                  <li>Protein Shampoo $18</li>
+                                  <li>Conditioner $19</li>
+                                  <li>Shave Tonic $18</li>
+                                  <li>Oil Free Moisturizer $24</li>
+                                  <li>Aftershave $19</li>
+                                  <li>Large Comb $20</li>
+                                  <li>Deodorant $19</li>
+                                </ul>
+                                <h4>
+                                  Layrite
+                                </h4>
+                                  <ul>
+                                    <li>Original $18</li>
+                                    <li>Super Hold $18</li>
+                                    <li>Matte Cream $18</li>
+                                  </ul>
+                                <h4>
+                                  Mr. Matty
+                                </h4>
+                                  <ul>
+                                    <li>Dub $20</li>
+                                    <li>Paste $20</li>
+                                    <li>Moisturizing Butter $20</li>
+                                  </ul>
+                                  <!--
                                 <img class="layritePics" src="GFX/Layrite/deluxe_trans.png" alt="Layrite" title="Layrite Deluxe" width="125" height="125"/>
                                 <img class="layritePics" src="GFX/Layrite/lgSpray_trans.png" alt="Layrite" title="Layrite Spray" width="75" height="175"/>
                                 <img class="layritePics" src="GFX/Layrite/superhold_trans.png" alt="Layrite" title="Layrite Superhold" width="125" height="125"/>
+                                  -->
                             </div>
                         </article>
                     </section>
@@ -262,111 +308,30 @@
                     <span class="anchor" id="photos"></span>
                     <section id="photoSection" class="sections">
                         <article class="article">
-                            <h3><a href="http://lictonsorial.com/gallery.php" target="_blank" style="color: #ffffff; text-decoration: none;">
-                                    Visit our Gallery!</a></h3>
-
-                            <!--  The Bootstrap Image Gallery lightbox [DON'T MODIFY]  -->
-                            <div id="blueimp-gallery" class="blueimp-gallery">
-                                <!--  The container for the modal slides  -->
-                                <div class="slides"></div>
-                                <!--  Controls for the borderless lightbox  -->
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="close">×</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                                <!--  The modal dialog, which will be used to wrap the lightbox content  -->
-                                <div class="modal fade">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" aria-hidden="true">×</button>
-                                                <h4 class="modal-title"></h4>
-                                            </div>
-                                            <div class="modal-body next"></div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default pull-left prev">
-                                                    <i class="glyphicon glyphicon-chevron-left"></i>
-                                                    Previous
-                                                </button>
-                                                <button type="button" class="btn btn-primary next">
-                                                    Next
-                                                    <i class="glyphicon glyphicon-chevron-right"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <h3>
+                              <a href="http://lictonsorial.com/gallery.php" target="_blank" style="color: #ffffff; text-decoration: none;">
+                                Visit our Gallery
+                              </a>
+                            </h3>
+                            <img class="underline" src="/GFX/products/vintage-underline.png" />
                             <!--   GALLERY  IMAGES   -->
                             <div id="scroller">
-                              <div id="links" class="galleryContainer">
-                                  <div class="img-container"><a href="GFX/gallery/geraldo.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/geraldo.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
-                                  <div class="img-container"><a href="GFX/gallery/luis.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/luis.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
-                                  <div class="img-container"><a href="GFX/gallery/justin.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/justin.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
-                                  <div class="img-container"><a href="GFX/gallery/alvi.jpg" data-gallery="">
-                                          <figure><img src="GFX/gallery/alvi.jpg" alt="" title="" class="img img-responsive"/></figure>
-                                      </a></div>
+                              <div class="innerScrollArea">
+                                <ul>
+                                  <?php
+                                    $barbers = array("geraldo","alvi","justin","luis");
+                                    for ($i=0; $i < count($barbers); $i++):
+                                  ?>
+
+                                  <li>
+                                    <a href="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg">
+                                      <img src="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg" target="_blank" width="500" height="350" alt="" title="<?php echo $barbers[$i]; ?>">
+                                    </a>
+                                  </li>
+                                <?php endfor; ?>
+                                </ul>
                               </div>
                             </div>
-
-                            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-                            <script type="text/javascript">
-                                $(function(){
-                                    var scroller = $('#scroller div.innerScrollArea');
-                                    var scrollerContent = scroller.children('ul');
-                                    scrollerContent.children().clone().appendTo(scrollerContent);
-                                    var curX = 0;
-                                    scrollerContent.children().each(function(){
-                                        var $this = $(this);
-                                        $this.css('left', curX);
-                                        curX += $this.outerWidth(true);
-                                    });
-                                    var fullW = curX / 2;
-                                    var viewportW = scroller.width();
-
-                                    // Manual Scroller
-                                    // scroller.css('overflow-x', 'auto');
-
-                                    // Scrolling speed management
-                                    var controller = {curSpeed: 0, fullSpeed: 1};
-                                    var $controller = $(controller);
-                                    // When hovering over, takes 500ms to set speed of rotation to 0
-                                    var tweenToNewSpeed = function(newSpeed, duration)
-                                    {
-                                        if (duration === undefined)
-                                            duration = 1250;
-                                        $controller.stop(true).animate({curSpeed:newSpeed}, duration);
-                                    };
-
-                                    // Pause on hover
-                                    scroller.hover(function(){
-                                        tweenToNewSpeed(0);
-                                    }, function(){
-                                        tweenToNewSpeed(controller.fullSpeed); // When hovering out, set speed to normal
-                                    });
-
-                                    // Scrolling management; start the automatical scrolling
-                                    var doScroll = function()
-                                    {
-                                        var curX = scroller.scrollLeft();
-                                        var newX = curX + controller.curSpeed;
-                                        if (newX > fullW*2 - viewportW)
-                                            newX -= fullW;
-                                        scroller.scrollLeft(newX);
-                                    };
-                                    setInterval(doScroll, 20);
-                                    tweenToNewSpeed(controller.fullSpeed);
-                                });
-                            </script>
                         </article>
                     </section>
                 </div>
@@ -377,23 +342,66 @@
 
             </footer>
 
-<meta itemprop="name" content="Long Island City Tonsorial">
-<meta itemprop="url" content="http://lictonsorial.com/"></div>
+    <meta itemprop="name" content="Long Island City Tonsorial">
+    <meta itemprop="url" content="http://lictonsorial.com/"></div>
 
-        <!--  IMAGE GALLERY SCRIPT LIBRARIES  -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-        <script src="js/bootstrap-image-gallery.min.js"></script>
-        <!--
-        <script>
-            window.onload = function() {
-                setTimeout( function() {
-                   document.getElementById("logoFade").style.opacity = "100";
-                },2000);
+    <!-- Scripts -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var scroller = $('#scroller div.innerScrollArea');
+            var scrollerContent = scroller.children('ul');
+            scrollerContent.children().clone().appendTo(scrollerContent);
+            var curX = 0;
+            scrollerContent.children().each(function(){
+                var $this = $(this);
+                $this.css('left', curX);
+                curX += $this.outerWidth(true);
+            });
+            var fullW = curX / 2;
+            var viewportW = scroller.width();
+
+            // Manual Scroller
+            // scroller.css('overflow-x', 'auto');
+
+            // Scrolling speed management
+            var controller = {curSpeed: 0, fullSpeed: 1};
+            var $controller = $(controller);
+            // When hovering over, takes 500ms to set speed of rotation to 0
+            var tweenToNewSpeed = function(newSpeed, duration)
+            {
+                if (duration === undefined)
+                    duration = 250;
+                $controller.stop(true).animate({curSpeed:newSpeed}, duration);
             };
-        </script>
-         -->
 
-<script type="text/javascript" src="http://www.bugs3.com/ganalytics.js"></script>
+            // Pause on hover
+            scroller.hover(function(){
+                tweenToNewSpeed(0);
+            }, function(){
+                tweenToNewSpeed(controller.fullSpeed); // When hovering out, set speed to normal
+            });
 
-<!--  End Of Analytics Code  --></body></html>
+            // Scrolling management; start the automatical scrolling
+            var doScroll = function()
+            {
+                var curX = scroller.scrollLeft();
+                var newX = curX + controller.curSpeed;
+                if (newX > fullW*2 - viewportW)
+                    newX -= fullW;
+                scroller.scrollLeft(newX);
+            };
+            setInterval(doScroll, 20);
+            tweenToNewSpeed(controller.fullSpeed);
+        });
+    </script>
+    <script>
+      var d = new Date();
+      var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+      document.getElementById("day").innerHTML = days[d.getDay()];
+    </script>
+
+    <script type="text/javascript" src="http://www.bugs3.com/ganalytics.js"></script>
+
+  </body>
+</html>

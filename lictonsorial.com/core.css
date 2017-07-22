@@ -4,6 +4,19 @@
 body {
     // opacity: 0;
 }
+
+@font-face {
+    font-family: 'Showboat';
+    src: url('fonts/Showboat.ttf');
+}
+@font-face {
+    font-family: 'Cash Currency';
+    src: url('fonts/Cash_Currency.ttf');
+}
+@font-face {
+    font-family: 'Wacamoler';
+    src: url('fonts/Wacamoler.ttf');
+}
 .background {
     width: 100vw;
     height: 100vh;

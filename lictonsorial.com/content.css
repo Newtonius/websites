@@ -1,7 +1,7 @@
 #content {
     height: auto;
-    width: 75%;
-    background: #000;
+    width: 100%;
+    background:rgba(79,61,44,1);
     position: relative;
     z-index: 55;
     margin: auto;
@@ -51,9 +51,6 @@
         }
         .aboutContent a:hover {
             text-decoration: none;
-        }
-        .address_content {
-          padding: 5px;
         }
         .direction {
             margin: auto;
@@ -106,12 +103,12 @@
             overflow: auto;
         }
             article h3 {
-                font-family: 'IM Fell French Canon', serif;
-                font-size: 26pt;
-                padding: 20px;
+                font-family: 'Wacamoler';
+                font-size: 32pt;
+                /* text-shadow: 5px 5px 10px #fff; */
             }
             article h4 {
-                font-family: 'IM Fell French Canon', serif;
+                font-family: 'Cash Currency';
                 font-size: 21pt;
             }
 
@@ -126,23 +123,27 @@
             }
 
             .cutInfo {
-                font-family: 'Stoke', serif;
+                font-family: 'Cash Currency';
                 font-weight: 400;
                 line-height: 20px;
                 height: auto;
                 padding: 5px;
             }
 
-            .layriteCont {
+            .products {
                 height: auto;
                 width: auto;
+            }
+
+            .underline {
+                margin: 0;
+                padding-bottom: 20px;
             }
 
             #scroller {
               width: 100%;
               height: 400px;
-                background:rgba(40,40,40,.5);
-                margin: 0 auto;
+              margin: 0 auto;
               position: relative;
             }
                 #scroller .innerScrollArea {
@@ -176,7 +177,7 @@
                 }
 
                 #scroller a,visited li {
-                    color: #ffffff;
+                  color: #ffffff;
                   font-size: 14pt;
                   font-family: 'Montserrat', sans-serif;
                 }
