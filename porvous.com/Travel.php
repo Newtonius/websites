@@ -14,8 +14,15 @@
     <body>
         <?php include ($_SERVER['DOCUMENT_ROOT'].'/peripherals/header.php') ?>
 
-                    <h1>A plethora of culture!</h1>
+        <div>
+          <h1>Finland or USA</h1>
+          <div class="finn_or_usa">
+            <img src="GFX/travelGFX/flags/finnishFlag.jpg" width="100" height="62" alt=""/> OR <img src="GFX/travelGFX/flags/americanFlag.png" width="100" height="62" alt=""/>
+          </div>
+        </div>
+
                     <div>
+                      <h1>A plethora of culture!</h1>
                         <p class="title">Welcome to Earth</p>
                         <center>
                             <iframe src='http://www.youtube.com/embed/uWXUWepSak4' class="video" frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>
@@ -28,7 +35,6 @@
                         <div>
                             <p class="title">
                                 Listen to music From around the world! Can you handle all this culture?
-                                <img src='http://26.media.tumblr.com/tumblr_ltswn6XQcz1qm038ko1_500.gif' width='40' height='40' alt='Explosm.net' title='Cyanide And Happiness'/>
                             </p>
 
                             <!-- id="cultureNavBody -->

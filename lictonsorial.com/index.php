@@ -1,32 +1,23 @@
 <!DOCTYPE html>
-<!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <html lang="en">
     <head>
-        <title>LIC Tonsorial</title>
+        <title>L.I.C. Tonsorial</title>
         <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="Pragma" content="no-cache"/>
         <meta http-equiv="Expires" content="-1"/>
 
         <!--  meta tags for search engine analytics  -->
+        <meta itemprop="name" content="Long Island City Tonsorial">
+        <meta itemprop="url" content="http://lictonsorial.com/"></div>
         <meta name="description" content="We're a family run barbershop based in Long Island city. We give cuts, shaves, trims, even a hot towel facial to all clients, young and old."/>
 
         <!--  CUSTOM LIBRARIES  -->
         <link rel="shortcut icon" href="GFX/icon.png"/>
         <link rel="stylesheet" href="core.css" type="text/css"/>
+        <link rel="stylesheet" href="content.css" type="text/css"/>
         <link rel="stylesheet" href="nav.css" type="text/css"/>
         <link rel="stylesheet" href="header.css" type="text/css"/>
-        <link rel="stylesheet" href="content.css" type="text/css"/>
-
-        <!--  BOOTSTRAP  -->
-            <!--  BASICS   -->
-            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-            <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-            <!--  IMAGE GALLERY  -->
-            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
-            <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"/>
-            <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css"/>
 
         <!--  FONTS
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
@@ -36,10 +27,93 @@
         <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
       -->
 
-        <style>
-        </style>
+      <!-- Scripts -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+        $(function() {
+          var d = new Date();
+          var n = d.getDay();
+          document.getElementById("test").innerHTML = n;
+          if (n == 1) {
+            var x=document.getElementById("monday");
+            x.style.color='green';
+          }
+          else if (n == 2) {
+            var x=document.getElementById("tuesday");
+            x.style.color='green';
+          }
+          else if (n == 3) {
+            var x=document.getElementById("wednesday");
+            x.style.color='green';
+          }
+          else if (n == 4) {
+            var x=document.getElementById("thursday");
+            x.style.color='green';
+          }
+          else if (n == 5)) {
+            var x=document.getElementById("friday");
+            x.style.color='green';
+          }
+          else if (n == 6) {
+            var x=document.getElementById("saturday");
+            x.style.color='green';
+          }
+          else if (n == 7) {
+            var x=document.getElementById("sunday");
+            x.style.color='green';
+          }
+        });
+      </script>
+      <script>
+        $(function(){
+            var scroller = $('#scroller div.innerScrollArea');
+            var scrollerContent = scroller.children('ul');
+            scrollerContent.children().clone().appendTo(scrollerContent);
+            var curX = 0;
+            scrollerContent.children().each(function(){
+                var $this = $(this);
+                $this.css('left', curX);
+                curX += $this.outerWidth(true);
+            });
+            var fullW = curX / 2;
+            var viewportW = scroller.width();
+
+            // Manual Scroller
+            // scroller.css('overflow-x', 'auto');
+
+            // Scrolling speed management
+            var controller = {curSpeed: 0, fullSpeed: 1};
+            var $controller = $(controller);
+            // When hovering over, takes 500ms to set speed of rotation to 0
+            var tweenToNewSpeed = function(newSpeed, duration)
+            {
+                if (duration === undefined)
+                    duration = 250;
+                $controller.stop(true).animate({curSpeed:newSpeed}, duration);
+            };
+
+            // Pause on hover
+            scroller.hover(function(){
+                tweenToNewSpeed(0);
+            }, function(){
+                tweenToNewSpeed(controller.fullSpeed); // When hovering out, set speed to normal
+            });
+
+            // Scrolling management; start the automatical scrolling
+            var doScroll = function()
+            {
+                var curX = scroller.scrollLeft();
+                var newX = curX + controller.curSpeed;
+                if (newX > fullW*2 - viewportW)
+                    newX -= fullW;
+                scroller.scrollLeft(newX);
+            };
+            setInterval(doScroll, 20);
+            tweenToNewSpeed(controller.fullSpeed);
+          });
+      </script>
     </head>
-    <body itemscope itemtype="http://schema.org/LocalBusiness">
+    <body>
 
         <!--  BACKGROUND  -->
         <figure class="background">
@@ -86,17 +160,17 @@
                             </a></li><li>
                             <a href="#photos">
                                 Gallery
+                            </a></li><li>
+                            <a href="https://lictonsorial.resurva.com/book" target="_blank">
+                                Book Appointment
                             </a></li>
                      </ul>
                  </nav>
-                <!--  BOOK APPOINTMENT BUTTON  -->
-                <p class="bookAppt">
-                  <a href="https://lictonsorial.resurva.com/book" target="_blank">
-                    Book appointment
-                  </a>
-                </p>
             </div>
 
+            <div class="number_mobile">
+              <a href="tel:+13476546386"></a>
+            </div>
             <!--  CONTENT  -->
             <div id="contentBackground">
                 <div id="content">
@@ -107,10 +181,10 @@
                         <article class="article">
 
                             <h3>About us</h3>
-                            <img class="underline" src="/GFX/products/vintage-underline.png" />
+                            <img class="underline" src="/GFX/vintage-underline.png" />
                             <div id="aboutWrapper">
                                 <div class="aboutContent">
-                                    <p itemprop = "description">
+                                    <p class="about_description">
                                         I remember those old-fashioned barber shops,
                                         the ones where everyone was welcome.
                                         You could hear stories about people who made it to the top,
@@ -121,7 +195,7 @@
                                         a place where everyone shares an experience.
                                         It's places like this, I love the most.
                                     </p>
-                                    <!--  SOCDIAL ICONS  -->
+                                    <!--  SOCIAL ICONS  -->
                                     <div class="socialIcons">
                                         <a href="https://www.facebook.com/longislandcitybarber/timeline" target="_blank">
                                             <img src="GFX/fb.png" width="38" height="38" alt=""/>
@@ -136,38 +210,59 @@
                                 </div>
                                 <!--  ABOUT IMAGE  -->
                                 <div class="aboutContent">
-                                    <img itemprop="image" src="GFX/aboutUs.jpg" align="middle" alt=""/>
+                                    <img class="about_image" src="GFX/aboutUs.jpg" align="middle" alt=""/>
                                 </div>
 
                                 <!--  CONTACT INFO  -->
                                 <div class="aboutContent">
-                                  <div>
-                                    <div class="address_content" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                      <span itemprop="streetAddress" style="color: #fff;">
-                                        41-10 34th Ave<br/> Long Island City NY, 11101
-                                      </span>
+                                    <div class="address_content">
+                                        41-10 34th Ave<br/> Long Island City NY, 11101<br/> (347) 654 6386
                                     </div>
-
-                                    <div class="direction address_content">
+                                    <div class="direction">
                                       <a target="_blank" href="https://www.google.com/maps/place/41-10+34th+Ave,+Astoria,+NY+11101/@40.7561242,-73.9218469,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25f3b4a5624cf:0xe8ca6027e1d2c001">
                                         Map
                                       </a>
                                     </div>
-                                  </div>
 
-                                  <div class="hours">
-                                    <h3>Hours</h3>
-                                    <p>
-                                        <span itemprop="OpeningHours" content="Mo,Tu,We,Th,Fr,Sa 10:00-20:00">Mon 10am-8pm</span><br/>
-                                        Tue 10am - 8pm<br/>
-                                        Wed 10am - 8pm<br/>
-                                        Thu 10am - 8pm<br/>
-                                        Fri 10am - 8pm<br/>
-                                        Sat 10am - 8pm</span><br/>
-                                        <span itemprop="OpeningHours" content="Su 12:00-17:00">Sun 12pm-5pm</span>
-                                    </p>
-                                  </div>
+                                    <div class="hour_wrap">
+                                      <div class="hour_table">
 
+                                        <div class="hour_row hour_header">
+                                          <div class="cell">Day</div>
+                                          <div class="cell">Hours</div>
+                                        </div>
+
+                                        <div class="hour_row" id="monday">
+                                          <div class="cell">Monday</div>
+                                          <div class="cell">10am - 10pm</div>
+                                        </div>
+                                        <div class="hour_row" id="tuesday">
+                                          <div class="cell">Tuesday</div>
+                                          <div class="cell">10am - 10pm</div>
+                                        </div>
+                                        <div class="hour_row" id="wednesday">
+                                          <div class="cell">Wednesday</div>
+                                          <div class="cell">10am - 10pm</div>
+                                        </div>
+                                        <div class="hour_row" id="thursday">
+                                          <div class="cell">Thursday</div>
+                                          <div class="cell">10am - 10pm</div>
+                                        </div>
+                                        <div class="hour_row" id="friday">
+                                          <div class="cell">Friday</div>
+                                          <div class="cell">10am - 10pm</div>
+                                        </div>
+                                        <div class="hour_row" id="saturday">
+                                          <div class="cell">Saturday</div>
+                                          <div class="cell">10am - 10pm</div>
+                                        </div>
+                                        <div class="hour_row" id="sunday">
+                                          <div class="cell">Sunday</div>
+                                          <div class="cell">12pm - 5pm</div>
+                                        </div>
+                                        <p id="test"><p>
+                                      </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -177,93 +272,20 @@
                     <!--   SERVICES SECTION   -->
                     <span class="anchor" id="info"></span>
                     <section id="infoSection" class="sections">
-                        <!--  <img src="GFX/services_head.jpg" alt="Look your best!" class="serviceImage" />  -->
                         <article>
                             <div class="cutWrapper">
                               <h3>Services</h3>
-                              <img class="underline" src="/GFX/products/vintage-underline.png" />
-                                <!--  CUTS LIST  -->
-                                <h4>~ Cuts ~</h4>
-
-                                <!-- Classic Cut -->
-                                <div class="cutInfo" itemscope itemtype="http://schema.org/Product">
-                                  <div itemprop="name">Classic Cut</div>
-                                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                    <div><strong>$</strong><span itemprop = "price">25</span></div>
-                                    <meta itemprop="priceCurrency" content="USD" />
-                                  </div>
-                                </div>
-
-                                <!-- Gentleman's Buzz -->
-                                <div class="cutInfo" itemscope itemtype="http://schema.org/Product">
-                                  <div itemprop="name">Gentleman's Buzz</div>
-                                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                    <div><strong>$</strong><span itemprop = "price">17</span></div>
-                                    <meta itemprop="priceCurrency" content="USD" />
-                                  </div>
-                                </div>
-
-                                <!-- Kids Haircut -->
-                                <div class="cutInfo" itemscope itemtype="http://schema.org/Product">
-                                  <div itemprop="name">Kids Haircut</div>
-                                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                    <div><strong>$</strong><span itemprop = "price">15</span></div>
-                                    <meta itemprop="priceCurrency" content="USD" />
-                                  </div>
-                                </div>
-
-                                <!-- Seniors Haircut -->
-                                <div class="cutInfo" itemscope itemtype="http://schema.org/Product">
-                                  <div itemprop="name">Seniors Haircut</div>
-                                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                    <div><strong>$</strong><span itemprop = "price">10</span></div>
-                                    <meta itemprop="priceCurrency" content="USD" />
-                                  </div>
-                                </div>
-
-                                <!--  SHAVES LIST  -->
-                                <h4>~ Shaves ~</h4>
-
-                                <!-- Cut + Shave/Beard trim -->
-                                <div class="cutInfo" itemscope itemtype="http://schema.org/Product">
-                                  <div itemprop="name">Cut + Shave/Beard trim</div>
-                                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                    <div><strong>$</strong><span itemprop = "price">33</span></div>
-                                    <meta itemprop="priceCurrency" content="USD" />
-                                  </div>
-                                </div>
-
-                                <!-- Wet Shave/Beard trim -->
-                                <div class="cutInfo" itemscope itemtype="http://schema.org/Product">
-                                  <div itemprop="name">Wet Shave/Beard trim</div>
-                                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                    <div><strong>$</strong><span itemprop = "price">15</span></div>
-                                    <meta itemprop="priceCurrency" content="USD" />
-                                  </div>
-                                </div>
-
-                                <!-- Traditional wet shave -->
-                                <div class="cutInfo" itemscope itemtype="http://schema.org/Product">
-                                  <div itemprop="name">Traditional wet shave</div>
-                                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                                    <div><strong>$</strong><span itemprop = "price">18</span></div>
-                                    <meta itemprop="priceCurrency" content="USD" />
-                                  </div>
-                                </div>
-
-                                <p style="font-size: 9pt;">*Time of service may vary from 30min - 1hr</p>
+                              <img class="underline" src="/GFX/vintage-underline.png" /><br/>
+                              <img class="price_list" src="/GFX/services/price_list.png" />
                             </div>
-<br/>
-<br/>
-<br/>
-<br/>
+
                             <div class="products" id="products">
                               <h3>Products</h3>
-                              <img class="underline" src="/GFX/products/vintage-underline.png" />
+                              <img class="underline" src="/GFX/vintage-underline.png" />
                                 <h4>
                                   Baxter
                                 </h4>
-                                <ul>
+                                <ul class="product_List">
                                   <li>Cream Pomade $22</li>
                                   <li>Hard Cream Pomade $22</li>
                                   <li>Clay Pomade $22</li>
@@ -282,7 +304,7 @@
                                 <h4>
                                   Layrite
                                 </h4>
-                                  <ul>
+                                  <ul class="product_List">
                                     <li>Original $18</li>
                                     <li>Super Hold $18</li>
                                     <li>Matte Cream $18</li>
@@ -290,7 +312,7 @@
                                 <h4>
                                   Mr. Matty
                                 </h4>
-                                  <ul>
+                                  <ul class="product_List">
                                     <li>Dub $20</li>
                                     <li>Paste $20</li>
                                     <li>Moisturizing Butter $20</li>
@@ -313,7 +335,7 @@
                                 Visit our Gallery
                               </a>
                             </h3>
-                            <img class="underline" src="/GFX/products/vintage-underline.png" />
+                            <img class="underline" src="/GFX/vintage-underline.png" />
                             <!--   GALLERY  IMAGES   -->
                             <div id="scroller">
                               <div class="innerScrollArea">
@@ -324,8 +346,8 @@
                                   ?>
 
                                   <li>
-                                    <a href="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg">
-                                      <img src="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg" target="_blank" width="500" height="350" alt="" title="<?php echo $barbers[$i]; ?>">
+                                    <a href="GFX/gallery/<?php echo $barbers[$i]; ?>.jpg">
+                                      <img src="GFX/gallery/<?php echo $barbers[$i]; ?>.jpg" target="_blank" width="500" height="350" alt="" title="<?php echo $barbers[$i]; ?>">
                                     </a>
                                   </li>
                                 <?php endfor; ?>
@@ -341,67 +363,6 @@
             <footer id="footer">
 
             </footer>
-
-    <meta itemprop="name" content="Long Island City Tonsorial">
-    <meta itemprop="url" content="http://lictonsorial.com/"></div>
-
-    <!-- Scripts -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            var scroller = $('#scroller div.innerScrollArea');
-            var scrollerContent = scroller.children('ul');
-            scrollerContent.children().clone().appendTo(scrollerContent);
-            var curX = 0;
-            scrollerContent.children().each(function(){
-                var $this = $(this);
-                $this.css('left', curX);
-                curX += $this.outerWidth(true);
-            });
-            var fullW = curX / 2;
-            var viewportW = scroller.width();
-
-            // Manual Scroller
-            // scroller.css('overflow-x', 'auto');
-
-            // Scrolling speed management
-            var controller = {curSpeed: 0, fullSpeed: 1};
-            var $controller = $(controller);
-            // When hovering over, takes 500ms to set speed of rotation to 0
-            var tweenToNewSpeed = function(newSpeed, duration)
-            {
-                if (duration === undefined)
-                    duration = 250;
-                $controller.stop(true).animate({curSpeed:newSpeed}, duration);
-            };
-
-            // Pause on hover
-            scroller.hover(function(){
-                tweenToNewSpeed(0);
-            }, function(){
-                tweenToNewSpeed(controller.fullSpeed); // When hovering out, set speed to normal
-            });
-
-            // Scrolling management; start the automatical scrolling
-            var doScroll = function()
-            {
-                var curX = scroller.scrollLeft();
-                var newX = curX + controller.curSpeed;
-                if (newX > fullW*2 - viewportW)
-                    newX -= fullW;
-                scroller.scrollLeft(newX);
-            };
-            setInterval(doScroll, 20);
-            tweenToNewSpeed(controller.fullSpeed);
-        });
-    </script>
-    <script>
-      var d = new Date();
-      var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-      document.getElementById("day").innerHTML = days[d.getDay()];
-    </script>
-
-    <script type="text/javascript" src="http://www.bugs3.com/ganalytics.js"></script>
 
   </body>
 </html>

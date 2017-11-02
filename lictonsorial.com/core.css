@@ -2,7 +2,7 @@
     margin: 0px; padding: 0px;
 }
 body {
-    // opacity: 0;
+
 }
 
 @font-face {
@@ -16,6 +16,10 @@ body {
 @font-face {
     font-family: 'Wacamoler';
     src: url('fonts/Wacamoler.ttf');
+}
+@font-face {
+    font-family: 'Bellefair';
+    src: url('fonts/Bellefair-Regular.ttf');
 }
 .background {
     width: 100vw;
