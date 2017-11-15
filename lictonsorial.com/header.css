@@ -3,41 +3,36 @@
     height: 100vh;
     z-index: 55;
 }
-    /*
-    #logo_Container {
-        height: 350px;
-        width: 350px;
-        background: #000;
-        border-radius: 50%;
-        padding: 30px;
-        border: 2px solid #fff;
-        box-shadow: 0px 0px 5px #fff;
-    }
-    */
     #logo_Container img {
         -webkit-filter: brightness(102%);
         filter: brightness(102%);
     }
-        .logo {
-            pointer-events: none;
-            animation: 1.5s panIn ease;
-            height: 288px;
-            width: 288px;
-            /**
-                animation-delay: 2s;
-                opacity: 0;
-            **/
-        }
-        .contact {
-            font-family: 'Stoke', serif;
-            font-size: 13pt;
-            color: #ffffff;
-            width: 225px;
-            height: auto;
-            margin: auto;
-            line-height: 20px;
-        }
-
+    .logo {
+      pointer-events: none;
+      animation: 1.5s panIn ease;
+      height: 225px;
+      width: 225px;
+    }
+    .header_info {
+      color: #fff;
+      font-family: 'Bellefair';
+      font-size: 25px;
+      padding: 10px;
+      text-align: center;
+    }
+    .header_address a, visited {
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 5px; 
+    }
+    .number a, visited {
+      letter-spacing: 1px;
+      text-decoration: none;
+      margin: 0 auto;
+      color: #fff;
+    }
+    .number img {
+    }
 
 @-webkit-keyframes fadeIn {
     0%{opacity: 0.0;}
@@ -55,6 +50,9 @@
 @media screen and (max-height: 850px) {
     #header {
         height: 815px;
+    }
+    .header_info {
+      font-size: 10pt;
     }
 }
 

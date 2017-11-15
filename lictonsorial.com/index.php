@@ -33,37 +33,44 @@
         $(function() {
           var d = new Date();
           var n = d.getDay();
-          document.getElementById("test").innerHTML = n;
           if (n == 1) {
             var x=document.getElementById("monday");
             x.style.color='green';
+            x.style.fontweight='900';
           }
           else if (n == 2) {
             var x=document.getElementById("tuesday");
             x.style.color='green';
+            x.style.fontweight='900';
           }
           else if (n == 3) {
             var x=document.getElementById("wednesday");
             x.style.color='green';
+            x.style.fontweight='900';
           }
           else if (n == 4) {
             var x=document.getElementById("thursday");
             x.style.color='green';
+            x.style.fontweight='900';
           }
-          else if (n == 5)) {
+          else if (n == 5) {
             var x=document.getElementById("friday");
             x.style.color='green';
+            x.style.fontweight='900';
           }
           else if (n == 6) {
             var x=document.getElementById("saturday");
             x.style.color='green';
+            x.style.fontweight='900';
           }
           else if (n == 7) {
             var x=document.getElementById("sunday");
             x.style.color='green';
+            x.style.fontweight='900';
           }
         });
       </script>
+      <!--
       <script>
         $(function(){
             var scroller = $('#scroller div.innerScrollArea');
@@ -112,12 +119,13 @@
             tweenToNewSpeed(controller.fullSpeed);
           });
       </script>
+    -->
     </head>
     <body>
 
         <!--  BACKGROUND  -->
         <figure class="background">
-            <img src="GFX/bg.jpg" alt=""/>
+            <img src="GFX/bg4.jpg" alt=""/>
         </figure>
 
         <!--  ENTIRE PAGE WRAPPER  -->
@@ -125,15 +133,11 @@
 
             <!--  TOPBAR NAV -->
             <div id="top_bar">
-
+              <span class="titleLogo">
                 <a href="#top">
-                  <p class="titleLogo">
-                    L.I.C. <img src="GFX/razorHeader.png" width="50" height="43"/> Tonsorial
-                  </p>
+                  L.I.C. <img src="GFX/razorHeader.png" /> Tonsorial
                 </a>
-
-              <p id="day"></p>
-              <span class="number"><img class="nav_icons" src="GFX/products/vintage-phone.png" width="20" height="37"> 347 654 6386</span>
+              </span>
             </div>
 
             <!--  HEADER [LOGO]  -->
@@ -152,25 +156,42 @@
                  <nav id="nav">
                      <ul>
                          <li>
-                            <a href="#aboutSection">
-                                About Us
-                            </a></li><li>
-                            <a href="#info">
-                               Services
-                            </a></li><li>
-                            <a href="#photos">
-                                Gallery
-                            </a></li><li>
                             <a href="https://lictonsorial.resurva.com/book" target="_blank">
                                 Book Appointment
-                            </a></li>
+                            </a>
+                         </li>
+                         <li>
+                            <a href="#aboutSection">
+                                About Us
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#info">
+                               Services
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#photos">
+                                Gallery
+                            </a>
+                          </li>
                      </ul>
                  </nav>
+                 <div class="header_info">
+                   <span class="header_address">
+                     <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059">
+                       41-10 34th Ave, Long Island City NY, 11101<br/>
+                     </a>
+                   </span>
+                   <span class="number">
+                     <a href="tel:+13476546386">
+                      <!-- <img class="nav_icons" src="GFX/products/vintage-phone.png" align="left" width="20" height="37"> -->
+                      (347) 654 6386
+                     </a>
+                   </span>
+                 </div>
             </div>
 
-            <div class="number_mobile">
-              <a href="tel:+13476546386"></a>
-            </div>
             <!--  CONTENT  -->
             <div id="contentBackground">
                 <div id="content">
@@ -215,6 +236,7 @@
 
                                 <!--  CONTACT INFO  -->
                                 <div class="aboutContent">
+                                  <!--
                                     <div class="address_content">
                                         41-10 34th Ave<br/> Long Island City NY, 11101<br/> (347) 654 6386
                                     </div>
@@ -223,7 +245,7 @@
                                         Map
                                       </a>
                                     </div>
-
+                                  -->
                                     <div class="hour_wrap">
                                       <div class="hour_table">
 
@@ -260,7 +282,6 @@
                                           <div class="cell">Sunday</div>
                                           <div class="cell">12pm - 5pm</div>
                                         </div>
-                                        <p id="test"><p>
                                       </div>
                                     </div>
                                 </div>
@@ -330,11 +351,7 @@
                     <span class="anchor" id="photos"></span>
                     <section id="photoSection" class="sections">
                         <article class="article">
-                            <h3>
-                              <a href="http://lictonsorial.com/gallery.php" target="_blank" style="color: #ffffff; text-decoration: none;">
-                                Visit our Gallery
-                              </a>
-                            </h3>
+                            <h3>Gallery</h3>
                             <img class="underline" src="/GFX/vintage-underline.png" />
                             <!--   GALLERY  IMAGES   -->
                             <div id="scroller">
@@ -354,6 +371,11 @@
                                 </ul>
                               </div>
                             </div>
+                            <div>
+                              <span class="view_more">
+                                <a href="http://lictonsorial.com/gallery.php" target="_blank" style="color: #ffffff; text-decoration: none;">View more Pictures</a>
+                              </span>
+                            </div>
                         </article>
                     </section>
                 </div>
@@ -361,7 +383,19 @@
 
             <!--  FOOTER  -->
             <footer id="footer">
-
+              <div class="footer_tag">
+                <span class="footer_name">Long Island City Tonsorial</span>
+                |
+                <span class="footer_address">
+                 <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059">
+                   41-10 34th Ave, Long Island City NY, 11101
+                 </a>
+                </span>
+                |
+                <span class="footer_number">
+                 <a href="tel:+13476546386">(347) 654 6386</a>
+                </span>
+              </div>
             </footer>
 
   </body>

@@ -9,52 +9,32 @@
     /* background:rgba(79,61,44,1); */
 }
 
-    .number {
-      font-family: 'Cash Currency';
-      letter-spacing: 2px;
-      color: white;
-      padding: 5px 100px;
-      float: right;
-    }
-
-    .number_mobile {
-      width: 50px;
-      height: 50px;
-      background:rgba(10,10,10,.75);
-      position: fixed;
-    }
-
-    #day {
-      position: fixed;
-      color: white;
-      font-family: 'Cash Currency';
-    }
-
     .titleLogo {
-        position: fixed;
         font-family: 'Wacamoler';
-        color: #fff;
-        width: 100%;
+        width: auto;
         /*
         font-family: 'Playfair Display', serif;
         transition: transform 0.5s;
         */
         font-size: 25pt;
         text-align: center;
-        text-decoration: none;
-        padding: 0px;
+    }
+    .titleLogo a, visit {
+      text-decoration: none;
+      color: #fff;
     }
     /*
     .titleLogo:hover {
         transform:scale(1.15);
     }
-    */
-    .titleLogo img {
-        margin-bottom: 0px;
-    }
     a:hover > .titleLogo {
         text-decoration: none;
         color: #fff;
+    }
+    */
+    .titleLogo img {
+      width: 50px;
+      height: 43px;
     }
 
 #nav {
@@ -82,7 +62,7 @@
     display: block;
     font-family: 'Cash Currency';
     transition: all 0.5s;
-    font-size: 35pt;
+    font-size: 25pt;
     color: #fff;
     height: 100%;
     padding: 7px;
@@ -98,7 +78,11 @@
   }
 
   #nav ul li a, visited {
-    font-size: 20px;
+    font-size: 25px;
+  }
+  .titleLogo img {
+    max-width: 45px;
+    max-height: 38px;
   }
 }
 
@@ -107,32 +91,11 @@
         margin-left: 10px;
         font-size: 20pt;
     }
-
-    #nav ul li {
-      width: 250px;
-    }
-
-    #nav ul li a, visited {
-      font-size: 25px;
-    }
 }
 
 @media screen and (max-width: 700px) {
-  .number {
-    visibility: hidden;
-  }
 
-  .number_mobile {
-    visibility: visible;
-  }
 }
 
 @media screen and (max-width: 400px) {
-  .number {
-    visibility: hidden;
-  }
-
-  .number_mobile {
-    visibility: visible;
-  }
 }
