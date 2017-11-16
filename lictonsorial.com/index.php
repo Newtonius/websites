@@ -304,41 +304,59 @@
                             <div class="products" id="products">
                               <h3>Products</h3>
                               <img class="underline" src="/GFX/vintage-underline.png" />
-                                <h4>
-                                  Baxter
-                                </h4>
-                                <ul class="product_List">
-                                  <li>Cream Pomade $22</li>
-                                  <li>Hard Cream Pomade $22</li>
-                                  <li>Clay Pomade $22</li>
-                                  <li>Soft Water Pomade $22</li>
-                                  <li>Hard Water Pomade $22</li>
-                                  <li>Exfoliating Body Bar $17</li>
-                                  <li>Vitamin Body Bar $17</li>
-                                  <li>Protein Shampoo $18</li>
-                                  <li>Conditioner $19</li>
-                                  <li>Shave Tonic $18</li>
-                                  <li>Oil Free Moisturizer $24</li>
-                                  <li>Aftershave $19</li>
-                                  <li>Large Comb $20</li>
-                                  <li>Deodorant $19</li>
-                                </ul>
-                                <h4>
-                                  Layrite
-                                </h4>
-                                  <ul class="product_List">
+
+                              <div class="promos">
+                                <div class="promo">
+                                  <div class="deal">
+                                    <img src="GFX/Products/layrite_logo.png" height="29" width="200" alt="" />
+                                    <span></span>
+                                    <span></span>
+                                  </div>
+                                  <span class="motto"> Pomade, cream, and clay that will exceed your expectations.</span>
+                                  <ul class="features">
                                     <li>Original $18</li>
                                     <li>Super Hold $18</li>
                                     <li>Matte Cream $18</li>
                                   </ul>
-                                <h4>
-                                  Mr. Matty
-                                </h4>
-                                  <ul class="product_List">
+                                </div>
+                                <div class="promo">
+                                  <div class="deal">
+                                    <img src="GFX/Products/baxter_logo.png" height="55" width="150" alt="" />
+                                    <span></span>
+                                    <span></span>
+                                  </div>
+                                  <span class="motto">Discover high-quality men's hair care & hair styling products.</span>
+                                  <ul class="features">
+                                    <li>Cream Pomade $22</li>
+                                    <li>Hard Cream Pomade $22</li>
+                                    <li>Clay Pomade $22</li>
+                                    <li>Soft Water Pomade $22</li>
+                                    <li>Hard Water Pomade $22</li>
+                                    <li>Exfoliating Body Bar $17</li>
+                                    <li>Vitamin Body Bar $17</li>
+                                    <li>Protein Shampoo $18</li>
+                                    <li>Conditioner $19</li>
+                                    <li>Shave Tonic $18</li>
+                                    <li>Oil Free Moisturizer $24</li>
+                                    <li>Aftershave $19</li>
+                                    <li>Large Comb $20</li>
+                                    <li>Deodorant $19</li>
+                                  </ul>
+                                </div>
+                                <div class="promo">
+                                  <div class="deal">
+                                    <img src="GFX/Products/mrnatty_logo.png" height="39" width="200" alt="" />
+                                    <span></span>
+                                    <span></span>
+                                  </div>
+                                  <span class="motto">Master Barber to Royals, Ragtaggle and Ruffians.</span>
+                                  <ul class="features">
                                     <li>Dub $20</li>
                                     <li>Paste $20</li>
                                     <li>Moisturizing Butter $20</li>
                                   </ul>
+                                </div>
+                              </div>
                                   <!--
                                 <img class="layritePics" src="GFX/Layrite/deluxe_trans.png" alt="Layrite" title="Layrite Deluxe" width="125" height="125"/>
                                 <img class="layritePics" src="GFX/Layrite/lgSpray_trans.png" alt="Layrite" title="Layrite Spray" width="75" height="175"/>

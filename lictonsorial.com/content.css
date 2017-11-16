@@ -22,7 +22,6 @@
 article {
   height: auto;
   text-align: center;
-  overflow: auto;
 }
   article h3 {
     font-family: 'Wacamoler';
@@ -162,22 +161,72 @@ article {
                 width: 100%;
             }
 
-            .cutInfo {
-                font-family: 'Cash Currency';
-                font-weight: 400;
-                line-height: 20px;
-                height: auto;
-                padding: 5px;
+
+            .promos {
+              width: 100%;
+              height: auto;
+            }
+            .promo {
+              width: 250px;
+              margin: 0 auto;
+              background: #0F1012;
+              color: #f9f9f9;
+            }
+            .deal {
+              padding: 10px 0 0 0;
+            }
+            .deal img {
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .deal span {
+              display: block;
+              text-align: center;
+            }
+            /*
+            .deal span:first-of-type {
+              font-size: 23px;
+              font-family: "Cash Currency";
+            }
+            .deal span:last-of-type {
+              font-size: 13px;
+              font-family: 'Bellefair';
+              padding: 2px;
+            }
+            */
+            .promo .motto {
+              font-family: 'Bellefair';
+              display: block;
+              width: 250px;
+              background: #292b2e;
+              margin: 15px 0 10px 0;
+              text-align: center;
+              font-size: 16px;
+              padding: 17px 0 17px 0;
+            }
+            ul {
+              display: block;
+              margin: 20px 0 10px 0;
+              padding: 0;
+              list-style-type: none;
+              text-align: center;
+              color: #fff;
+            }
+            li {
+              display: block;
+              /* margin: 10px 0 0 0; */
+              padding: 10px;
+              text-align: left;
+              font-family: 'Bellefair';
+            }
+            .scale {
+              transform: scale(1.05);
+              box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+            }
+            .scale .price {
+              color: #64AAA4;
             }
 
-            .products {
-                height: auto;
-                width: auto;
-            }
-
-            .product_List {
-
-            }
 
             #scroller {
               width: 100%;
