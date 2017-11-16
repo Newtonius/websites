@@ -125,7 +125,7 @@
 
         <!--  BACKGROUND  -->
         <figure class="background">
-            <img src="GFX/bg4.jpg" alt=""/>
+            <img src="GFX/BG.jpg" alt=""/>
         </figure>
 
         <!--  ENTIRE PAGE WRAPPER  -->
@@ -133,11 +133,13 @@
 
             <!--  TOPBAR NAV -->
             <div id="top_bar">
-              <span class="titleLogo">
-                <a href="#top">
-                  L.I.C. <img src="GFX/razorHeader.png" /> Tonsorial
-                </a>
-              </span>
+              <div class="navbar_wrapper">
+                <span class="titleLogo">
+                  <a href="#top">
+                    L.I.C. <img src="GFX/razorHeader.png" /> Tonsorial
+                  </a>
+                </span>
+              </div>
             </div>
 
             <!--  HEADER [LOGO]  -->
@@ -147,7 +149,7 @@
                 <span class="anchor" id="topAnchor"></span>
                 <center>
                     <div id="logo_Container">
-                        <img itemprop = "logo" src="GFX/Logo.png" id="logoFade" class="logo" alt=""/>
+                        <img src="GFX/Logo.png" id="logoFade" class="logo" alt=""/>
                     </div>
                 </center>
                 <br/>
@@ -161,17 +163,17 @@
                             </a>
                          </li>
                          <li>
-                            <a href="#aboutSection">
+                            <a href="#AboutUs">
                                 About Us
                             </a>
                           </li>
                           <li>
-                            <a href="#info">
+                            <a href="#Services">
                                Services
                             </a>
                           </li>
                           <li>
-                            <a href="#photos">
+                            <a href="#Gallery">
                                 Gallery
                             </a>
                           </li>
@@ -193,14 +195,13 @@
             </div>
 
             <!--  CONTENT  -->
+            <span class="anchor" id="AboutUs"></span>
             <div id="contentBackground">
                 <div id="content">
 
                     <!--   ABOUT US SECTION   -->
-                    <span class="anchor" id="aboutSection"></span>
                     <section id="about" class="sections">
                         <article class="article">
-
                             <h3>About us</h3>
                             <img class="underline" src="/GFX/vintage-underline.png" />
                             <div id="aboutWrapper">
@@ -250,7 +251,7 @@
                                       <div class="hour_table">
 
                                         <div class="hour_row hour_header">
-                                          <div class="cell">Day</div>
+                                          <div class="cell">Business</div>
                                           <div class="cell">Hours</div>
                                         </div>
 
@@ -291,7 +292,7 @@
                     </section>
 
                     <!--   SERVICES SECTION   -->
-                    <span class="anchor" id="info"></span>
+                    <span class="anchor" id="Services"></span>
                     <section id="infoSection" class="sections">
                         <article>
                             <div class="cutWrapper">
@@ -348,7 +349,7 @@
                     </section>
 
                     <!--   PHOTO GALLERY SECTION   -->
-                    <span class="anchor" id="photos"></span>
+                    <span class="anchor" id="Gallery"></span>
                     <section id="photoSection" class="sections">
                         <article class="article">
                             <h3>Gallery</h3>
