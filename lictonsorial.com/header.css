@@ -4,8 +4,8 @@
     z-index: 55;
 }
   #logo_Container {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
   /*
     #logo_Container img {
@@ -16,8 +16,8 @@
     .logo {
       pointer-events: none;
       animation: 1.5s panIn ease;
-      height: 225px;
-      width: 225px;
+      height: 200px;
+      width: 200px;
     }
     .header_info {
       color: #fff;
@@ -26,6 +26,14 @@
       padding: 10px;
       text-align: center;
     }
+
+    .header_address a, visited,
+    .number a, visited
+    { transition: all 0.5s; }
+    .header_address a:hover, visited,
+    .number a:hover, visited
+    { color: #FFD700;}
+
     .header_address a, visited {
       text-decoration: none;
       color: #fff;
@@ -56,11 +64,11 @@
 @media screen and (max-height: 750px) {
     #logo_Container {
         height: 175px;
-        width: 200px;
+        width: 175px;
     }
     .logo {
-        height: 200px;
-        width: 200px;
+        height: 175px;
+        width: 175px;
     }
     .header_info {
       font-size: 12pt;

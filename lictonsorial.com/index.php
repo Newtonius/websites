@@ -185,6 +185,7 @@
                        41-10 34th Ave, Long Island City NY, 11101<br/>
                      </a>
                    </span>
+                   <br/>
                    <span class="number">
                      <a href="tel:+13476546386">
                       <!-- <img class="nav_icons" src="GFX/products/vintage-phone.png" align="left" width="20" height="37"> -->
@@ -308,7 +309,7 @@
                               <div class="promos">
                                 <div class="promo">
                                   <div class="deal">
-                                    <img src="GFX/Products/layrite_logo.png" height="29" width="200" alt="" />
+                                    <img src="/GFX/products/layrite_logo.png" height="29" width="200" alt="" />
                                     <span></span>
                                     <span></span>
                                   </div>
@@ -321,7 +322,7 @@
                                 </div>
                                 <div class="promo">
                                   <div class="deal">
-                                    <img src="GFX/Products/baxter_logo.png" height="55" width="150" alt="" />
+                                    <img src="/GFX/products/baxter_logo.png" height="55" width="150" alt="" />
                                     <span></span>
                                     <span></span>
                                   </div>
@@ -345,7 +346,7 @@
                                 </div>
                                 <div class="promo">
                                   <div class="deal">
-                                    <img src="GFX/Products/mrnatty_logo.png" height="39" width="200" alt="" />
+                                    <img src="/GFX/products/mrnatty_logo.png" height="39" width="200" alt="" />
                                     <span></span>
                                     <span></span>
                                   </div>

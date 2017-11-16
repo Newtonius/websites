@@ -35,12 +35,12 @@ body {
 #wrapper, #navBar, #header, #content, #footer {
     width: 100%;
 }
+#topAnchor {
+    height: 65px !important;
+}
 span.anchor {
     display: block;
-    height: 50px;
-}
-#topAnchor {
-    height: 110px !important;
+    height: 50px !important;
 }
 #footer {
     height: 250px;

@@ -45,7 +45,7 @@
 }
 #nav ul li {
     list-style-type: none;
-    width: 650px;
+    width: 400px;
     text-align: center;
     display: block;
     height: auto;
@@ -63,10 +63,10 @@
     display: block;
     font-family: 'Cash Currency';
     transition: all 0.5s;
-    font-size: 25pt;
+    font-size: 20pt;
     color: #fff;
     height: 100%;
-    padding: 7px;
+    padding: 15px;
 }
 
 #nav ul li a:hover {
