@@ -25,104 +25,14 @@
         <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400italic" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
-      -->
+        -->
 
       <!-- Scripts -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script>
-        $(function() {
-          var d = new Date();
-          var n = d.getDay();
-          if (n == 1) {
-            var x=document.getElementById("monday");
-            x.style.color='green';
-            x.style.fontweight='900';
-          }
-          else if (n == 2) {
-            var x=document.getElementById("tuesday");
-            x.style.color='green';
-            x.style.fontweight='900';
-          }
-          else if (n == 3) {
-            var x=document.getElementById("wednesday");
-            x.style.color='green';
-            x.style.fontweight='900';
-          }
-          else if (n == 4) {
-            var x=document.getElementById("thursday");
-            x.style.color='green';
-            x.style.fontweight='900';
-          }
-          else if (n == 5) {
-            var x=document.getElementById("friday");
-            x.style.color='green';
-            x.style.fontweight='900';
-          }
-          else if (n == 6) {
-            var x=document.getElementById("saturday");
-            x.style.color='green';
-            x.style.fontweight='900';
-          }
-          else if (n == 7) {
-            var x=document.getElementById("sunday");
-            x.style.color='green';
-            x.style.fontweight='900';
-          }
-        });
-      </script>
-      <!--
-      <script>
-        $(function(){
-            var scroller = $('#scroller div.innerScrollArea');
-            var scrollerContent = scroller.children('ul');
-            scrollerContent.children().clone().appendTo(scrollerContent);
-            var curX = 0;
-            scrollerContent.children().each(function(){
-                var $this = $(this);
-                $this.css('left', curX);
-                curX += $this.outerWidth(true);
-            });
-            var fullW = curX / 2;
-            var viewportW = scroller.width();
-
-            // Manual Scroller
-            // scroller.css('overflow-x', 'auto');
-
-            // Scrolling speed management
-            var controller = {curSpeed: 0, fullSpeed: 1};
-            var $controller = $(controller);
-            // When hovering over, takes 500ms to set speed of rotation to 0
-            var tweenToNewSpeed = function(newSpeed, duration)
-            {
-                if (duration === undefined)
-                    duration = 250;
-                $controller.stop(true).animate({curSpeed:newSpeed}, duration);
-            };
-
-            // Pause on hover
-            scroller.hover(function(){
-                tweenToNewSpeed(0);
-            }, function(){
-                tweenToNewSpeed(controller.fullSpeed); // When hovering out, set speed to normal
-            });
-
-            // Scrolling management; start the automatical scrolling
-            var doScroll = function()
-            {
-                var curX = scroller.scrollLeft();
-                var newX = curX + controller.curSpeed;
-                if (newX > fullW*2 - viewportW)
-                    newX -= fullW;
-                scroller.scrollLeft(newX);
-            };
-            setInterval(doScroll, 20);
-            tweenToNewSpeed(controller.fullSpeed);
-          });
-      </script>
-    -->
+      <script src="scripts/hours.js" async></script>
+      <!-- <script src="scripts/moving_gallery.js" async></script> -->
     </head>
     <body>
-
         <!--  BACKGROUND  -->
         <figure class="background">
             <img src="GFX/BG.jpg" alt=""/>
@@ -223,10 +133,10 @@
                                         <a href="https://www.facebook.com/longislandcitybarber/timeline" target="_blank">
                                             <img src="GFX/fb.png" width="38" height="38" alt=""/>
                                         </a>
-                                        <a href="https://twitter.com/QueensFinests" target="_blank">
+                                        <a href="https://twitter.com/Lic_tonsorial" target="_blank">
                                             <img src="GFX/twit.png" width="38" height="38" alt=""/>
                                         </a>
-                                        <a href="https://www.instagram.com/l.i.ctonsorial2014/?ref=badge" target="_blank">
+                                        <a href="https://www.instagram.com/lic_tonsorial/" target="_blank">
                                             <img src="GFX/ins.png" width="38" height="38" alt=""/>
                                         </a>
                                     </div>
@@ -258,31 +168,38 @@
 
                                         <div class="hour_row" id="monday">
                                           <div class="cell">Monday</div>
-                                          <div class="cell">10am - 10pm</div>
+                                          <div class="cell" id="mHours">10am - 10pm</div>
+                                          <div id="mStatus"></div>
                                         </div>
                                         <div class="hour_row" id="tuesday">
                                           <div class="cell">Tuesday</div>
-                                          <div class="cell">10am - 10pm</div>
+                                          <div class="cell" id="tuHours">10am - 10pm</div>
+                                          <div id="tuStatus"></div>
                                         </div>
                                         <div class="hour_row" id="wednesday">
                                           <div class="cell">Wednesday</div>
-                                          <div class="cell">10am - 10pm</div>
+                                          <div class="cell" id="wHours">10am - 10pm</div>
+                                          <div id="wStatus"></div>
                                         </div>
                                         <div class="hour_row" id="thursday">
                                           <div class="cell">Thursday</div>
-                                          <div class="cell">10am - 10pm</div>
+                                          <div class="cell" id="thHours">10am - 10pm</div>
+                                          <div id="thStatus"></div>
                                         </div>
-                                        <div class="hour_row" id="friday">
-                                          <div class="cell">Friday</div>
-                                          <div class="cell">10am - 10pm</div>
+                                        <div class="hour_row">
+                                          <div class="cell" id="friday">Friday</div>
+                                          <div class="cell" id="fHours">10am - 10pm</div>
+                                          <div class="status" id="fStatus"></div>
                                         </div>
-                                        <div class="hour_row" id="saturday">
-                                          <div class="cell">Saturday</div>
-                                          <div class="cell">10am - 10pm</div>
+                                        <div class="hour_row">
+                                          <div class="cell" id="saturday">Saturday</div>
+                                          <div class="cell" id="saHours">10am - 10pm</div>
+                                          <div id="saStatus"></div>
                                         </div>
                                         <div class="hour_row" id="sunday">
                                           <div class="cell">Sunday</div>
-                                          <div class="cell">12pm - 5pm</div>
+                                          <div class="cell" id="suHours">12pm - 5pm</div>
+                                          <div id="suStatus"></div>
                                         </div>
                                       </div>
                                     </div>
@@ -328,20 +245,20 @@
                                   </div>
                                   <span class="motto">Discover high-quality men's hair care & hair styling products.</span>
                                   <ul class="features">
+                                    <li>Vitamin Body Bar $17</li>
+                                    <li>Exfoliating Body Bar $17</li>
+                                    <li>Protein Shampoo $18</li>
+                                    <li>Shave Tonic $18</li>
+                                    <li>Aftershave $19</li>
+                                    <li>Deodorant $19</li>
+                                    <li>Conditioner $19</li>
+                                    <li>Large Comb $20</li>
                                     <li>Cream Pomade $22</li>
                                     <li>Hard Cream Pomade $22</li>
                                     <li>Clay Pomade $22</li>
                                     <li>Soft Water Pomade $22</li>
                                     <li>Hard Water Pomade $22</li>
-                                    <li>Exfoliating Body Bar $17</li>
-                                    <li>Vitamin Body Bar $17</li>
-                                    <li>Protein Shampoo $18</li>
-                                    <li>Conditioner $19</li>
-                                    <li>Shave Tonic $18</li>
                                     <li>Oil Free Moisturizer $24</li>
-                                    <li>Aftershave $19</li>
-                                    <li>Large Comb $20</li>
-                                    <li>Deodorant $19</li>
                                   </ul>
                                 </div>
                                 <div class="promo">
@@ -381,13 +298,14 @@
                                     $barbers = array("geraldo","alvi","justin","luis");
                                     for ($i=0; $i < count($barbers); $i++):
                                   ?>
-
                                   <li>
-                                    <a href="GFX/gallery/<?php echo $barbers[$i]; ?>.jpg">
-                                      <img src="GFX/gallery/<?php echo $barbers[$i]; ?>.jpg" target="_blank" width="500" height="350" alt="" title="<?php echo $barbers[$i]; ?>">
-                                    </a>
+                                    <figure class="img-container">
+                                      <a href="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg">
+                                        <img src="/GFX/gallery/<?php echo $barbers[$i]; ?>.jpg" target="_blank" width="500" height="350" alt="" title="<?php echo $barbers[$i]; ?>">
+                                      </a>
+                                    <figure>
                                   </li>
-                                <?php endfor; ?>
+                                  <?php endfor; ?>
                                 </ul>
                               </div>
                             </div>

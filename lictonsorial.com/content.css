@@ -146,6 +146,11 @@ article {
           padding: 6px 12px;
           display: table-cell;
         }
+        .hour_table .status {
+          font-size: 13pt;
+          font-family: "Cash Currency";
+          padding: 3px;
+        }
             .serviceHeader {
                 max-width: 50%;
                 height: auto;
@@ -235,10 +240,13 @@ article {
               position: relative;
             }
                 #scroller .innerScrollArea {
-                    overflow: hidden;
+                    width: 100%;
+                    height: auto;
                     position: absolute;
                 }
                 #scroller ul {
+                    z-index: 155;
+                    width: auto;
                     padding: 0;
                     margin: 0;
                     position: relative;
@@ -247,9 +255,9 @@ article {
                   padding: 15px;
                   margin: 0;
                   list-style-type: none;
-                  position: absolute;
+                  position: relative;
+                  display: inline-block;
                   text-align: center;
-
                   -webkit-transition: all 0.25s ease-in-out;
                   -moz-transition: all 0.25s ease-in-out;
                   transition: all 0.25s ease-in-out;
@@ -266,27 +274,16 @@ article {
                   font-family: 'Montserrat', sans-serif;
                 }
 
-            .galleryContainer {
-                overflow: hidden;
-                margin: auto;
-                width: 965px;
-            }
-                .img-container:nth-child(odd) {
-                    float: left;
+                .img-container {
                     overflow: hidden;
-                    margin: 10px;
+                    margin: 5px;
                 }
-                .img-container:nth-child(even) {
-                    float: left;
-                    overflow: hidden;
-                    margin: 10px;
-                }
-                    .img {
-                        width: 300px;
+                    .img-container img {
+                        width: 350px;
                         height: 300px;
                         transition: all 0.25s;
                     }
-                    .img:hover {
+                    .img-container img:hover {
                         transform:scale(1.10);
                     }
 

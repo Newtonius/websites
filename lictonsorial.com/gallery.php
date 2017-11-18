@@ -9,10 +9,11 @@
         <link rel="shortcut icon" href="GFX/icon.png">
 
         <!-- CUSTOM LIBRARIES -->
-        <link rel="stylesheet" href="core.css" type="text/css">
-        <link rel="stylesheet" href="nav.css" type="text/css">
-        <link rel="stylesheet" href="header.css" type="text/css">
-        <link rel="stylesheet" href="content.css" type="text/css">
+        <link rel="shortcut icon" href="GFX/icon.png"/>
+        <link rel="stylesheet" href="core.css" type="text/css"/>
+        <link rel="stylesheet" href="content.css" type="text/css"/>
+        <link rel="stylesheet" href="nav.css" type="text/css"/>
+        <link rel="stylesheet" href="header.css" type="text/css"/>
 
         <!-- BOOTSTRAP -->
             <!-- BASICS  -->
@@ -25,12 +26,10 @@
             <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
 
-        <!-- FONTS -->
+        <!-- FONTS
         <link href='https://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
-
-        <style>
-        </style>
+        -->
     </head>
     <body>
 
@@ -43,10 +42,13 @@
 
             <!-- TOPBAR NAV-->
             <div id="top_bar">
-                <a href="#top">
-                <p class="titleLogo">
-                <span style="color: #fff;">L.I.C. <img src="GFX/razorHeader.png" width="50" height="43"/> Tonsorial</span>
-                </p></a>
+              <div class="navbar_wrapper">
+                <span class="titleLogo">
+                  <a href="index.php">
+                    L.I.C. <img src="GFX/razorHeader.png" /> Tonsorial
+                  </a>
+                </span>
+              </div>
             </div>
 
             <!-- CONTENT -->
