@@ -47,7 +47,6 @@ article {
         .aboutWrapper {
             width: 100%;
             height: auto;
-            overflow: hidden;
         }
         .aboutContent:nth-child(odd) {
             width: 25%;
@@ -62,7 +61,7 @@ article {
        .about_description {
          font-size: 15pt;
          width: auto;
-         padding-left: 25px
+         padding-left: 15px
        }
        .socialIcons {
          width: 25%;
@@ -89,30 +88,6 @@ article {
        }
 
        /* aboutContent 3 */
-       /*
-       .direction {
-         margin: 0 auto;
-         width: 50px;
-         height: 50px;
-         background:rgb(174,25,21);
-         border: 2px solid #999999;
-         border-radius: 50%;
-         padding-top: 12px;
-         transition: transform 0.5s;
-       }
-        .direction:hover {
-          transform:scale(1.15);
-        }
-        .direction a, visited {
-          text-decoration: none;
-          font-size: 16pt;
-          display: block;
-          color: #fff;
-        }
-        .direction a:hover {
-          color: #fff;
-        }
-        */
         .hour_wrap {
           font-size: 19px;
           line-height: 20px;
@@ -242,11 +217,12 @@ article {
                 #scroller .innerScrollArea {
                     width: 100%;
                     height: auto;
-                    position: absolute;
+                    position: relative;;
                 }
                 #scroller ul {
                     z-index: 155;
                     width: auto;
+                    height: auto;
                     padding: 0;
                     margin: 0;
                     position: relative;
@@ -326,16 +302,6 @@ article {
 
 @media screen and (max-width: 965px) {
 
-    .galleryContainer {
-      overflow: hidden;
-      width: 620px;
-    }
-    .img-container:nth-child(odd) {
-      margin: 5px;
-    }
-    .img-container:nth-child(even) {
-      margin: 5px;
-    }
     .about_description {
       padding-left: 0px;
     }
@@ -345,10 +311,11 @@ article {
     #about {
         height: auto;
     }
-    .galleryContainer {
-      overflow: hidden;
-      width: 300px;
-      margin: auto;
+
+    .img-container img {
+        width: 250px;
+        height: 200px;
+        transition: all 0.25s;
     }
 
     .price_list {
@@ -358,10 +325,6 @@ article {
 }
 
 @media screen and (max-width: 350px) {
-    .galleryContainer {
-      overflow: hidden;
-        width: 100%;
-        margin: auto;
-    }
+
 
 }

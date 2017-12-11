@@ -29,7 +29,7 @@
 
       <!-- Scripts -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="scripts/hours.js" async></script>
+      <script src="/scripts/hours.js" async></script>
       <!-- <script src="scripts/moving_gallery.js" async></script> -->
     </head>
     <body>
@@ -114,7 +114,7 @@
                     <section id="about" class="sections">
                         <article class="article">
                             <h3>About us</h3>
-                            <img class="underline" src="/GFX/vintage-underline.png" />
+                            <img class="underline" src="/GFX/title-underline.png" />
                             <div id="aboutWrapper">
                                 <div class="aboutContent">
                                     <p class="about_description">
@@ -166,25 +166,25 @@
                                           <div class="cell">Hours</div>
                                         </div>
 
-                                        <div class="hour_row" id="monday">
-                                          <div class="cell">Monday</div>
+                                        <div class="hour_row">
+                                          <div class="cell" id="monday">Monday</div>
                                           <div class="cell" id="mHours">10am - 10pm</div>
-                                          <div id="mStatus"></div>
+                                          <div class="status" id="mStatus"></div>
                                         </div>
-                                        <div class="hour_row" id="tuesday">
-                                          <div class="cell">Tuesday</div>
+                                        <div class="hour_row">
+                                          <div class="cell" id="tuesday">Tuesday</div>
                                           <div class="cell" id="tuHours">10am - 10pm</div>
-                                          <div id="tuStatus"></div>
+                                          <div class="status" id="tuStatus"></div>
                                         </div>
-                                        <div class="hour_row" id="wednesday">
-                                          <div class="cell">Wednesday</div>
+                                        <div class="hour_row">
+                                          <div class="cell" id="wednesday">Wednesday</div>
                                           <div class="cell" id="wHours">10am - 10pm</div>
-                                          <div id="wStatus"></div>
+                                          <div class="status" id="wStatus"></div>
                                         </div>
-                                        <div class="hour_row" id="thursday">
-                                          <div class="cell">Thursday</div>
+                                        <div class="hour_row">
+                                          <div class="cell" id="thursday">Thursday</div>
                                           <div class="cell" id="thHours">10am - 10pm</div>
-                                          <div id="thStatus"></div>
+                                          <div class="status" id="thStatus"></div>
                                         </div>
                                         <div class="hour_row">
                                           <div class="cell" id="friday">Friday</div>
@@ -194,17 +194,17 @@
                                         <div class="hour_row">
                                           <div class="cell" id="saturday">Saturday</div>
                                           <div class="cell" id="saHours">10am - 10pm</div>
-                                          <div id="saStatus"></div>
+                                          <div class="status" id="saStatus"></div>
                                         </div>
-                                        <div class="hour_row" id="sunday">
-                                          <div class="cell">Sunday</div>
+                                        <div class="hour_row">
+                                          <div class="cell" id="sunday">Sunday</div>
                                           <div class="cell" id="suHours">12pm - 5pm</div>
-                                          <div id="suStatus"></div>
+                                          <div class="status" id="suStatus"></div>
                                         </div>
                                       </div>
                                     </div>
                                 </div>
-
+                                <div id="test"></div>
                             </div>
                         </article>
                     </section>
@@ -215,13 +215,13 @@
                         <article>
                             <div class="cutWrapper">
                               <h3>Services</h3>
-                              <img class="underline" src="/GFX/vintage-underline.png" /><br/>
+                              <img class="underline" src="/GFX/title-underline.png" /><br/>
                               <img class="price_list" src="/GFX/services/price_list.png" />
                             </div>
 
                             <div class="products" id="products">
                               <h3>Products</h3>
-                              <img class="underline" src="/GFX/vintage-underline.png" />
+                              <img class="underline" src="/GFX/title-underline.png" />
 
                               <div class="promos">
                                 <div class="promo">
@@ -289,7 +289,7 @@
                     <section id="photoSection" class="sections">
                         <article class="article">
                             <h3>Gallery</h3>
-                            <img class="underline" src="/GFX/vintage-underline.png" />
+                            <img class="underline" src="/GFX/title-underline.png" />
                             <!--   GALLERY  IMAGES   -->
                             <div id="scroller">
                               <div class="innerScrollArea">
