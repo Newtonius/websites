@@ -6,5 +6,13 @@
   text-align: center;
   margin: 0 auto;
   padding: 50px;
-  width: 575px;
+  width: 50%;
+}
+
+@media screen and (max-width: 650px) {
+  .quote {
+    font-size: 12pt;
+    padding: 20px;
+    width: 70%;
+  }
 }

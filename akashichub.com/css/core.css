@@ -4,7 +4,7 @@
 }
 html {
   /* background: #222; */
-  background:url("/GFX/Background/bg-man.jpg") no-repeat center;
+  background:url("/GFX/Background/bg-earth2-min.jpg") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -26,22 +26,23 @@ html {
     -webkit-align-items: center;
     align-items: center;
     overflow: hidden;
-    border-bottom: 2px solid rgba(255,255,255,0.75);
     z-index: 155;
 }
 .site-header h1 {
-  background:rgba(20,20,20,0.5);
+  background:rgba(20,20,20,0.70);
   color: #fff;
   text-align: center;
+  padding-top: 30px;
   text-shadow: 2px 2px 20px #fff;
-  padding: 20px;
   width: 300px;
+  height: 100%;
   font-family: 'Montserrat';
+  /* border-bottom: 5px solid rgba(255,255,255,0.75); */
 }
 .side-nav {
   position: relative;
   width: 100%;
-  background:rgba(20,20,20,0.5);
+  background:rgba(20,20,20,0.70);
   height: 100%;
   color: #fff;
   text-align: center;
@@ -50,7 +51,6 @@ html {
   list-style-type: none;
 }
 .side-nav:hover {
-  box-shadow: 2px 2px 2px
 }
 .side-nav a,visited {
   text-decoration: none;
@@ -62,10 +62,10 @@ html {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  transition: all 0.1s;
+  transition: all 0.25s;
 }
 .nav-icons:hover {
-  background:rgba(46,60,55,0.55);
+  background:rgba(0,0,0,1);
 }
 .nav-icons a:hover .nav-icons a img {
   display: none;
@@ -82,6 +82,9 @@ html {
 .nav-icons p {
   font-family: 'Montserrat Italic';
   display: none;
+}
+
+#resume-nav:hover {
 }
 
 #anchor {
