@@ -7,6 +7,7 @@
 <title>Akashic Hub</title>
 
 <link rel="stylesheet" href="/css/core.css" type="text/css" />
+<link rel="stylesheet" href="/css/home.css" type="text/css" />
 
 <script src="/js/icon_change.js" async></script>
 

@@ -1,0 +1,10 @@
+.quote {
+  position: relative;
+  color: #fff;
+  font-family: 'Montserrat Italic';
+  font-size: 15pt;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  width: 575px;
+}
