@@ -4,7 +4,7 @@
 }
 html {
   /* background: #222; */
-  background:url("/GFX/Background/bg-earth2-min.jpg") no-repeat center;
+  background:url("/GFX/Background/bg-bulgaria-min.jpg") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -15,6 +15,10 @@ html {
 @font-face {
     font-family: 'Montserrat Italic';
     src: url('/fonts/Montserrat-Italic.ttf');
+}
+@font-face {
+    font-family: 'Axile';
+    src: url('/fonts/Axile.otf');
 }
 
 .site-header {
@@ -36,9 +40,33 @@ html {
   text-shadow: 2px 2px 20px #fff;
   width: 300px;
   height: 100%;
-  font-family: 'Montserrat';
+  font-family: 'Axile';
+  animation: neon_header 3s infinite ease-in-out;
   /* border-bottom: 5px solid rgba(255,255,255,0.75); */
 }
+@keyframes neon_header {
+  0% {
+    text-shadow: 2px 2px 20px #fff;
+    opacity: 1;
+  }
+  25% {
+    text-shadow: 2px 2px 30px #fff;
+    opacity: .90;
+  }
+  50% {
+    text-shadow: 2px 2px 10px #fff;
+    opacity: .80;
+  }
+  75% {
+    text-shadow: 2px 2px 35px #fff;
+    opacity: 1;
+  }
+  100% {
+    text-shadow: 2px 2px 20px #fff;
+    opacity: 1;
+  }
+}
+
 .side-nav {
   position: relative;
   width: 100%;
@@ -79,6 +107,9 @@ html {
   padding: 25px;
   display: inline-flex;
 }
+.nav-icons a {
+  width: 100%;
+}
 .nav-icons p {
   font-family: 'Montserrat Italic';
   display: none;
@@ -87,14 +118,17 @@ html {
 #resume-nav:hover {
 }
 
+/*
 #anchor {
   height: 80px !important;
   display: block;
 }
+*/
 
 .content-wrapper {
   height: 100vh;
   width: 100%;
+  background:rgba(20,20,20,0.20);
   position: relative;
   align-items: center;
 }

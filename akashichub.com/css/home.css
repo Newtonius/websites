@@ -5,8 +5,27 @@
   font-size: 15pt;
   text-align: center;
   margin: 0 auto;
-  padding: 50px;
+  padding-top: 150px;
   width: 50%;
+}
+
+.welcome {
+  position: relative;
+  font-size: 40pt;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-family: 'Axile';
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 650px) {
