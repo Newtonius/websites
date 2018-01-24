@@ -20,6 +20,10 @@ html {
     font-family: 'Axile';
     src: url('/fonts/Axile.otf');
 }
+@font-face {
+    font-family: 'Yeysk';
+    src: url('/fonts/Yeysk.otf');
+}
 
 .site-header {
     height: 80px;
@@ -36,11 +40,12 @@ html {
   background:rgba(20,20,20,0.70);
   color: #fff;
   text-align: center;
-  padding: 40px 30px 0px 30px;
+  padding: 25px 30px 0px 30px;
   text-shadow: 2px 2px 20px #fff;
-  width: 300px;
+  width: 275px;
   height: 100%;
-  font-family: 'Axile';
+  font-family: 'Yeysk';
+  font-size: 20pt;
   animation: neon_header 3s infinite ease-in-out;
   /* border-bottom: 5px solid rgba(255,255,255,0.75); */
 }
@@ -134,10 +139,12 @@ html {
   align-items: center;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 750px) {
   .site-header h1 {
-    font-size: 18pt;
-    padding: 25px 30px 0px 30px;
+    padding: 0px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }
   .nav-icons a img {
     width: 35px;
