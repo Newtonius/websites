@@ -15,12 +15,21 @@
 <body>
   <div class="wrapper">
     <?php include ($_SERVER['DOCUMENT_ROOT'].'/adds/nav.html') ?>
-    
+
     <span id="anchor"></span>
     <div class="content-wrapper">
-      <div class="resume-cell">
-        <table>
-      <div>
+      <p class="resume-welcome">
+        If creating this webpage from scratch isn't enough to impress you, then hopefully my awesome list of qualifications will.
+      </p>
+      <div class="resume-wrapper">
+        <div class="resume-cell" id="work-experience">
+          Work Experience
+        </div>
+        <div class="resume-cell" id="education">
+          Education
+        </div>
+      </div>
+
     </div>
     <div class="site-footer">
     </div>
