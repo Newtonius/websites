@@ -18,7 +18,7 @@
 
     <span id="anchor"></span>
     <div class="content-wrapper">
-
+      <img class="construction" src="/GFX/misc/turning-gears.gif" alt="" />
     </div>
     <div class="site-footer">
     </div>

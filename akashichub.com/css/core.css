@@ -153,3 +153,10 @@ html {
     display: inline-flex;
   }
 }
+
+.construction {
+  width: 150px;
+  height: 215px;
+  margin-left: auto;
+  margin-right: auto;
+}
