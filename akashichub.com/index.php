@@ -27,7 +27,7 @@
       <div class="cell">
         <p class="welcome">Welcome</p>
         <div>
-          <p class="Text">
+          <p>
             Things are still coming together, you think perfection just happens?
           </p>
         </div>
