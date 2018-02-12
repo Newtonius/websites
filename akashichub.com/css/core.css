@@ -141,7 +141,7 @@ html {
 
 @media screen and (max-width: 750px) {
   .site-header h1 {
-    padding: 0px;
+    padding-top: 80px;
     visibility: hidden;
     width: 0;
     height: 0;
