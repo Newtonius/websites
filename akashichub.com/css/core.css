@@ -25,6 +25,15 @@ html {
     src: url('/fonts/Yeysk.otf');
 }
 
+@font-face {
+    font-family: 'Earth 3d';
+    src: url('/fonts/earthorbiterdeep3d.ttf');
+}
+@font-face {
+    font-family: 'Alien';
+    src: url('/fonts/alienleague.ttf');
+}
+
 .site-header {
     height: 80px;
     width: 100%;
@@ -46,30 +55,43 @@ html {
   height: 100%;
   font-family: 'Yeysk';
   font-size: 20pt;
-  animation: neon_header 3s infinite ease-in-out;
+  animation: neon_header 5s infinite ease-in-out;
   /* border-bottom: 5px solid rgba(255,255,255,0.75); */
 }
 
 @keyframes neon_header {
   0% {
-    text-shadow: 2px 2px 20px #fff;
-    opacity: 1;
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
   }
-  25% {
-    text-shadow: 2px 2px 30px #fff;
-    opacity: .90;
+  10% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  20% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
+  }
+  30% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  40% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.8);
   }
   50% {
-    text-shadow: 2px 2px 10px #fff;
-    opacity: .80;
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
   }
-  75% {
-    text-shadow: 2px 2px 35px #fff;
-    opacity: 1;
+  60% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  70% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.9);
+  }
+  80% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  90% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
   }
   100% {
-    text-shadow: 2px 2px 20px #fff;
-    opacity: 1;
+    text-shadow: 2px 2px 20px rgba(255,255,255,.8);
   }
 }
 
@@ -119,6 +141,21 @@ html {
 .nav-icons p {
   font-family: 'Montserrat Italic';
   display: none;
+}
+
+.banner_scroller {
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  font-family: 'Alien';
+  font-size: 15pt;
+  background:rgb(48,46,64);
+  padding: 5px;
+  margin-top: 80px;
+}
+.banner_scroller a, visited {
+  text-decoration: none;
+  color:rgb(255,178,14);
 }
 
 #resume-nav:hover {
