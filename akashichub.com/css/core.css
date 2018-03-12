@@ -149,24 +149,21 @@ html {
   color: #fff;
   font-family: 'Alien';
   font-size: 15pt;
-  background:rgb(48,46,64);
+  background:rgba(48,46,64,0.95);
   padding: 5px;
   margin-top: 80px;
+  position: fixed;
+  z-index: 155;
 }
 .banner_scroller a, visited {
   text-decoration: none;
   color:rgb(255,178,14);
 }
 
-#resume-nav:hover {
-}
-
-/*
 #anchor {
-  height: 80px !important;
+  height: 100px !important;
   display: block;
 }
-*/
 
 .content-wrapper {
   height: 100vh;
@@ -196,4 +193,18 @@ html {
   height: 215px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#site-footer {
+  height: 100px;
+  width: 100%;
+  background:rgba(40,40,40,0.85);
+  color: #ccc;
+  font-size: 14pt;
+  font-family: "Alien";
+  text-align: center;
+}
+#site-footer p {
+  padding-top: 15px;
+  font-weight: 600;
 }

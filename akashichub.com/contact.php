@@ -4,10 +4,10 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<title>Akashic Hub</title>
+<title>Contact</title>
 
 <link rel="stylesheet" href="/css/core.css" type="text/css" />
-<link rel="stylesheet" href="/css/home.css" type="text/css" />
+<link rel="stylesheet" href="/css/contact.css" type="text/css" />
 
 <script src="/js/icon_change.js" async></script>
 
@@ -19,15 +19,9 @@
     <span id="anchor"></span>
     <div class="content-wrapper">
 
-      <div class="cell">
-        <p class="welcome">Welcome</p>
-      </div>
+    </div>
+    <div class="site-footer">
     </div>
   </div>
-  <footer id="site-footer">
-    <p>Webmaster - Angel Bolanos</p>
-    </br/>
-    <p>Contact - Destroy</p>
-  </footer>
 </body>
 </html>
