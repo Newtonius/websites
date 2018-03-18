@@ -166,7 +166,7 @@ html {
 }
 
 .content-wrapper {
-  height: 100vh;
+  height: auto;
   width: 100%;
   background:rgba(20,20,20,0.20);
   position: relative;
@@ -198,13 +198,13 @@ html {
 #site-footer {
   height: 100px;
   width: 100%;
-  background:rgba(40,40,40,0.85);
+  background:rgba(20,20,20,0.85);
   color: #ccc;
   font-size: 14pt;
   font-family: "Alien";
   text-align: center;
 }
 #site-footer p {
-  padding-top: 15px;
+  padding-top: 20px;
   font-weight: 600;
 }
