@@ -46,7 +46,9 @@
               <div class="navbar_wrapper">
                 <span class="titleLogo">
                   <a href="#top">
-                    L.I.C. <img src="GFX/razorHeader.png" /> Tonsorial
+                    L.I.C.
+                    <img src="GFX/razorHeader.png" />
+                    Tonsorial
                   </a>
                 </span>
               </div>
