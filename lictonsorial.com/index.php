@@ -33,11 +33,6 @@
       <!-- <script src="scripts/moving_gallery.js" async></script> -->
     </head>
     <body>
-        <!--  BACKGROUND  -->
-        <figure class="background">
-            <img src="GFX/BG.jpg" alt=""/>
-        </figure>
-
         <!--  ENTIRE PAGE WRAPPER  -->
         <div id="wrapper">
 

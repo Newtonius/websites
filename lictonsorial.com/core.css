@@ -1,10 +1,11 @@
 * {
     margin: 0px; padding: 0px;
 }
-body {
-  background:rgb(17,17,15);
+html {
+  background:url("/GFX/gallery/LIC_pic (23).jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-
 @font-face {
     font-family: 'Showboat';
     src: url('fonts/Showboat.ttf');
@@ -20,17 +21,6 @@ body {
 @font-face {
     font-family: 'Bellefair';
     src: url('fonts/Bellefair-Regular.ttf');
-}
-.background {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 50px;
-    z-index: -25;
-}
-.background img {
-    max-width: 100%;
-    max-height: auto;
 }
 #wrapper, #navBar, #header, #content, #footer {
     width: 100%;
