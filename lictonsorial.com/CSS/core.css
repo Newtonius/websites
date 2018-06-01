@@ -29,13 +29,13 @@ span.anchor {
     height: 50px !important;
 }
 #footer {
-    height: 200px;
+    height: auto;
     background:rgba(0,0,0,0.75);
     position: relative;
     z-index: 35;
 }
   .footer_tag {
-    padding: 50px;
+    padding: 25px;
     font-family: "Bellefair";
     font-size: 15px;
     color: #999;
