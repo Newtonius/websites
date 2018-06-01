@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'UndergroundNF';
+    src: url('/fonts/UndergroundNF.ttf');
+}
+@font-face {
+    font-family: 'BeachmanScript';
+    src: url('/fonts/BeachmanScript.ttf');
+}
+@font-face {
+    font-family: 'ChopinScript';
+    src: url('/fonts/ChopinScript.ttf');
+}
+.nav {
+  list-style-type: none;
+  background:rgba(43,40,35,1);
+  margin: 0;
+  padding: 0;
+  font-size: 32pt;
+  overflow: hidden;
+  font-family: 'ChopinScript'
+}
+  .nav li {
+    float: right;
+    font-size: 16pt;
+    color: #fff;
+  }
+    .nav li img {
+      width: 45px;
+      height: 37px;
+    }
+  .nav a,visited {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+    display: block;
+  }
+    .nav a:hover {
+      color: #FFD700;
+      background:rgba(0,0,0,0.25);
+    }
+
+.header {
+  background:rgba(0,0,0,0.25);
+}
+
+.location_options {
+  width: 50%;
+  height: auto;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px;
+  overflow: hidden;
+}
+  .location_options li {
+    text-align: center;
+  }
+  .location_options li p {
+    background:rgba(0, 0, 0, 0.65);
+    padding: 10px;
+    font-size: 25pt;
+    color: #fff;
+    font-family: 'BeachmanScript';
+  }
+  .location_options li h3 {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 28pt;
+    font-family: 'UndergroundNF';
+  }
+    .location_options li a,visited {
+      text-decoration: none;
+      color: #fff;
+      display: block;
+    }
+
+    .location_options img {
+      width: 250px;
+      height: 250px;
+    }

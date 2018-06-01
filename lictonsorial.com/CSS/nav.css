@@ -1,0 +1,102 @@
+
+#top_bar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 155;
+    box-shadow: 2px 0px 10px #000;
+    background:rgba(43,40,35,1);
+    /* background:rgba(79,61,44,1); */
+}
+
+    .navbar_wrapper {
+      font-family: 'Wacamoler';
+      width: auto;
+      font-size: 25pt;
+      text-align: center;
+      margin: 0 auto;
+      /*
+      font-family: 'Playfair Display', serif;
+      transition: transform 0.5s;
+      */
+    }
+    .titleLogo a, visit {
+      text-decoration: none;
+      color: #fff;
+    }
+    /*
+    .titleLogo:hover {
+        transform:scale(1.15);
+    }
+    a:hover > .titleLogo {
+        text-decoration: none;
+        color: #fff;
+    }
+    */
+    .titleLogo img {
+      width: 45px;
+      height: 37px;
+    }
+
+#nav {
+    height: auto;
+    width: auto;
+
+}
+#nav ul li {
+    list-style-type: none;
+    width: 400px;
+    text-align: center;
+    display: block;
+    height: auto;
+    transition: all 0.5s;
+    background:rgba(0,0,0,0);
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav ul li:hover {
+    background:rgba(0,0,0,0.5);
+    text-shadow: 8px 8px 10px #000;
+}
+#nav ul li a, visited {
+    text-decoration: none;
+    display: block;
+    font-family: 'Cash Currency';
+    transition: all 0.5s;
+    font-size: 20pt;
+    color: #fff;
+    height: 100%;
+    padding: 15px;
+}
+
+#nav ul li a:hover {
+  color: #FFD700;
+}
+
+@media screen and (max-width: 900px) {
+  #nav ul li {
+    width: 250px;
+  }
+
+  #nav ul li a, visited {
+    font-size: 25px;
+  }
+  .titleLogo img {
+    max-width: 45px;
+    max-height: 38px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+    .titleLogo {
+        margin-left: 10px;
+        font-size: 20pt;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 400px) {
+}

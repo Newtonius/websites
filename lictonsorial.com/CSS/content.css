@@ -1,0 +1,330 @@
+#content {
+    height: auto;
+    width: 100%;
+    background:rgba(43,40,35,1);
+    position: relative;
+    z-index: 55;
+    margin: auto;
+    border-top: 5px solid #2b2b2b;
+    box-shadow: inset 0 0 10px #000;
+}
+#contentBackground {
+    height: auto;
+    width: auto;
+    background:rgba(0,0,0,0.75);
+}
+.sections {
+  height: auto;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+article {
+  height: auto;
+  text-align: center;
+}
+  article h3 {
+    font-family: 'Wacamoler';
+    font-size: 32pt;
+    font-weight: 400;
+  }
+  article h4 {
+    font-family: 'Cash Currency';
+    font-size: 21pt;
+  }
+  .underline {
+      margin: 0;
+      padding-bottom: 20px;
+  }
+    /* ABOUT SECTION */
+    #about {
+        overflow: hidden;
+        font-family: 'Bellefair';
+        height: auto;
+        width: 100%;
+        padding-top: 10px;
+    }
+        .aboutWrapper {
+            width: 100%;
+            height: auto;
+        }
+        .aboutContent:nth-child(odd) {
+            width: 25%;
+            float:left;
+        }
+        .aboutContent:nth-child(even) {
+            width: 50%;
+            float:left;
+        }
+
+        /* aboutContent 1 */
+       .about_description {
+         font-size: 15pt;
+         width: auto;
+         padding-left: 15px
+       }
+       .socialIcons {
+         width: 25%;
+         position: absolute;
+       }
+       .socialIcons img {
+         margin: 0 auto;
+         transition: all 0.25s;
+       }
+       .socialIcons img:hover {
+           transform:scale(1.25);
+       }
+       .socialIcons a, visited {
+           text-decoration: none;
+       }
+       .socialIcons a:hover {
+           text-decoration: none;
+       }
+
+       /* aboutContent 2 */
+       .about_image {
+           max-height: 100%;
+           max-width: 100%;
+       }
+
+       /* aboutContent 3 */
+        .hour_wrap {
+          font-size: 19px;
+          line-height: 20px;
+          font-weight: 400;
+          color: #fff;
+          margin: 0 auto;
+          padding: 10px;
+          max-width: 400px;
+        }
+        .hour_table {
+          margin: 0;
+          width: 100%;
+          /* box-shadow: -8px 8px 10px rgba(0,0,0,.2); */
+          display: table;
+        }
+        .hour_row {
+          display: table-row;
+          /* background: #f6f6f6; */
+        }
+        .hour_row:nth-of-type(odd) {
+          /* background: #e9e9e9; */
+        }
+        .hour_header {
+          font-size: 25px;
+          padding: 15px;
+          font-family: 'Cash Currency';
+          color: #fff;
+          /*  background: #E7C192; */
+        }
+        .cell {
+          padding: 6px 12px;
+          display: table-cell;
+        }
+        .hour_table .status {
+          font-size: 13pt;
+          font-family: "Cash Currency";
+          padding: 3px;
+        }
+            .serviceHeader {
+                max-width: 50%;
+                height: auto;
+            }
+
+            .price_list {
+              max-width: 50%;
+              max-height: 50%;
+            }
+
+            .cutWrapper {
+                margin: auto;
+                width: 100%;
+            }
+
+
+            .promos {
+              width: 100%;
+              height: auto;
+            }
+            .promo {
+              width: 250px;
+              margin: 0 auto;
+              background: #0F1012;
+              color: #f9f9f9;
+            }
+            .deal {
+              padding: 10px 0 0 0;
+            }
+            .deal img {
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .deal span {
+              display: block;
+              text-align: center;
+            }
+            /*
+            .deal span:first-of-type {
+              font-size: 23px;
+              font-family: "Cash Currency";
+            }
+            .deal span:last-of-type {
+              font-size: 13px;
+              font-family: 'Bellefair';
+              padding: 2px;
+            }
+            */
+            .promo .motto {
+              font-family: 'Bellefair';
+              display: block;
+              width: 250px;
+              background: #292b2e;
+              margin: 15px 0 10px 0;
+              text-align: center;
+              font-size: 16px;
+              padding: 17px 0 17px 0;
+            }
+            .promos ul {
+              display: block;
+              margin: 20px 0 10px 0;
+              padding: 0;
+              list-style-type: none;
+              text-align: center;
+              color: #fff;
+            }
+            .promos li {
+              display: block;
+              /* margin: 10px 0 0 0; */
+              padding: 10px;
+              text-align: left;
+              font-family: 'Bellefair';
+            }
+            .scale {
+              transform: scale(1.05);
+              box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+            }
+            .scale .price {
+              color: #64AAA4;
+            }
+
+
+            #scroller {
+              width: 100%;
+              height: 400px;
+              margin: 0 auto;
+              position: relative;
+            }
+                #scroller .innerScrollArea {
+                    width: 100%;
+                    height: auto;
+                    position: relative;;
+                }
+                #scroller ul {
+                    z-index: 155;
+                    width: auto;
+                    height: auto;
+                    padding: 0;
+                    margin: 0;
+                    position: relative;
+                }
+                #scroller li {
+                  padding: 15px;
+                  margin: 0;
+                  list-style-type: none;
+                  position: relative;
+                  display: inline-block;
+                  text-align: center;
+                  -webkit-transition: all 0.25s ease-in-out;
+                  -moz-transition: all 0.25s ease-in-out;
+                  transition: all 0.25s ease-in-out;
+                }
+                  #scroller li:hover {
+                    -webkit-transform:scale(1.1);
+                    -moz-transform:scale(1.1);
+                    transform:scale(1.1);
+                }
+
+                #scroller a,visited li {
+                  color: #ffffff;
+                  font-size: 14pt;
+                  font-family: 'Montserrat', sans-serif;
+                }
+
+                .img-container {
+                    overflow: hidden;
+                    margin: 5px;
+                }
+                    .img-container img {
+                        width: 350px;
+                        height: 300px;
+                        transition: all 0.25s;
+                    }
+                    .img-container img:hover {
+                        transform:scale(1.10);
+                    }
+
+
+@media screen and (max-width: 1300px) {
+    .underline {
+      max-width: 50%;
+      max-height: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #info {
+        height: 55px !important;
+    }
+    #about {
+        height: 100%;
+    }
+        .aboutContent:nth-child(1) {
+            width: 100%;
+            float:none;
+            padding-bottom: 10px;
+        }
+        .aboutContent:nth-child(2) {
+            width: 100%;
+            float: none;
+        }
+        .aboutContent:nth-child(3) {
+            width: 100%;
+            float:none;
+            padding-top: 10px;
+        }
+        .socialIcons {
+            bottom: initial;
+            left: 0;
+            position: relative;
+            margin: auto;
+        }
+}
+
+@media screen and (max-width: 965px) {
+
+    .about_description {
+      padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #about {
+        height: auto;
+    }
+
+    .img-container img {
+        width: 250px;
+        height: 200px;
+        transition: all 0.25s;
+    }
+
+    .price_list {
+      max-width: 75%;
+      max-height: 75%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+
+}

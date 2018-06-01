@@ -1,0 +1,53 @@
+* {
+    margin: 0px; padding: 0px;
+}
+html {
+  background:url("/GFX/gallery/LIC_pic (23).jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@font-face {
+    font-family: 'Cash Currency';
+    src: url('/fonts/Cash_Currency.ttf');
+}
+@font-face {
+    font-family: 'Wacamoler';
+    src: url('/fonts/Wacamoler.ttf');
+}
+@font-face {
+    font-family: 'Bellefair';
+    src: url('/fonts/Bellefair-Regular.ttf');
+}
+#wrapper, #navBar, #header, #content, #footer {
+    width: 100%;
+}
+#topAnchor {
+    height: 65px !important;
+}
+span.anchor {
+    display: block;
+    height: 50px !important;
+}
+#footer {
+    height: 200px;
+    background:rgba(0,0,0,0.75);
+    position: relative;
+    z-index: 35;
+}
+  .footer_tag {
+    padding: 50px;
+    font-family: "Bellefair";
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+  }
+    .footer_name {
+    }
+    .footer_address a, visited {
+      color: #fff;
+      text-decoration: none;
+    }
+    .footer_number a, visited {
+      color: #999;
+      text-decoration: none;
+    }
