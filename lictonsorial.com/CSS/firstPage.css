@@ -49,6 +49,7 @@
     color: #fff;
     padding: 14px 16px;
     display: block;
+    transition: 0.25s all ease-in;
   }
     .nav a:hover {
       color: #FFD700;
@@ -59,7 +60,7 @@
 .side_nav {
   position: fixed;
   width: auto;
-  background:rgba(43,40,35,1);
+  background:rgba(43,40,35,0.95);
   height: 100%;
   z-index: 155;
   font-family: 'ChopinScript'
@@ -83,10 +84,11 @@
       color: #fff;
       padding: 14px 16px;
       display: block;
+      transition: 0.25s all ease-in;
     }
     .side_nav a:hover {
       color: #FFD700;
-      background:rgba(0,0,0,0.25);
+      background:rgba(0,0,0,1);
     }
 
 /* content */
@@ -114,7 +116,6 @@
     }
 
     .location_options li p {
-      background:rgba(0, 0, 0, 0.75);
       padding: 10px;
       width: auto;
       font-size: 20pt;
@@ -128,9 +129,16 @@
       font-family: 'UndergroundNF';
     }
     .location_options li a,visited {
+      background:rgba(0, 0, 0, 0.65);
       text-decoration: none;
       color: #fff;
       display: block;
+      transition: 0.25s all ease-in;
+    }
+    .location_options li a:hover {
+        color: #FFD700;
+        background:rgba(0, 0, 0, 1);
+        text-shadow: 2px 2px 15px #fff;
     }
 
   .location_options img {
