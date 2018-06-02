@@ -57,9 +57,9 @@
                </li>
                <li id="Flushing_location" class="locations">
                  <figure>
-                   <img src="GFX/Logo.png" alt="" />
+                   <img src="GFX/bayside_logo.png" alt="" />
                  </figure>
-                   <p style="background:rgba(70, 70, 70, 0.75);">Flushing Site</p>
+                   <p style="background:rgba(70, 70, 70, 0.75);">Bayside Site</p>
                    <h3 class="centered">Coming soon!</h3>
                </li>
              </ul>
@@ -83,7 +83,7 @@
              <a href="tel:+13476546386">+1 (347) 654 6386</a>
             </span>
             <br/><br/>
-            <span class="footer_name">Flushing Tonsorial</span>
+            <span class="footer_name">Bayside Tonsorial</span>
             |
             <span class="footer_address">
              <a href="https://www.google.com/maps/place/32-32+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/data=!4m2!3m1!1s0x89c28a7f70fefcfd:0x29105407647a2fc0?sa=X&ved=0ahUKEwitpt2dm7LbAhWEyLwKHQszDAkQ8gEIKDAA">
