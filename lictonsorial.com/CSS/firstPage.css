@@ -117,16 +117,9 @@
 
     .location_options li p {
       padding: 10px;
-      width: auto;
       font-size: 20pt;
       color: #fff;
       font-family: 'Wacamoler';
-    }
-    .location_options li h3 {
-      color: #fff;
-      padding-top: 20px;
-      font-size: 28pt;
-      font-family: 'UndergroundNF';
     }
     .location_options li a,visited {
       background:rgba(0, 0, 0, 0.65);
@@ -139,6 +132,15 @@
         color: #FFD700;
         background:rgba(0, 0, 0, 1);
         text-shadow: 2px 2px 15px #fff;
+    }
+        .location_options li a:hover #lic_logo {
+          transform: rotate(180deg);
+        }
+    .location_options li h3 {
+      color: #fff;
+      padding-top: 20px;
+      font-size: 28pt;
+      font-family: 'UndergroundNF';
     }
 
   .location_options img {
@@ -165,4 +167,10 @@
     .location_options li:nth-child(2) {
       float: none;
     }
+}
+
+@media screen and (min-width: 1000px) {
+  .side_nav {
+    display: none;
+  }
 }

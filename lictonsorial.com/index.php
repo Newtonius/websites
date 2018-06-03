@@ -50,9 +50,9 @@
              <ul class="location_options">
                <li id="LIC_location" class="locations">
                  <figure>
-                   <img src="GFX/icons/lic_logo.png" alt="" />
+                   <img id="lic_logo" src="GFX/icons/lic_logo.png" alt="" />
                  </figure>
-                 <a href="LIC.php">
+                 <a id="lic_button" href="LIC.php">
                    <p>Visit L.I.C. Site</p>
                  </a>
                </li>
@@ -83,8 +83,8 @@
                                 You could hear stories about people who made it to the top,
                                 never just a place to get your haircut, rather, filled with conversation
                                 and good memories. I spent most of my childhood in one.
-                                When life threw-out the day would go wrong,
-                                the barber shop was a place that made me feel strong,
+                                When life threw-out and the day would go wrong,
+                                the barber shop was a place that made me feel strong -
                                 a place where everyone shares an experience.
                                 It's places like this, I love the most.
                             </p>

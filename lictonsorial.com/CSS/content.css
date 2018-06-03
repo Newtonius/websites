@@ -24,8 +24,8 @@ article {
   text-align: center;
 }
   article h3 {
-    font-family: 'Wacamoler';
-    font-size: 32pt;
+    font-family: 'ChopinScript';
+    font-size: 36pt;
     font-weight: 400;
   }
   article h4 {
@@ -113,7 +113,7 @@ article {
         .hour_header {
           font-size: 25px;
           padding: 15px;
-          font-family: 'Cash Currency';
+          font-family: 'UndergroundNF';
           color: #fff;
           /*  background: #E7C192; */
         }
@@ -121,9 +121,9 @@ article {
           padding: 6px 12px;
           display: table-cell;
         }
-        .hour_table .status {
-          font-size: 13pt;
-          font-family: "Cash Currency";
+        .status {
+          font-size: 28pt;
+          font-family: 'BeachmanScript';
           padding: 3px;
         }
             .serviceHeader {
