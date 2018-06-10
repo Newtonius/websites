@@ -139,7 +139,7 @@
                               <li>Original $18</li>
                               <li>Super Hold $18</li>
                               <li>Matte Cream $18</li>
-                              
+
                             </ul>
                           </div>
                           <div class="promo">
@@ -195,7 +195,7 @@
                         <div class="innerScrollArea">
                           <ul>
                             <?php
-                              $lic_pics = array("22","24","27","28","29","33","38","39","45","49");
+                              $lic_pics = array("22","24","34","28","29","33","38","39","45","49");
                               for ($i=0; $i < count($lic_pics); $i++):
                             ?>
                             <li>

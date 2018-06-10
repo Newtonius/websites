@@ -11,6 +11,7 @@
 .nav {
   list-style-type: none;
   background:rgba(43,40,35,1);
+  box-shadow: 2px 0px 10px #000;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -18,7 +19,7 @@
   position: fixed;
   z-index: 125;
   font-size: 18pt;
-  font-family: 'ChopinScript'
+  font-family: 'ChopinScript';
 }
   .nav li {
     float: right;
@@ -87,7 +88,7 @@
       background:rgba(0,0,0,1);
     }
 
-/* content */
+/* LIC and Bayside nav */
 .header {
   background:rgba(0,0,0,0.25);
 }
@@ -143,11 +144,105 @@
     height: 250px;
   }
 
+    /* ABOUT SECTION */
+    #about {
+        overflow: hidden;
+        font-family: 'Bellefair';
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+      .aboutWrapper {
+        width: 100%;
+        height: auto;
+      }
+        .aboutContent:nth-child(odd) {
+          width: 25%;
+          float:left;
+          padding-top: 5%;
+        }
+        .aboutContent:nth-child(even) {
+          width: 50%;
+          float:left;
+        }
+          .about_description {
+           font-size: 15pt;
+           width: auto;
+           padding-left: 5px;
+           align-items: center;
+          }
+         .socialIcons {
+           width: 25%;
+           position: absolute;
+         }
+         .socialIcons img {
+           margin: 0 auto;
+           transition: all 0.25s;
+         }
+         .socialIcons img:hover {
+             transform:scale(1.25);
+         }
+         .socialIcons a, visited {
+             text-decoration: none;
+         }
+         .socialIcons a:hover {
+             text-decoration: none;
+         }
+
+         /* aboutContent 2 */
+         .about_image {
+             max-height: 90%;
+             max-width: 90%;
+         }
+
+         /* aboutContent 3 */
+          .hour_wrap {
+            font-size: 19px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #fff;
+            margin: 0 auto;
+            padding: 10px;
+            max-width: 400px;
+          }
+          .hour_table {
+            margin: 0;
+            width: 100%;
+            /* box-shadow: -8px 8px 10px rgba(0,0,0,.2); */
+            display: table;
+          }
+          .hour_row {
+            display: table-row;
+            /* background: #f6f6f6; */
+          }
+          .hour_row:nth-of-type(odd) {
+            /* background: #e9e9e9; */
+          }
+          .hour_header {
+            font-size: 25px;
+            padding: 15px;
+            font-family: 'UndergroundNF';
+            color: #fff;
+            /*  background: #E7C192; */
+          }
+          .cell {
+            padding: 6px 12px;
+            display: table-cell;
+          }
+          .status {
+            font-size: 28pt;
+            font-family: 'BeachmanScript';
+            padding: 3px;
+          }
+
 @media screen and (max-width: 1000px) {
     .nav button {
       display: block;
     }
     .nav li:nth-child(2), .nav li:nth-child(3), .nav li:nth-child(4), .nav li:nth-child(5),  .nav li:nth-child(6)  {
+      display: none;
+    }
+    .side_nav {
       display: none;
     }
     .location_options {
@@ -162,15 +257,29 @@
     .location_options li:nth-child(2) {
       float: none;
     }
-}
-
-@media screen and (min-width: 1000px) {
-  .side_nav {
-    display: none;
-  }
+    .aboutContent:nth-child(1) {
+        width: 100%;
+        float:none;
+        padding-bottom: 10px;
+    }
+    .aboutContent:nth-child(2) {
+        width: 100%;
+        float: none;
+    }
+    .aboutContent:nth-child(3) {
+        width: 100%;
+        float:none;
+        padding-top: 10px;
+    }
+      .socialIcons {
+          width: 75%;
+          bottom: initial;
+          left: 0;
+          position: relative;
+          margin: auto;
+      }
 }
 @media screen and (max-width: 965px) {
-
     .about_description {
       padding-left: 0px;
     }

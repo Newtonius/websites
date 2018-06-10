@@ -103,21 +103,11 @@
                         </div>
                         <!--  ABOUT IMAGE  -->
                         <div class="aboutContent">
-                            <img class="about_image" src="GFX/content/aboutUs.jpg" align="middle" alt=""/>
+                            <img class="about_image" src="GFX/gallery/lic/lic (27).jpg" align="middle" alt=""/>
                         </div>
 
                         <!--  CONTACT INFO  -->
                         <div class="aboutContent">
-                          <!--
-                            <div class="address_content">
-                                41-10 34th Ave<br/> Long Island City NY, 11101<br/> (347) 654 6386
-                            </div>
-                            <div class="direction">
-                              <a target="_blank" href="https://www.google.com/maps/place/41-10+34th+Ave,+Astoria,+NY+11101/@40.7561242,-73.9218469,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25f3b4a5624cf:0xe8ca6027e1d2c001">
-                                Map
-                              </a>
-                            </div>
-                          -->
                             <div class="hour_wrap">
                               <div class="hour_table">
 
