@@ -1,4 +1,3 @@
-<!-- testing new git platform -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,7 +9,7 @@
   </head>
   <body>
     <!--  ENTIRE PAGE WRAPPER  -->
-    <div id="wrapper">
+    <div id="wrapper" class="index_wrapper">
         <!--  TOPBAR NAV -->
         <ul class="nav">
           <button onclick="open_sidenav()">☰</button>
@@ -61,8 +60,8 @@
                  <figure>
                    <img src="GFX/icons/bayside_logo.png" alt="" />
                  </figure>
-                   <p style="background:rgba(70, 70, 70, 0.75);">Bayside Site</p>
-                   <h3 class="centered">Coming soon!</h3>
+                   <p style="background:rgba(70, 70, 70, 0.75); color: #fff;">Bayside Site</p>
+                   <h3 class="centered">Coming June 18th!</h3>
                </li>
              </ul>
         </div>

@@ -21,12 +21,13 @@
 }
 article {
   height: auto;
+  width: 100%;
   text-align: center;
 }
   article h3 {
-    font-family: 'ChopinScript';
     font-size: 36pt;
     font-weight: 400;
+    font-family: 'ChopinScript';
   }
   article h4 {
     font-family: 'Cash Currency';
@@ -126,6 +127,56 @@ article {
           font-family: 'BeachmanScript';
           padding: 3px;
         }
+
+        #scroller {
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+          position: relative;
+        }
+            #scroller .innerScrollArea {
+                width: 100%;
+                height: auto;
+                position: relative;;
+            }
+              #scroller ul {
+                  z-index: 155;
+                  width: auto;
+                  height: auto;
+                  padding: 0;
+                  margin: 0;
+                  position: relative;
+              }
+                #scroller li {
+                  padding: 15px;
+                  margin: 0;
+                  list-style-type: none;
+                  position: relative;
+                  display: inline-block;
+                }
+                  #scroller li .img-container {
+                      overflow: hidden;
+                      height: auto;
+                      width: auto;
+                      transition: all 0.15s ease-in;
+                  }
+                    #scroller li .img-container:hover {
+                      box-shadow: 0px 0px 10px #fff;
+                    }
+                    #scroller li .img-container img.barber_gallery {
+                        width: 250px;
+                        height: 200px;
+                    }
+                    #scroller li .img-container img.site_gallery {
+                        width: 300px;
+                        height: 250px;
+                    }
+                  #scroller li p {
+                    padding: 5px;
+                    font-family: 'Cash Currency';
+                    font-size: 15pt;
+                  }
+
             .serviceHeader {
                 max-width: 50%;
                 height: auto;
@@ -141,17 +192,28 @@ article {
                 width: 100%;
             }
 
-
             .promos {
               width: 100%;
+              margin: 0 auto;
               height: auto;
             }
             .promo {
               width: 250px;
-              margin: 0 auto;
+              position: relative;
               background: #0F1012;
               color: #f9f9f9;
+              display: inline-block;
             }
+            /*
+            .promo {
+              width: 250px;
+              border: 1px solid green;
+              padding: 10px;
+              background: #0F1012;
+              color: #f9f9f9;
+              float: left;
+            } */
+
             .deal {
               padding: 10px 0 0 0;
             }
@@ -207,63 +269,6 @@ article {
               color: #64AAA4;
             }
 
-
-            #scroller {
-              width: 100%;
-              height: 400px;
-              margin: 0 auto;
-              position: relative;
-            }
-                #scroller .innerScrollArea {
-                    width: 100%;
-                    height: auto;
-                    position: relative;;
-                }
-                #scroller ul {
-                    z-index: 155;
-                    width: auto;
-                    height: auto;
-                    padding: 0;
-                    margin: 0;
-                    position: relative;
-                }
-                #scroller li {
-                  padding: 15px;
-                  margin: 0;
-                  list-style-type: none;
-                  position: relative;
-                  display: inline-block;
-                  text-align: center;
-                  -webkit-transition: all 0.25s ease-in-out;
-                  -moz-transition: all 0.25s ease-in-out;
-                  transition: all 0.25s ease-in-out;
-                }
-                  #scroller li:hover {
-                    -webkit-transform:scale(1.1);
-                    -moz-transform:scale(1.1);
-                    transform:scale(1.1);
-                }
-
-                #scroller a,visited li {
-                  color: #ffffff;
-                  font-size: 14pt;
-                  font-family: 'Montserrat', sans-serif;
-                }
-
-                .img-container {
-                    overflow: hidden;
-                    margin: 5px;
-                }
-                    .img-container img {
-                        width: 350px;
-                        height: 300px;
-                        transition: all 0.25s;
-                    }
-                    .img-container img:hover {
-                        transform:scale(1.10);
-                    }
-
-
 @media screen and (max-width: 1300px) {
     .underline {
       max-width: 50%;
@@ -300,24 +305,7 @@ article {
         }
 }
 
-@media screen and (max-width: 965px) {
-
-    .about_description {
-      padding-left: 0px;
-    }
-}
-
 @media screen and (max-width: 650px) {
-    #about {
-        height: auto;
-    }
-
-    .img-container img {
-        width: 250px;
-        height: 200px;
-        transition: all 0.25s;
-    }
-
     .price_list {
       max-width: 75%;
       max-height: 75%;
@@ -325,6 +313,8 @@ article {
 }
 
 @media screen and (max-width: 350px) {
-
-
+  #scroller li .img-container img.site_gallery {
+      width: 250px;
+      height: 200px;
+  }
 }

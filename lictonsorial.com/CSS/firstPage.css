@@ -6,10 +6,6 @@
     font-family: 'BeachmanScript';
     src: url('../fonts/BeachmanScript.ttf');
 }
-@font-face {
-    font-family: 'ChopinScript';
-    src: url('../fonts/ChopinScript.ttf');
-}
 
 /* TOP NAVBAR */
 .nav {
@@ -118,7 +114,6 @@
     .location_options li p {
       padding: 10px;
       font-size: 20pt;
-      color: #fff;
       font-family: 'Wacamoler';
     }
     .location_options li a,visited {
@@ -139,7 +134,7 @@
     .location_options li h3 {
       color: #fff;
       padding-top: 20px;
-      font-size: 28pt;
+      font-size: 24pt;
       font-family: 'UndergroundNF';
     }
 
@@ -173,4 +168,10 @@
   .side_nav {
     display: none;
   }
+}
+@media screen and (max-width: 965px) {
+
+    .about_description {
+      padding-left: 0px;
+    }
 }
