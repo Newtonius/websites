@@ -139,6 +139,7 @@
                               <li>Original $18</li>
                               <li>Super Hold $18</li>
                               <li>Matte Cream $18</li>
+                              
                             </ul>
                           </div>
                           <div class="promo">
