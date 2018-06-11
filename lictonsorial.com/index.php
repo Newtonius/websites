@@ -110,12 +110,10 @@
                         <div class="aboutContent">
                             <div class="hour_wrap">
                               <div class="hour_table">
-
                                 <div class="hour_row hour_header">
                                   <div class="cell">Business</div>
                                   <div class="cell">Hours</div>
                                 </div>
-
                                 <div class="hour_row">
                                   <div class="cell" id="monday">Monday</div>
                                   <div class="cell" id="mHours">10am - 10pm</div>
