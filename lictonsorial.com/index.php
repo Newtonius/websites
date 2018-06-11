@@ -12,14 +12,14 @@
     <div id="wrapper" class="index_wrapper">
         <!--  TOPBAR NAV -->
         <ul class="nav">
-          <button onclick="open_sidenav()">☰</button>
-          <li style="float: left; padding: 5px;">
-            <span class="titleLogo">
-              <img src="GFX/icons/razorHeader.png" />
-            </span>
+          <li>
+            <button onclick="open_sidenav()">☰</button>
           </li>
-          <li style="float: left;">
-            <span style="padding: 14px 16px; display: block;">
+          <li>
+            <img src="GFX/icons/razorHeader.png" />
+          </li>
+          <li>
+            <span>
               Tonsorial Barbershop
             </span>
           </li>
@@ -74,7 +74,7 @@
                 <article class="article">
                     <span class="anchor" id="aboutUs"></span>
                     <h3>About us</h3>
-                    <img class="underline" src="/GFX/icons/title-underline.png" />
+                    <img class="underline" src="/GFX/icons/title-underline2.png" />
                     <div id="aboutWrapper">
                         <div class="aboutContent">
                             <p class="about_description">

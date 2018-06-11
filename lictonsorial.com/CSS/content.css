@@ -36,6 +36,8 @@ article {
   .underline {
       margin: 0;
       padding-bottom: 20px;
+      width: 200px;
+      height: 23px;
   }
 
         #scroller {
@@ -114,19 +116,18 @@ article {
               color: #f9f9f9;
               display: inline-block;
             }
-
-            .deal {
+            .brand {
               padding: 10px 0 0 0;
             }
-            .deal img {
+            .brand img {
               margin-left: auto;
               margin-right: auto;
             }
-            .deal span {
+            .brand span {
               display: block;
               text-align: center;
             }
-            
+
             .promo .motto {
               font-family: 'Bellefair';
               display: block;

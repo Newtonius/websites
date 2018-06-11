@@ -8,12 +8,6 @@
     height: 200px;
     width: 200px;
   }
-  /*
-    #logo_Container img {
-        -webkit-filter: brightness(102%);
-        filter: brightness(102%);
-    }
-  */
     .logo {
       pointer-events: none;
       animation: 1.5s panIn ease;
@@ -45,8 +39,6 @@
       text-decoration: none;
       margin: 0 auto;
       color: #fff;
-    }
-    .number img {
     }
 
 @-webkit-keyframes fadeIn {

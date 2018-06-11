@@ -90,7 +90,7 @@
                 <article>
                   <div class="cutWrapper">
                     <h3>Barbers</h3>
-                    <img class="underline" src="/GFX/icons/title-underline.png" />
+                    <img class="underline" src="/GFX/icons/title-underline2.png" />
                   </div>
                   <!-- Barber gallery -->
                   <div id="scroller">
@@ -119,20 +119,18 @@
                   <article>
                       <div class="cutWrapper">
                         <h3>Services</h3>
-                        <img class="underline" src="/GFX/icons/title-underline.png" /><br/>
+                        <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
                         <img class="price_list" src="/GFX/content/services/price_list.png" />
                       </div>
 
                       <div class="products" id="products">
                         <h3>Products</h3>
-                        <img class="underline" src="/GFX/icons/title-underline.png" />
+                        <img class="underline" src="/GFX/icons/title-underline2.png" />
 
                         <div class="promos">
                           <div class="promo">
-                            <div class="deal">
+                            <div class="brand">
                               <img src="/GFX/icons/layrite_logo.png" height="29" width="200" alt="" />
-                              <span></span>
-                              <span></span>
                             </div>
                             <span class="motto"> Pomade, cream, and clay that will exceed your expectations.</span>
                             <ul class="features">
@@ -143,10 +141,8 @@
                             </ul>
                           </div>
                           <div class="promo">
-                            <div class="deal">
+                            <div class="brand">
                               <img src="/GFX/icons/baxter_logo.png" height="55" width="150" alt="" />
-                              <span></span>
-                              <span></span>
                             </div>
                             <span class="motto">Discover high-quality men's hair care & hair styling products.</span>
                             <ul class="features">
@@ -167,10 +163,8 @@
                             </ul>
                           </div>
                           <div class="promo">
-                            <div class="deal">
+                            <div class="brand">
                               <img src="/GFX/icons/mrnatty_logo.png" height="39" width="200" alt="" />
-                              <span></span>
-                              <span></span>
                             </div>
                             <span class="motto">Master Barber to Royals, Ragtaggle and Ruffians.</span>
                             <ul class="features">
@@ -189,7 +183,7 @@
               <section id="photoSection" class="sections">
                   <article class="article">
                       <h3>Gallery</h3>
-                      <img class="underline" src="/GFX/icons/title-underline.png" />
+                      <img class="underline" src="/GFX/icons/title-underline2.png" />
                       <!--   GALLERY  IMAGES   -->
                       <div id="scroller">
                         <div class="innerScrollArea">
