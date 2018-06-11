@@ -200,6 +200,7 @@
          .about_image {
              max-height: 90%;
              max-width: 90%;
+             border-radius: 15%;
          }
 
          /* aboutContent 3 */
