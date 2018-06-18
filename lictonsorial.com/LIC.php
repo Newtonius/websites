@@ -74,7 +74,7 @@
                <br/>
                <span class="number">
                  <a href="tel:+13476546386">
-                  (347) 654 6386
+                  +1 (347) 654 6386
                  </a>
                </span>
              </div>
@@ -218,7 +218,7 @@
           </span>
           |
           <span class="footer_number">
-           <a href="tel:+13476546386">(347) 654 6386</a>
+           <a href="tel:+13476546386">+1 (347) 654 6386</a>
           </span>
         </div>
       </footer>
