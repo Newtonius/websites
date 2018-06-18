@@ -120,7 +120,7 @@
                       <div class="cutWrapper">
                         <h3>Services</h3>
                         <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
-                        <img class="price_list" src="/GFX/content/services/price_list.png" />
+                        <img class="price_list" src="/GFX/content/services/lic_pricelist.png" />
                       </div>
 
                       <div class="products" id="products">

@@ -53,15 +53,17 @@
                    <img id="lic_logo" src="GFX/icons/lic_logo.png" alt="" />
                  </figure>
                  <a id="lic_button" href="LIC.php">
-                   <p>Visit L.I.C. Site</p>
+                   <p>Visit L.I.C.</p>
                  </a>
                </li>
                <li id="Flushing_location" class="locations">
                  <figure>
                    <img src="GFX/icons/bayside_logo.png" alt="" />
                  </figure>
-                   <p style="background:rgba(70, 70, 70, 0.75); color: #fff;">Bayside Site</p>
-                   <h3 class="centered">Coming June 18th!</h3>
+                   <a id="bayside_button" href="Bayside.php">
+                     <p>Visit Bayside</p>
+                   </a>
+                   <h3>Newly Opened!</h3>
                </li>
              </ul>
         </div>
