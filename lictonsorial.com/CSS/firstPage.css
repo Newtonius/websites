@@ -134,7 +134,7 @@
     .location_options li a:hover {
         color: #FFD700;
         background:rgba(0, 0, 0, 1);
-        text-shadow: 2px 2px 15px #fff;
+        text-shadow: 2px 2px 15px #FFD700;
     }
         .location_options li a:hover #lic_logo {
           transform: rotate(180deg);
