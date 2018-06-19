@@ -32,6 +32,25 @@
   .nav li:nth-child(4), .nav li:nth-child(5), .nav li:nth-child(6) {
     float: right;
   }
+    .nav li:hover .dropnav1 {
+      display: block;
+    }
+    .dropnav1, .dropnav2 {
+      display: none;
+      position: fixed;
+      font-family: "Cash Currency";
+      font-size: 14pt;
+      list-style-type: none;
+    }
+      .dropnav1 li:nth-child(1), .dropnav2 li:nth-child(1) {
+        border-top: 3px solid grey;
+      }
+      .dropnav1 li:nth-child(1), .dropnav1 li:nth-child(2), .dropnav2 li:nth-child(1), .dropnav2 li:nth-child(2) {
+        padding: 0px;
+        background:rgba(43,40,35,0.8);
+        margin: 0px;
+      }
+
     .nav li button {
       display: none;
       float: left;
@@ -53,7 +72,7 @@
     color: #fff;
     padding: 14px 16px;
     display: block;
-    transition: 0.25s all ease-in;
+    transition: 0.15s all ease-in;
   }
     .nav a:hover {
       color: #FFD700;
@@ -74,6 +93,9 @@
     font-size: 16pt;
     color: #fff;
   }
+    .side_nav li:hover .dropnav2 {
+      display: inline-block;
+    }
   .side_nav button {
     padding: 14px 16px;
     text-decoration: none;

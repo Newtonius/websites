@@ -25,23 +25,44 @@
           </li>
           <li><a href="#contact">Contact Us</a></li>
           <li><a href="#aboutUs">About us</a></li>
+          <!-- Drop down nav -->
           <li>
-            <a href="https://lictonsorial.resurva.com/book" target="_blank">
-              Book Appointment
-            </a>
+              <a>Book Appointment</a>
+              <ul class="dropnav1">
+                <li>
+                  <a href="https://lictonsorial.resurva.com/book" target="_blank">
+                    At L.I.C.
+                  </a>
+                </li>
+                <li>
+                  <a href="http://baysidetonsorialbarbershopshavingparlor.resurva.com/" target="_blank">
+                    At Bayside
+                  </a>
+                </li>
+              </ul>
           </li>
         </ul>
 
         <!-- Sidebar nav -->
         <ul class="side_nav" style="display: none;" id="sidenav">
           <button onclick="close_sidenav()">&times; Close</button>
-          <li>
-            <a href="https://lictonsorial.resurva.com/book" target="_blank">
-              Book Appointment
-            </a>
-          </li>
-          <li><a href="#aboutUs" onclick="close_sidenav()">About us</a></li>
           <li><a href="#contact" onclick="close_sidenav()">Contact Us</a></li>
+          <li><a href="#aboutUs" onclick="close_sidenav()">About us</a></li>
+          <li>
+            <a>Book Appointment</a>
+            <ul class="dropnav2">
+              <li>
+                <a href="https://lictonsorial.resurva.com/book" target="_blank">
+                  At L.I.C.
+                </a>
+              </li>
+              <li>
+                <a href="http://baysidetonsorialbarbershopshavingparlor.resurva.com/" target="_blank">
+                  At Bayside
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
 
         <!--  HEADER  -->

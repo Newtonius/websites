@@ -49,7 +49,7 @@
              <nav id="nav">
                  <ul>
                      <li>
-                        <a href="#" target="_blank">
+                        <a href="" target="_blank">
                             Book Appointment
                         </a>
                      </li>
@@ -67,7 +67,7 @@
              </nav>
              <div class="header_info">
                <span class="header_address">
-                 <a href="">
+                 <a href="https://www.google.com/maps/place/32-32+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7680008,-73.7935332,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f70fefcfd:0x29105407647a2fc0!8m2!3d40.7680008!4d-73.7913445">
                    32-32 Francis Lewis Blvd queens NY 11358<br/>
                  </a>
                </span>
@@ -178,7 +178,7 @@
           <span class="footer_name">Bayside Tonsorial</span>
           |
           <span class="footer_address">
-           <a href="https://www.google.com/maps/place/32-32+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/data=!4m2!3m1!1s0x89c28a7f70fefcfd:0x29105407647a2fc0?sa=X&ved=0ahUKEwitpt2dm7LbAhWEyLwKHQszDAkQ8gEIKDAA">
+           <a href="https://www.google.com/maps/place/32-32+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7680008,-73.7935332,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f70fefcfd:0x29105407647a2fc0!8m2!3d40.7680008!4d-73.7913445">
              32-32 Francis Lewis Blvd queens NY 11358
            </a>
           </span>
