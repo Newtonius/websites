@@ -139,32 +139,32 @@
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="monday">Monday</div>
-                                  <div class="cell" id="mHours">10am - 10pm</div>
+                                  <div class="cell" id="mHours">10am - 8pm</div>
                                   <div class="status" id="mStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="tuesday">Tuesday</div>
-                                  <div class="cell" id="tuHours">10am - 10pm</div>
+                                  <div class="cell" id="tuHours">10am - 8pm</div>
                                   <div class="status" id="tuStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="wednesday">Wednesday</div>
-                                  <div class="cell" id="wHours">10am - 10pm</div>
+                                  <div class="cell" id="wHours">10am - 8pm</div>
                                   <div class="status" id="wStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="thursday">Thursday</div>
-                                  <div class="cell" id="thHours">10am - 10pm</div>
+                                  <div class="cell" id="thHours">10am - 8pm</div>
                                   <div class="status" id="thStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="friday">Friday</div>
-                                  <div class="cell" id="fHours">10am - 10pm</div>
+                                  <div class="cell" id="fHours">10am - 8pm</div>
                                   <div class="status" id="fStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="saturday">Saturday</div>
-                                  <div class="cell" id="saHours">10am - 10pm</div>
+                                  <div class="cell" id="saHours">10am - 8pm</div>
                                   <div class="status" id="saStatus"></div>
                                 </div>
                                 <div class="hour_row">
@@ -203,8 +203,8 @@
             <span class="footer_name">Bayside Tonsorial</span>
             |
             <span class="footer_address">
-             <a href="https://www.google.com/maps/place/32-32+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/data=!4m2!3m1!1s0x89c28a7f70fefcfd:0x29105407647a2fc0?sa=X&ved=0ahUKEwitpt2dm7LbAhWEyLwKHQszDAkQ8gEIKDAA">
-               32-32 Francis Lewis Blvd queens NY 11358
+             <a href="https://www.google.com/maps/place/32-53+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7679471,-73.7923883,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f418bd64f:0x7e1de0dac658dcbc!8m2!3d40.7679471!4d-73.7901996">
+               32-53 Francis Lewis Blvd, Queens NY, 11358
              </a>
             </span>
             |

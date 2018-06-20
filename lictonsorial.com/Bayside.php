@@ -49,7 +49,7 @@
              <nav id="nav">
                  <ul>
                      <li>
-                        <a href="" target="_blank">
+                        <a href="https://baysidetonsorialbarbershopshavingparlor.resurva.com/book" target="_blank">
                             Book Appointment
                         </a>
                      </li>
@@ -67,11 +67,11 @@
              </nav>
              <div class="header_info">
                <span class="header_address">
-                 <a href="https://www.google.com/maps/place/32-32+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7680008,-73.7935332,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f70fefcfd:0x29105407647a2fc0!8m2!3d40.7680008!4d-73.7913445">
-                   32-32 Francis Lewis Blvd queens NY 11358<br/>
+                 <a href="https://www.google.com/maps/place/32-53+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7679471,-73.7923883,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f418bd64f:0x7e1de0dac658dcbc!8m2!3d40.7679471!4d-73.7901996">
+                   32-53 Francis Lewis Blvd, Queens NY, 11358
                  </a>
                </span>
-               <br/>
+               <br/><br/>
                <span class="number">
                  <a href="tel:+15164012837">
                   +1 (516) 401 2837
@@ -97,12 +97,12 @@
                     <div class="innerScrollArea">
                       <ul>
                         <?php
-                          $barbers = array("Geraldo","Alvi","Justin","Luis");
+                          $barbers = array("Elvir");
                           for ($i=0; $i < count($barbers); $i++):
                         ?>
                         <li>
                           <figure class="img-container">
-                              <img class="barber_gallery" src="/GFX/gallery/barbers/<?php echo $barbers[$i]; ?>.jpg" alt="<?php echo $barbers[$i]; ?>" title="<?php echo $barbers[$i]; ?>" />
+                              <img class="barber_gallery" src="/GFX/gallery/barbers/<?php echo $barbers[$i]; ?>.jpeg" alt="<?php echo $barbers[$i]; ?>" title="<?php echo $barbers[$i]; ?>" />
                           </figure>
                           <p><?php echo $barbers[$i]; ?></p>
                         </li>
@@ -178,9 +178,9 @@
           <span class="footer_name">Bayside Tonsorial</span>
           |
           <span class="footer_address">
-           <a href="https://www.google.com/maps/place/32-32+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7680008,-73.7935332,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f70fefcfd:0x29105407647a2fc0!8m2!3d40.7680008!4d-73.7913445">
-             32-32 Francis Lewis Blvd queens NY 11358
-           </a>
+            <a href="https://www.google.com/maps/place/32-53+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7679471,-73.7923883,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f418bd64f:0x7e1de0dac658dcbc!8m2!3d40.7679471!4d-73.7901996">
+              32-53 Francis Lewis Blvd, Queens NY, 11358
+            </a>
           </span>
           |
           <span class="footer_number" id="contact">

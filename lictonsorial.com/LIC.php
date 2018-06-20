@@ -97,12 +97,12 @@
                     <div class="innerScrollArea">
                       <ul>
                         <?php
-                          $barbers = array("Geraldo","Alvi","Justin","Luis");
+                          $barbers = array("Geraldo","David","Justin");
                           for ($i=0; $i < count($barbers); $i++):
                         ?>
                         <li>
                           <figure class="img-container">
-                              <img class="barber_gallery" src="/GFX/gallery/barbers/<?php echo $barbers[$i]; ?>.jpg" alt="<?php echo $barbers[$i]; ?>" title="<?php echo $barbers[$i]; ?>" />
+                              <img class="barber_gallery" src="/GFX/gallery/barbers/<?php echo $barbers[$i]; ?>.jpeg" alt="<?php echo $barbers[$i]; ?>" title="<?php echo $barbers[$i]; ?>" />
                           </figure>
                           <p><?php echo $barbers[$i]; ?></p>
                         </li>
@@ -120,7 +120,7 @@
                       <div class="cutWrapper">
                         <h3>Services</h3>
                         <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
-                        <img class="price_list" src="/GFX/content/services/lic_pricelist.png" />
+                        <img class="price_list" src="/GFX/content/services/LIC_pricelist.png" />
                       </div>
 
                       <div class="products" id="products">
