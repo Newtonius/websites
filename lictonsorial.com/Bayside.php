@@ -21,7 +21,7 @@
     <div id="wrapper" class="bayside_wrapper">
 
         <!--  TOPBAR NAV -->
-        <div id="top_bar">
+        <div class="top_bar bayside_topbar">
           <div class="navbar_wrapper">
             <span class="titleLogo">
               <a href="#top">
@@ -35,7 +35,6 @@
 
         <!--  HEADER [LOGO]  -->
         <div id="header">
-
             <!--  LOGO -->
             <span class="anchor" id="topAnchor"></span>
             <center>
@@ -81,8 +80,8 @@
         </div>
 
         <!--  CONTENT  -->
-        <div id="contentBackground">
-            <div id="content">
+        <div id="contentBackground" style="background: #efcc90;">
+            <div class="content bayside_content" style="color: #000;">
 
               <!--   Barbers SECTION   -->
               <span class="anchor"></span>

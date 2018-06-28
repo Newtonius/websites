@@ -21,7 +21,7 @@
     <div id="wrapper" class="lic_wrapper">
 
         <!--  TOPBAR NAV -->
-        <div id="top_bar">
+        <div class="top_bar lic_topbar" >
           <div class="navbar_wrapper">
             <span class="titleLogo">
               <a href="#top">
@@ -82,7 +82,7 @@
 
         <!--  CONTENT  -->
         <div id="contentBackground">
-            <div id="content">
+            <div class="content lic_content">
 
               <!--   Barbers SECTION   -->
               <span class="anchor"></span>
