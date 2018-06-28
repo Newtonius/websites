@@ -97,7 +97,7 @@
                     <div class="innerScrollArea">
                       <ul>
                         <?php
-                          $barbers = array("Geraldo","David","Justin");
+                          $barbers = array("Luis","Geraldo","David","Justin");
                           for ($i=0; $i < count($barbers); $i++):
                         ?>
                         <li>

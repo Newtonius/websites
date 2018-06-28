@@ -91,7 +91,7 @@
 
         <!--  CONTENT  -->
         <div id="contentBackground">
-          <div id="content">
+          <div class="content">
             <!--   ABOUT US SECTION   -->
             <section id="about" class="sections">
                 <article class="article">
