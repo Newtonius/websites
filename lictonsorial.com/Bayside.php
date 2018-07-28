@@ -154,7 +154,7 @@
                         <div class="innerScrollArea">
                           <ul>
                             <?php
-                              $bayside_pics = array("3");
+                              $bayside_pics = array("1","2","3");
                               for ($i=0; $i < count($bayside_pics); $i++):
                             ?>
                             <li>
