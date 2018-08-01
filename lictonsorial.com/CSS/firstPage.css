@@ -29,7 +29,7 @@
     float: left;
     padding: 14px 16px;
   }
-  .nav li:nth-child(4), .nav li:nth-child(5), .nav li:nth-child(6) {
+  .nav li:nth-child(4), .nav li:nth-child(5), .nav li:nth-child(6), .nav li:nth-child(7) {
     float: right;
   }
     .nav li:hover .dropnav1 {
@@ -272,7 +272,7 @@
     .nav li:nth-child(3) {
       float: right;
     }
-    .nav li:nth-child(2), .nav li:nth-child(4), .nav li:nth-child(5),  .nav li:nth-child(6)  {
+    .nav li:nth-child(2), .nav li:nth-child(4), .nav li:nth-child(5),  .nav li:nth-child(6), .nav li:nth-child(7)  {
       display: none;
     }
     .side_nav {

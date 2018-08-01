@@ -23,9 +23,12 @@
               Tonsorial Barbershop
             </span>
           </li>
+
           <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#services">Services</a></li>
           <li><a href="#aboutUs">About us</a></li>
-          <!-- Drop down nav -->
+          <!-- Drop down nav
           <li>
               <a>Book Appointment</a>
               <ul class="dropnav1">
@@ -41,13 +44,17 @@
                 </li>
               </ul>
           </li>
+          -->
         </ul>
 
         <!-- Sidebar nav -->
         <ul class="side_nav" style="display: none;" id="sidenav">
           <button onclick="close_sidenav()">&times; Close</button>
-          <li><a href="#contact" onclick="close_sidenav()">Contact Us</a></li>
           <li><a href="#aboutUs" onclick="close_sidenav()">About us</a></li>
+          <li><a href="#services" onclick="close_sidenav()">Services</a></li>
+          <li><a href="#gallery" onclick="close_sidenav()">Gallery</a></li>
+          <li><a href="#contact" onclick="close_sidenav()">Contact Us</a></li>
+          <!--
           <li>
             <a>Book Appointment</a>
             <ul class="dropnav2">
@@ -63,6 +70,7 @@
               </li>
             </ul>
           </li>
+          -->
         </ul>
 
         <!--  HEADER  -->
@@ -73,10 +81,12 @@
                  <figure>
                    <img id="lic_logo" src="GFX/icons/lic_logo.png" alt="" />
                  </figure>
-                 <a id="lic_button" href="LIC.php">
-                   <p>Visit L.I.C.</p>
+                 <a id="lic_button" href="https://lictonsorial.resurva.com/book">
+                   <p>Book Appointment</p>
                  </a>
                </li>
+               <li></li>
+               <!--
                <li id="Flushing_location" class="locations">
                  <figure>
                    <img src="GFX/icons/bayside_logo.png" alt="" />
@@ -86,6 +96,7 @@
                    </a>
                    <h3>Newly Opened!</h3>
                </li>
+               -->
              </ul>
         </div>
 
@@ -175,6 +186,126 @@
                               </div>
                             </div>
                         </div>
+                    </div>
+                </article>
+            </section>
+
+            <!--   Barbers SECTION   -->
+            <span class="anchor"></span>
+            <section class="sections">
+              <article>
+                <div class="cutWrapper">
+                  <h3>Barbers</h3>
+                  <img class="underline" src="/GFX/icons/title-underline2.png" />
+                </div>
+                <!-- Barber gallery -->
+                <div id="scroller">
+                  <div class="innerScrollArea">
+                    <ul>
+                      <?php
+                        $barbers = array("Luis","Geraldo","David","Justin");
+                        for ($i=0; $i < count($barbers); $i++):
+                      ?>
+                      <li>
+                        <figure class="img-container">
+                            <img class="barber_gallery" src="/GFX/gallery/barbers/<?php echo $barbers[$i]; ?>.jpeg" alt="<?php echo $barbers[$i]; ?>" title="<?php echo $barbers[$i]; ?>" />
+                        </figure>
+                        <p><?php echo $barbers[$i]; ?></p>
+                      </li>
+                      <?php endfor; ?>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </section>
+
+            <!--   SERVICES SECTION   -->
+            <span class="anchor" id="services"></span>
+            <section id="infoSection" class="sections">
+                <article>
+                    <div class="cutWrapper">
+                      <h3>Services</h3>
+                      <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
+                      <img class="price_list" src="/GFX/content/services/LIC_pricelist.png" />
+                    </div>
+
+                    <div class="products" id="products">
+                      <h3>Products</h3>
+                      <img class="underline" src="/GFX/icons/title-underline2.png" />
+
+                      <div class="promos">
+                        <div class="promo">
+                          <div class="brand">
+                            <img src="/GFX/icons/layrite_logo.png" height="29" width="200" alt="" />
+                          </div>
+                          <span class="motto"> Pomade, cream, and clay that will exceed your expectations.</span>
+                          <ul class="features">
+                            <li>Original $18</li>
+                            <li>Super Hold $18</li>
+                            <li>Matte Cream $18</li>
+
+                          </ul>
+                        </div>
+                        <div class="promo">
+                          <div class="brand">
+                            <img src="/GFX/icons/baxter_logo.png" height="55" width="150" alt="" />
+                          </div>
+                          <span class="motto">Discover high-quality men's hair care & hair styling products.</span>
+                          <ul class="features">
+                            <li>Vitamin Body Bar $17</li>
+                            <li>Exfoliating Body Bar $17</li>
+                            <li>Protein Shampoo $18</li>
+                            <li>Shave Tonic $18</li>
+                            <li>Aftershave $19</li>
+                            <li>Deodorant $19</li>
+                            <li>Conditioner $19</li>
+                            <li>Large Comb $20</li>
+                            <li>Cream Pomade $22</li>
+                            <li>Hard Cream Pomade $22</li>
+                            <li>Clay Pomade $22</li>
+                            <li>Soft Water Pomade $22</li>
+                            <li>Hard Water Pomade $22</li>
+                            <li>Oil Free Moisturizer $24</li>
+                          </ul>
+                        </div>
+                        <div class="promo">
+                          <div class="brand">
+                            <img src="/GFX/icons/mrnatty_logo.png" height="39" width="200" alt="" />
+                          </div>
+                          <span class="motto">Master Barber to Royals, Ragtaggle and Ruffians.</span>
+                          <ul class="features">
+                            <li>Dub $20</li>
+                            <li>Paste $20</li>
+                            <li>Moisturizing Butter $20</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                </article>
+            </section>
+
+            <!--   PHOTO GALLERY SECTION   -->
+            <span class="anchor" id="gallery"></span>
+            <section id="photoSection" class="sections">
+                <article class="article">
+                    <h3>Gallery</h3>
+                    <img class="underline" src="/GFX/icons/title-underline2.png" />
+                    <!--   GALLERY  IMAGES   -->
+                    <div id="scroller">
+                      <div class="innerScrollArea">
+                        <ul>
+                          <?php
+                            $lic_pics = array("22","24","34","28","29","33","38","39","45","49");
+                            for ($i=0; $i < count($lic_pics); $i++):
+                          ?>
+                          <li>
+                            <figure class="img-container">
+                                <img class="site_gallery" src="/GFX/gallery/lic/<?php echo "lic ($lic_pics[$i])"; ?>.jpg" alt="" />
+                            </figure>
+                          </li>
+                          <?php endfor; ?>
+                        </ul>
+                      </div>
                     </div>
                 </article>
             </section>
