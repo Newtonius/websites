@@ -4,7 +4,6 @@
       <title>Tonsorial Barbershop</title>
       <link rel="stylesheet" href="CSS/firstPage.css" type="text/css"/>
       <?php include ($_SERVER['DOCUMENT_ROOT'].'/adds/header_add.html') ?>
-
       <script src="/scripts/hours.js" async></script>
   </head>
   <body>
@@ -191,7 +190,6 @@
             </section>
 
             <!--   Barbers SECTION   -->
-            <span class="anchor"></span>
             <section class="sections">
               <article>
                 <div class="cutWrapper">

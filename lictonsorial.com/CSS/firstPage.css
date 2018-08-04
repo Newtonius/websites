@@ -28,6 +28,8 @@
   .nav li:nth-child(2), .nav li:nth-child(3) {
     float: left;
     padding: 14px 16px;
+    font-weight: 800;
+    font-size: 20pt;
   }
   .nav li:nth-child(4), .nav li:nth-child(5), .nav li:nth-child(6), .nav li:nth-child(7) {
     float: right;
@@ -260,8 +262,8 @@
             display: table-cell;
           }
           .status {
-            font-size: 28pt;
-            font-family: 'BeachmanScript';
+            font-size: 20pt;
+            font-family: 'ChopinScript';
             padding: 3px;
           }
 
