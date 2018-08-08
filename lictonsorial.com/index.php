@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
       <title>Tonsorial Barbershop</title>
-      <link rel="stylesheet" href="CSS/firstPage.css" type="text/css"/>
       <?php include ($_SERVER['DOCUMENT_ROOT'].'/adds/header_add.html') ?>
       <script src="/scripts/hours.js" async></script>
   </head>
@@ -73,18 +72,34 @@
         </ul>
 
         <!--  HEADER  -->
-        <div id="header" class="header">
+        <div id="header">
             <span class="anchor" id="topAnchor"></span>
              <ul class="location_options">
-               <li id="LIC_location" class="locations">
+               <li class="locations">
                  <figure>
-                   <img id="lic_logo" src="GFX/icons/lic_logo.png" alt="" />
+                   <img class="lic_logo" id="lic_logo" src="GFX/icons/lic_logo.png" alt="" />
                  </figure>
-                 <a id="lic_button" href="https://lictonsorial.resurva.com/book">
-                   <p>Book Appointment</p>
-                 </a>
+                 <span id="lic_button">
+                   <a href="https://lictonsorial.resurva.com/book" target="_blank">
+                     <p>Book Appointment</p>
+                   </a>
+                 </span>
+                 <div class="header_info">
+                   <span class="header_address">
+                     <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059">
+                       41-10 34th Ave, Long Island City NY, 11101<br/>
+                     </a>
+                   </span>
+                   <br/>
+                   <span class="number">
+                     <a href="tel:+13476546386">
+                      +1 (347) 654 6386
+                     </a>
+                   </span>
+                 </div>
                </li>
-               <li></li>
+               <li>
+              </li>
                <!--
                <li id="Flushing_location" class="locations">
                  <figure>
@@ -121,7 +136,7 @@
                                 a place where everyone shares an experience.
                                 It's places like this, I love the most.
                             </p>
-                            <!--  SOCIAL ICONS  -->
+                            <!--  SOCIAL ICONS
                             <div class="socialIcons">
                                 <a href="https://www.facebook.com/longislandcitybarber/timeline" target="_blank">
                                     <img src="GFX/icons/fb.png" width="38" height="38" alt=""/>
@@ -133,6 +148,7 @@
                                     <img src="GFX/icons/ins.png" width="38" height="38" alt=""/>
                                 </a>
                             </div>
+                            -->
                         </div>
                         <!--  ABOUT IMAGE  -->
                         <div class="aboutContent">
@@ -188,12 +204,32 @@
                     </div>
                 </article>
             </section>
+            <section class="sections">
+              <article>
+                <ul class="social_feed">
+                  <li class="feed">
+                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Flongislandcitybarber&width=400&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=400" scrolling="yes" frameborder="0" class="FB_frame" allowTransparency="true"></iframe>
+                  </li>
+                  <li class="feed">
+                    <a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-theme="dark" data-link-color="#FAB81E" href="https://twitter.com/Lic_tonsorial?ref_src=twsrc%5Etfw">Tweets by Lic_tonsorial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </li>
+                  <!--
+                  <div>
+                    <figure>
+                      <img class="lic_map" id="lic_logo" src="GFX/misc/lic_map.png" alt="" />
+                    </figure>
+                  </div>
+                  -->
+                </ul>
+              </article>
+            </section>
 
             <!--   Barbers SECTION   -->
+            <span class="anchor"></span>
             <section class="sections">
               <article>
                 <div class="cutWrapper">
-                  <h3>Barbers</h3>
+                  <h3>Tonsorial Barbers</h3>
                   <img class="underline" src="/GFX/icons/title-underline2.png" />
                 </div>
                 <!-- Barber gallery -->
@@ -226,7 +262,7 @@
                       <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
                       <img class="price_list" src="/GFX/content/services/LIC_pricelist.png" />
                     </div>
-
+                    <span class="anchor"></span>
                     <div class="products" id="products">
                       <h3>Products</h3>
                       <img class="underline" src="/GFX/icons/title-underline2.png" />
@@ -320,7 +356,7 @@
             <span class="footer_name">Long Island City Tonsorial</span>
             |
             <span class="footer_address">
-             <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059">
+             <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059" target="_blank">
                41-10 34th Ave, Long Island City NY, 11101
              </a>
             </span>
@@ -328,6 +364,7 @@
             <span class="footer_number">
              <a href="tel:+13476546386">+1 (347) 654 6386</a>
             </span>
+            <!--
             <br/><br/>
             <span class="footer_name">Bayside Tonsorial</span>
             |
@@ -340,6 +377,7 @@
             <span class="footer_number" id="contact">
              <a href="tel:+13476546386">+1 (516) 401 2837</a>
             </span>
+            -->
           </div>
         </footer>
         <script>

@@ -20,6 +20,15 @@ html {
     font-family: 'ChopinScript';
     src: url('../fonts/ChopinScript.ttf');
 }
+@font-face {
+    font-family: 'UndergroundNF';
+    src: url('../fonts/UndergroundNF.ttf');
+}
+@font-face {
+    font-family: 'BeachmanScript';
+    src: url('../fonts/BeachmanScript.ttf');
+}
+
 .index_wrapper {
     background:url("/GFX/gallery/lic/lic (41).jpg") no-repeat center;
     background-attachment: fixed;

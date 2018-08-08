@@ -9,7 +9,8 @@ $(function() {
     a = document.getElementById("monday");
     b = document.getElementById("mHours");
     c = document.getElementById("mStatus");
-    a.style.fontSize="25pt";
+    a.style.fontSize="18pt";
+    a.style.color="#FFD700";
     a.style.textShadow="-1px 1px 10px #fff";
     b.style.textShadow="-1px 1px 10px #fff";
     if (hod < 10 || hod > 22) {
@@ -23,7 +24,8 @@ $(function() {
       a = document.getElementById("tuesday");
       b = document.getElementById("tuHours");
       c = document.getElementById("tuStatus");
-      a.style.fontSize="25pt";
+      a.style.fontSize="18pt";
+      a.style.color="#FFD700";
       a.style.textShadow="-1px 1px 10px #fff";
       b.style.textShadow="-1px 1px 10px #fff";
       if (hod < 10 || hod > 22) {
@@ -37,7 +39,8 @@ $(function() {
       a = document.getElementById("wednesday");
       b = document.getElementById("wHours");
       c = document.getElementById("wStatus");
-      a.style.fontSize="25pt";
+      a.style.fontSize="18pt";
+      a.style.color="#FFD700";
       a.style.textShadow="-1px 1px 10px #fff";
       b.style.textShadow="-1px 1px 10px #fff";
       if (hod < 10 || hod > 22) {
@@ -51,7 +54,8 @@ $(function() {
       a = document.getElementById("thursday");
       b = document.getElementById("thHours");
       c = document.getElementById("thStatus");
-      a.style.fontSize="25pt";
+      a.style.fontSize="18pt";
+      a.style.color="#FFD700";
       a.style.textShadow="-1px 1px 10px #fff";
       b.style.textShadow="-1px 1px 10px #fff";
       if (hod < 10 || hod > 22) {
@@ -65,7 +69,8 @@ $(function() {
       a = document.getElementById("friday");
       b = document.getElementById("fHours");
       c = document.getElementById("fStatus");
-      a.style.fontSize="25pt";
+      a.style.fontSize="18pt";
+      a.style.color="#FFD700";
       a.style.textShadow="-1px 1px 10px #fff";
       b.style.textShadow="-1px 1px 10px #fff";
       if (hod < 10 || hod > 22) {
@@ -79,7 +84,8 @@ $(function() {
       a = document.getElementById("saturday");
       b = document.getElementById("saHours");
       c = document.getElementById("saStatus");
-      a.style.fontSize="25pt";
+      a.style.fontSize="18pt";
+      a.style.color="#FFD700";
       a.style.textShadow="-1px 1px 10px #fff";
       b.style.textShadow="-1px 1px 10px #fff";
       if (hod < 10 || hod > 22) {
@@ -93,7 +99,8 @@ $(function() {
       a = document.getElementById("sunday");
       b = document.getElementById("suHours");
       c = document.getElementById("suStatus");
-      a.style.fontSize="25pt";
+      a.style.fontSize="18pt";
+      a.style.color="#FFD700";
       a.style.textShadow="-1px 1px 10px #fff";
       b.style.textShadow="-1px 1px 10px #fff";
       if (hod < 12 || hod > 17) {
