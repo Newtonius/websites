@@ -1,193 +1,135 @@
-.content {
-    height: auto;
-    width: 100%;
-    background:rgba(43,40,35,1);
-    position: relative;
-    z-index: 55;
-    margin: auto;
-    border-top: 5px solid #2b2b2b;
-    box-shadow: inset 0 0 10px #000;
-}
-  .lic_content {
-    background:rgba(43,40,35,1);
-  }
-  /*
-  .bayside_content {
-    background:rgba(192,169,128,1);
-  }
-  */
-#contentBackground {
+.contentBackground {
     height: auto;
     width: auto;
 }
-.sections {
-  height: auto;
-  width: 100%;
-  position: relative;
-  color: #fff;
-}
-article {
-  height: auto;
-  width: 100%;
-  text-align: center;
-}
-  article h3 {
-    font-size: 36pt;
-    font-weight: 400;
-    font-family: 'ChopinScript';
+  .content {
+      height: auto;
+      width: 100%;
+      background:rgba(43,40,35,1);
+      position: relative;
+      z-index: 55;
+      margin: auto;
+      border-top: 5px solid #2b2b2b;
+      box-shadow: inset 0 0 10px #000;
   }
-  article h4 {
-    font-family: 'Cash Currency';
-    font-size: 21pt;
-  }
-  .underline {
-      margin: 0;
-      padding-bottom: 20px;
-      width: 200px;
-      height: 23px;
-  }
-
-  #scroller {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-  }
-      #scroller .innerScrollArea {
-          width: 100%;
-          height: auto;
-          position: relative;;
+    .sections {
+      height: auto;
+      width: 100%;
+      position: relative;
+      color: #fff;
+    }
+      .sections article {
+        height: auto;
+        width: 100%;
+        text-align: center;
       }
-        #scroller ul {
-            z-index: 155;
-            width: auto;
-            height: auto;
-            padding: 0;
-            margin: 0;
-            position: relative;
+        .sections article h3 {
+          font-size: 36pt;
+          font-weight: 400;
+          font-family: 'ChopinScript';
         }
-          #scroller li {
-            padding: 15px;
-            margin: 0;
-            list-style-type: none;
-            position: relative;
-            display: inline-block;
+        .sections article h4 {
+          font-family: 'Cash Currency';
+          font-size: 21pt;
+        }
+          .underline {
+              margin: 0;
+              padding-bottom: 20px;
+              width: 200px;
+              height: 23px;
           }
-            #scroller li .img-container {
-                overflow: hidden;
-                height: auto;
-                width: auto;
-                transition: all 0.15s ease-in;
-                border-radius: 35%;
+          /* ABOUT SECTION */
+          #about {
+              overflow: hidden;
+              font-family: 'Bellefair';
+              height: auto;
+              width: 100%;
+              padding-bottom: 50px;
+          }
+            .aboutWrapper {
+              width: 100%;
+              height: auto;
             }
-              #scroller li .img-container:hover {
-                box-shadow: 0px 0px 10px #FFD700;
+              .aboutContent:nth-child(odd) {
+                width: 25%;
+                float:left;
+                padding-top: 5%;
               }
-              #scroller li .img-container img.barber_gallery {
-                  width: 225px;
-                  height: 200px;
+              .aboutContent:nth-child(even) {
+                width: 50%;
+                float:left;
               }
-              #scroller li .img-container img.site_gallery {
-                  width: 300px;
-                  height: 250px;
-              }
-            #scroller li p {
-              padding: 5px;
-              font-family: 'Cash Currency';
-              font-size: 15pt;
-            }
-            /* ABOUT SECTION */
-            #about {
-                overflow: hidden;
-                font-family: 'Bellefair';
-                height: auto;
-                width: 100%;
-                padding-bottom: 50px;
-            }
-              .aboutWrapper {
-                width: 100%;
-                height: auto;
-              }
-                .aboutContent:nth-child(odd) {
-                  width: 25%;
-                  float:left;
-                  padding-top: 5%;
+                .about_description {
+                 font-size: 15pt;
+                 width: auto;
+                 padding-left: 5px;
+                 align-items: center;
                 }
-                .aboutContent:nth-child(even) {
-                  width: 50%;
-                  float:left;
-                }
-                  .about_description {
-                   font-size: 15pt;
-                   width: auto;
-                   padding-left: 5px;
-                   align-items: center;
-                  }
-                  /*
-                 .socialIcons {
-                   width: 25%;
-                   position: absolute;
-                 }
-                 .socialIcons img {
-                   margin: 0 auto;
-                   transition: all 0.25s;
-                 }
-                 .socialIcons img:hover {
-                     transform:scale(1.25);
-                 }
-                 .socialIcons a, visited {
-                     text-decoration: none;
-                 }
-                 .socialIcons a:hover {
-                     text-decoration: none;
-                 }
-                 */
-                 /* aboutContent 2 */
-                 .about_image {
-                     max-height: 90%;
-                     max-width: 90%;
-                     border-radius: 15%;
-                 }
+                /*
+               .socialIcons {
+                 width: 25%;
+                 position: absolute;
+               }
+               .socialIcons img {
+                 margin: 0 auto;
+                 transition: all 0.25s;
+               }
+               .socialIcons img:hover {
+                   transform:scale(1.25);
+               }
+               .socialIcons a, visited {
+                   text-decoration: none;
+               }
+               .socialIcons a:hover {
+                   text-decoration: none;
+               }
+               */
+               /* aboutContent 2 */
+               .about_image {
+                   max-height: 90%;
+                   max-width: 90%;
+                   border-radius: 15%;
+               }
 
-                 /* aboutContent 3 */
-                  .hour_wrap {
-                    font-size: 12pt;
-                    line-height: 20px;
-                    font-weight: 400;
-                    color: #fff;
-                    margin: 0 auto;
-                    padding: 10px;
-                    max-width: 400px;
-                  }
-                  .hour_table {
-                    margin: 0;
-                    width: 100%;
-                    /* box-shadow: -8px 8px 10px rgba(0,0,0,.2); */
-                    display: table;
-                  }
-                  .hour_row {
-                    display: table-row;
-                    /* background: #f6f6f6; */
-                  }
-                  .hour_row:nth-of-type(odd) {
-                    /* background: #e9e9e9; */
-                  }
-                  .hour_header {
-                    font-size: 20pt;
-                    padding: 15px;
-                    font-family: 'UndergroundNF';
-                    color: #fff;
-                    /*  background: #E7C192; */
-                  }
-                  .cell {
-                    padding: 6px 12px;
-                    display: table-cell;
-                  }
-                  .status {
-                    font-size: 18pt;
-                    font-family: 'ChopinScript';
-                    padding: 3px;
-                  }
+               /* aboutContent 3 */
+                .hour_wrap {
+                  font-size: 12pt;
+                  line-height: 20px;
+                  font-weight: 400;
+                  color: #fff;
+                  margin: 0 auto;
+                  padding: 10px;
+                  max-width: 400px;
+                }
+                .hour_table {
+                  margin: 0;
+                  width: 100%;
+                  /* box-shadow: -8px 8px 10px rgba(0,0,0,.2); */
+                  display: table;
+                }
+                .hour_row {
+                  display: table-row;
+                  /* background: #f6f6f6; */
+                }
+                .hour_row:nth-of-type(odd) {
+                  /* background: #e9e9e9; */
+                }
+                .hour_header {
+                  font-size: 20pt;
+                  padding: 15px;
+                  font-family: 'UndergroundNF';
+                  color: #fff;
+                  /*  background: #E7C192; */
+                }
+                .cell {
+                  padding: 6px 12px;
+                  display: table-cell;
+                }
+                .status {
+                  font-size: 18pt;
+                  font-family: 'ChopinScript';
+                  padding: 3px;
+                }
 
             .social_feed {
               width: 70%;
@@ -211,11 +153,6 @@ article {
                   width: 400px;
                   height: 400px;
                 }
-
-            .lic_map {
-              width: 450px;
-              height: 271px;
-            }
 
             .serviceHeader {
                 max-width: 50%;
@@ -279,6 +216,56 @@ article {
               text-align: left;
               font-family: 'Bellefair';
             }
+
+            .gallery {
+              width: 100%;
+              height: auto;
+              margin: 0 auto;
+              position: relative;
+            }
+                .gallery .gallery_frame {
+                    width: 100%;
+                    height: auto;
+                    position: relative;;
+                }
+                  .gallery ul {
+                      z-index: 155;
+                      width: auto;
+                      height: auto;
+                      padding: 0;
+                      margin: 0;
+                      position: relative;
+                  }
+                    .gallery li {
+                      padding: 15px;
+                      margin: 0;
+                      list-style-type: none;
+                      position: relative;
+                      display: inline-block;
+                    }
+                      .gallery li .img-container {
+                          overflow: hidden;
+                          height: auto;
+                          width: auto;
+                          transition: all 0.15s ease-in;
+                          border-radius: 35%;
+                      }
+                        .gallery li .img-container:hover {
+                          box-shadow: 0px 0px 10px #FFD700;
+                        }
+                        .gallery li .img-container img.barber_gallery {
+                            width: 225px;
+                            height: 200px;
+                        }
+                        .gallery li .img-container img.site_gallery {
+                            width: 300px;
+                            height: 250px;
+                        }
+                      .gallery li p {
+                        padding: 5px;
+                        font-family: 'Cash Currency';
+                        font-size: 15pt;
+                      }
 
 @media screen and (max-width: 1300px) {
     .underline {

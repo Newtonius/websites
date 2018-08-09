@@ -3,7 +3,7 @@
   <head>
       <title>Tonsorial Barbershop</title>
       <?php include ($_SERVER['DOCUMENT_ROOT'].'/adds/header_add.html') ?>
-      <script src="/scripts/hours.js" async></script>
+      <?php include ($_SERVER['DOCUMENT_ROOT'].'/adds/scripts.html') ?>
   </head>
   <body>
     <!--  ENTIRE PAGE WRAPPER  -->
@@ -73,49 +73,43 @@
 
         <!--  HEADER  -->
         <div id="header">
-            <span class="anchor" id="topAnchor"></span>
-             <ul class="location_options">
-               <li class="locations">
-                 <figure>
-                   <img class="lic_logo" id="lic_logo" src="GFX/icons/lic_logo.png" alt="" />
-                 </figure>
-                 <span id="lic_button">
-                   <a href="https://lictonsorial.resurva.com/book" target="_blank">
-                     <p>Book Appointment</p>
+          <span class="anchor" id="topAnchor"></span>
+           <ul class="header_items">
+             <li class="locations">
+               <figure>
+                 <img class="lic_logo" id="lic_logo" src="GFX/icons/lic_logo.png" alt="" />
+               </figure>
+               <span id="lic_button">
+                 <a href="https://lictonsorial.resurva.com/book" target="_blank">
+                   <p>Book Appointment</p>
+                 </a>
+               </span>
+               <div class="header_info">
+                 <span class="header_address">
+                   <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059" target="_blank">
+                     41-10 34th Ave, Long Island City NY, 11101<br/>
                    </a>
                  </span>
-                 <div class="header_info">
-                   <span class="header_address">
-                     <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059" target="_blank">
-                       41-10 34th Ave, Long Island City NY, 11101<br/>
-                     </a>
-                   </span>
-                   <br/>
-                   <span class="number">
-                     <a href="tel:+13476546386">
-                      +1 (347) 654 6386
-                     </a>
-                   </span>
-                 </div>
-               </li>
-               <li>
-              </li>
-               <!--
-               <li id="Flushing_location" class="locations">
-                 <figure>
-                   <img src="GFX/icons/bayside_logo.png" alt="" />
-                 </figure>
-                   <a id="bayside_button" href="Bayside.php">
-                     <p>Visit Bayside</p>
+                 <br/>
+                 <span class="number">
+                   <a href="tel:+13476546386">
+                    +1 (347) 654 6386
                    </a>
-                   <h3>Newly Opened!</h3>
-               </li>
-               -->
-             </ul>
+                 </span>
+               </div>
+             </li>
+             <li>
+               <!--
+               <div id="instafeed" class="insta_gallery">
+
+               </div>
+              -->
+            </li>
+          </ul>
         </div>
 
         <!--  CONTENT  -->
-        <div id="contentBackground">
+        <div class="contentBackground">
           <div class="content">
             <!--   ABOUT US SECTION   -->
             <section id="about" class="sections">
@@ -213,13 +207,6 @@
                   <li class="feed">
                     <a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-theme="dark" data-link-color="#FAB81E" href="https://twitter.com/Lic_tonsorial?ref_src=twsrc%5Etfw">Tweets by Lic_tonsorial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                   </li>
-                  <!--
-                  <div>
-                    <figure>
-                      <img class="lic_map" id="lic_logo" src="GFX/misc/lic_map.png" alt="" />
-                    </figure>
-                  </div>
-                  -->
                 </ul>
               </article>
             </section>
@@ -233,8 +220,8 @@
                   <img class="underline" src="/GFX/icons/title-underline2.png" />
                 </div>
                 <!-- Barber gallery -->
-                <div id="scroller">
-                  <div class="innerScrollArea">
+                <div class="gallery">
+                  <div class="gallery_frame">
                     <ul>
                       <?php
                         $barbers = array("Luis","Geraldo","David","Justin");
@@ -320,13 +307,13 @@
 
             <!--   PHOTO GALLERY SECTION   -->
             <span class="anchor" id="gallery"></span>
-            <section id="photoSection" class="sections">
-                <article class="article">
+            <section class="sections">
+                <article>
                     <h3>Gallery</h3>
                     <img class="underline" src="/GFX/icons/title-underline2.png" />
                     <!--   GALLERY  IMAGES   -->
-                    <div id="scroller">
-                      <div class="innerScrollArea">
+                    <div class="gallery">
+                      <div class="gallery_frame">
                         <ul>
                           <?php
                             $lic_pics = array("22","24","34","28","29","33","38","39","45","49");
@@ -362,13 +349,5 @@
             </span>
           </div>
         </footer>
-        <script>
-          function open_sidenav() {
-              document.getElementById("sidenav").style.display = "block";
-          }
-          function close_sidenav() {
-              document.getElementById("sidenav").style.display = "none";
-          }
-        </script>
   </body>
 </html>
