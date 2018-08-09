@@ -86,7 +86,7 @@
                  </span>
                  <div class="header_info">
                    <span class="header_address">
-                     <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059">
+                     <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059" target="_blank">
                        41-10 34th Ave, Long Island City NY, 11101<br/>
                      </a>
                    </span>
@@ -348,11 +348,7 @@
         </div>
         <!--  FOOTER  -->
         <footer id="footer">
-          <div class="footer_tag">
-            <span style="color: #fff;">
-              Contact Us at:
-            </span>
-            <br/><br/>
+          <div class="footer_tag" id="contact">
             <span class="footer_name">Long Island City Tonsorial</span>
             |
             <span class="footer_address">
@@ -364,20 +360,6 @@
             <span class="footer_number">
              <a href="tel:+13476546386">+1 (347) 654 6386</a>
             </span>
-            <!--
-            <br/><br/>
-            <span class="footer_name">Bayside Tonsorial</span>
-            |
-            <span class="footer_address">
-             <a href="https://www.google.com/maps/place/32-53+Francis+Lewis+Blvd,+Flushing,+NY+11358,+USA/@40.7679471,-73.7923883,17z/data=!3m1!4b1!4m5!3m4!1s0x89c28a7f418bd64f:0x7e1de0dac658dcbc!8m2!3d40.7679471!4d-73.7901996">
-               32-53 Francis Lewis Blvd, Queens NY, 11358
-             </a>
-            </span>
-            |
-            <span class="footer_number" id="contact">
-             <a href="tel:+13476546386">+1 (516) 401 2837</a>
-            </span>
-            -->
           </div>
         </footer>
         <script>

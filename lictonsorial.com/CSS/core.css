@@ -34,6 +34,7 @@ html {
     background-attachment: fixed;
     background-size: cover;
 }
+/*
 .lic_wrapper {
     background:url("/GFX/gallery/lic/lic (41).jpg") no-repeat center;
     background-attachment: fixed;
@@ -44,31 +45,30 @@ html {
     background-attachment: fixed;
     background-size: cover;
 }
-#wrapper, #navBar, #header, #content, #footer {
+*/
+#wrapper, #header, #content, #footer {
     width: 100%;
 }
 #topAnchor {
-    height: 65px !important;
+    height: 64px !important;
 }
 span.anchor {
     display: block;
     height: 60px !important;
 }
 #footer {
-    height: auto;
+    height: 200px;
     background:rgba(0,0,0,0.75);
     position: relative;
     z-index: 35;
 }
   .footer_tag {
-    padding: 25px;
+    padding: 75px;
     font-family: "Bellefair";
     font-size: 15px;
     color: #999;
     text-align: center;
   }
-    .footer_name {
-    }
     .footer_address a, visited {
       color: #fff;
       text-decoration: none;
