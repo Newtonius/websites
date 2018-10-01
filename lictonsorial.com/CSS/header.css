@@ -22,7 +22,7 @@
         float: none;
       }
       .header_items li:nth-child(2) {
-        float: right;
+        float: none;
       }
       .header_items #lic_button a,visited {
         background:rgba(0, 0, 0, 0.65);

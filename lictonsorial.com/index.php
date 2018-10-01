@@ -98,12 +98,12 @@
                  </span>
                </div>
              </li>
+             <!--
              <li>
-               <!--
                <div id="instafeed" class="insta_gallery">
 
                </div>
-              -->
+             -->
             </li>
           </ul>
         </div>
@@ -160,39 +160,33 @@
                                 <div class="hour_row">
                                   <div class="cell" id="monday">Monday</div>
                                   <div class="cell" id="mHours">10am - 8pm</div>
-                                  <div class="status" id="mStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="tuesday">Tuesday</div>
                                   <div class="cell" id="tuHours">10am - 8pm</div>
-                                  <div class="status" id="tuStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="wednesday">Wednesday</div>
                                   <div class="cell" id="wHours">10am - 8pm</div>
-                                  <div class="status" id="wStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="thursday">Thursday</div>
                                   <div class="cell" id="thHours">10am - 8pm</div>
-                                  <div class="status" id="thStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="friday">Friday</div>
                                   <div class="cell" id="fHours">10am - 8pm</div>
-                                  <div class="status" id="fStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="saturday">Saturday</div>
                                   <div class="cell" id="saHours">10am - 8pm</div>
-                                  <div class="status" id="saStatus"></div>
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="sunday">Sunday</div>
                                   <div class="cell" id="suHours">12pm - 5pm</div>
-                                  <div class="status" id="suStatus"></div>
                                 </div>
                               </div>
+                              <div class="status" id="status"></div>
                             </div>
                         </div>
                     </div>
