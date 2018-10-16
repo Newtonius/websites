@@ -108,9 +108,10 @@
           </ul>
         </div>
 
-        <!--  CONTENT  -->
+        <!--  CONTENT BACKGROUND -->
         <div class="contentBackground">
           <div class="content">
+
             <!--   ABOUT US SECTION   -->
             <section id="about" class="sections">
                 <article class="article">
@@ -119,37 +120,23 @@
                     <img class="underline" src="/GFX/icons/title-underline2.png" />
                     <div id="aboutWrapper">
                         <div class="aboutContent">
-                            <p class="about_description">
-                                I remember those old-fashioned barber shops,
-                                the ones where everyone was welcome.
-                                You could hear stories about people who made it to the top,
-                                never just a place to get your haircut, rather, filled with conversation
-                                and good memories. I spent most of my childhood in one.
-                                When life threw-out and the day would go wrong,
-                                the barber shop was a place that made me feel strong -
-                                a place where everyone shares an experience.
-                                It's places like this, I love the most.
-                            </p>
-                            <!--  SOCIAL ICONS
-                            <div class="socialIcons">
-                                <a href="https://www.facebook.com/longislandcitybarber/timeline" target="_blank">
-                                    <img src="GFX/icons/fb.png" width="38" height="38" alt=""/>
-                                </a>
-                                <a href="https://twitter.com/Lic_tonsorial" target="_blank">
-                                    <img src="GFX/icons/twit.png" width="38" height="38" alt=""/>
-                                </a>
-                                <a href="https://www.instagram.com/lic_tonsorial/" target="_blank">
-                                    <img src="GFX/icons/ins.png" width="38" height="38" alt=""/>
-                                </a>
-                            </div>
-                            -->
+                          <p class="about_description">
+                              I remember those old-fashioned barber shops,
+                              the ones where everyone was welcome.
+                              You could hear stories about people who made it to the top,
+                              never just a place to get your haircut, rather, filled with conversation
+                              and good memories. I spent most of my childhood in one.
+                              When life threw-out and the day would go wrong,
+                              the barber shop was a place that made me feel strong -
+                              a place where everyone shares an experience.
+                              It's places like this, I love the most.
+                          </p>
                         </div>
                         <!--  ABOUT IMAGE  -->
                         <div class="aboutContent">
                             <img class="about_image" src="GFX/gallery/lic/lic (27).jpg" align="middle" alt=""/>
                         </div>
-
-                        <!--  CONTACT INFO  -->
+                        <!--  HOURS INFO  -->
                         <div class="aboutContent">
                             <div class="hour_wrap">
                               <div class="hour_table">
@@ -192,6 +179,8 @@
                     </div>
                 </article>
             </section>
+
+            <!-- SOCIAL FRAMES -->
             <section class="sections">
               <article>
                 <ul class="social_feed">
@@ -202,6 +191,19 @@
                     <a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-theme="dark" data-link-color="#FAB81E" href="https://twitter.com/Lic_tonsorial?ref_src=twsrc%5Etfw">Tweets by Lic_tonsorial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                   </li>
                 </ul>
+                <!-- SOCIAL ICONS -->
+                <div class="socialIcons">
+                    <p>Check out more at:</p>
+                    <a href="https://www.facebook.com/longislandcitybarber/timeline" target="_blank">
+                        <img src="GFX/icons/fb.png" width="38" height="38" alt=""/>
+                    </a>
+                    <a href="https://twitter.com/Lic_tonsorial" target="_blank">
+                        <img src="GFX/icons/twit.png" width="38" height="38" alt=""/>
+                    </a>
+                    <a href="https://www.instagram.com/lic_tonsorial/" target="_blank">
+                        <img src="GFX/icons/ins.png" width="38" height="38" alt=""/>
+                    </a>
+                </div>
               </article>
             </section>
 

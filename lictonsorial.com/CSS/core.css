@@ -56,6 +56,9 @@ span.anchor {
     display: block;
     height: 60px !important;
 }
+p {
+  font-family: "Bellefair";
+}
 #footer {
     height: 200px;
     background:rgba(0,0,0,0.75);
