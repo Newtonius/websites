@@ -95,7 +95,7 @@
 @media screen and (max-width: 1000px) {
     .header_items {
       width: 100%;
-      padding: 100px 0 0 0;
+      padding: 50px 0 0 0;
       overflow: hidden;
     }
     .header_items li:nth-child(1) {
@@ -108,6 +108,9 @@
       .lic_logo {
           height: 175px;
           width: 175px;
+      }
+      .moving {
+        width: 300px; height: 160px;
       }
       .header_info {
         font-size: 12pt;

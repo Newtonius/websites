@@ -87,7 +87,7 @@
                <div class="header_info">
                  <br/>
                  <h1 style="font-family: 'BeachmanScript'; ">New year, new location!</h1>
-                 <img src="GFX/content/moving_sign.jpeg" alt="" style="width: 350px; height: 210px;" />
+                 <img src="GFX/content/moving_sign.jpeg" class="moving" alt="" style="width: 350px; height: 210px;" />
                  <!--
                  <span class="header_address">
                    <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059" target="_blank">
