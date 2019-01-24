@@ -6,15 +6,15 @@ html {
 }
 @font-face {
     font-family: 'Cash Currency';
-    src: url('/fonts/Cash_Currency.ttf');
+    src: url('../fonts/Cash_Currency.ttf');
 }
 @font-face {
     font-family: 'Wacamoler';
-    src: url('/fonts/Wacamoler.ttf');
+    src: url('../fonts/Wacamoler.ttf');
 }
 @font-face {
     font-family: 'Bellefair';
-    src: url('/fonts/Bellefair-Regular.ttf');
+    src: url('../fonts/Bellefair-Regular.ttf');
 }
 @font-face {
     font-family: 'ChopinScript';
@@ -32,7 +32,14 @@ html {
   position: fixed;
   width: 100%;
   height: auto;
-  z-index: -1000;
+  z-index: -455;
+}
+@media screen and (max-width: 1000px) {
+  .index_wrapper .bg img{
+    width: 120%;
+    height: 100%;
+    margin: -50px;
+  }
 }
 /*
 .index_wrapper {
