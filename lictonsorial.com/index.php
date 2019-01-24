@@ -8,10 +8,13 @@
   <body>
     <!--  ENTIRE PAGE WRAPPER  -->
     <div id="wrapper" class="index_wrapper">
+        <div class="bg">
+          <img src="/GFX/gallery/lic/lic (41).jpg">
+        </div>
         <!-- Moving pop up -->
         <div class="pop_class" id="pop_id">
           <figure class="pop_img_figure">
-            <img alt="" class="pop_img" src="GFX/content/moving_sign_2.png">
+            <img alt="" class="pop_img" src="GFX/content/moving_sign_2.png" />
           </figure>
           <button onclick="close_pop()">Already there fam!</button>
         </div>

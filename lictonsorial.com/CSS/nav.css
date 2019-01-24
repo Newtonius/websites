@@ -116,6 +116,8 @@
     }
     .nav li:nth-child(3) {
       float: right;
+      font-size: 15pt;
+      font-weight: normal;
     }
     .nav li:nth-child(2), .nav li:nth-child(4), .nav li:nth-child(5),  .nav li:nth-child(6), .nav li:nth-child(7)  {
       display: none;
