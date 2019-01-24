@@ -4,3 +4,6 @@ function open_sidenav() {
 function close_sidenav() {
     document.getElementById("sidenav").style.display = "none";
 }
+function close_pop() {
+  document.getElementById("pop_id").style.display = "none";
+}

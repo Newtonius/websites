@@ -8,6 +8,13 @@
   <body>
     <!--  ENTIRE PAGE WRAPPER  -->
     <div id="wrapper" class="index_wrapper">
+        <!-- Moving pop up -->
+        <div class="pop_class" id="pop_id">
+          <figure class="pop_img_figure">
+            <img alt="" class="pop_img" src="GFX/content/moving_sign_2.png">
+          </figure>
+          <button onclick="close_pop()">Already there fam!</button>
+        </div>
         <!--  TOPBAR NAV -->
         <ul class="nav">
           <li>
@@ -340,8 +347,8 @@
             <span class="footer_name">Long Island City Tonsorial</span>
             |
             <span class="footer_address">
-             <a href="https://www.google.com.au/maps/place/LIC+Tonsorial+Barber+Shop+%26+Shaving+Parlor/@40.756052,-73.9198059,15z/data=!4m5!3m4!1s0x0:0xd4ab8bd292975fad!8m2!3d40.756052!4d-73.9198059" target="_blank">
-               41-10 34th Ave, Long Island City NY, 11101
+             <a href="https://www.google.com/maps/place/32-86+Steinway+St,+Astoria,+NY+11103/@40.7567727,-73.9212617,18.07z/data=!4m5!3m4!1s0x89c25f3b12995bb3:0x8aa3c15a60324055!8m2!3d40.7570534!4d-73.9208482" target="_blank">
+               32-86 Steinway St, Long Island City NY, 11101
              </a>
             </span>
             |

@@ -49,6 +49,48 @@ html {
 #wrapper, #header, #content, #footer {
     width: 100%;
 }
+
+.pop_class {
+  padding-top: 50px;
+  display: "block";
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background:rgba(0,0,0,0.75);
+  z-index: 555;
+  animation-name: pop_up_animation;
+  animation-duration: 3s;
+}
+  .pop_img_figure {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+    #pop_id {
+
+    }
+    .pop_img {
+      height: 100%;
+      width: 100%;
+    }
+  .pop_class button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px;
+    background: none;
+    border: 0;
+    font-family: 'BeachmanScript';
+    text-align: center;
+    font-size: 28pt;
+    color: #fff;
+  }
+@@keyframes pop_up_animation {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 #topAnchor {
     height: 64px !important;
 }
