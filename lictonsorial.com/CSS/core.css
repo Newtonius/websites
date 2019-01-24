@@ -59,7 +59,7 @@ html {
   background:rgba(0,0,0,0.75);
   z-index: 555;
   animation-name: pop_up_animation;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
   .pop_img_figure {
       display: block;
@@ -86,7 +86,7 @@ html {
     font-size: 28pt;
     color: #fff;
   }
-@@keyframes pop_up_animation {
+@keyframes pop_up_animation {
   from {opacity: 0;}
   to {opacity: 1;}
 }
