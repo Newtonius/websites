@@ -3,12 +3,12 @@
   <head>
     <?php include ($_SERVER['DOCUMENT_ROOT'].'/adds/header_adds.html') ?>
 
-    <title>Akashic Hub</title>
+    <title>EFT DB</title>
     <link rel="stylesheet" href="/css/home.css" type="text/css" />
 
   </head>
   <body>
-    
+
     <div class="wrapper">
       <?php include ($_SERVER['DOCUMENT_ROOT'].'/adds/nav.html') ?>
 

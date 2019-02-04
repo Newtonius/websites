@@ -4,7 +4,7 @@
 }
 html {
   /* background: #222; */
-  background:url("/GFX/Background/bg-bulgaria-min.jpg") no-repeat center;
+  background:url("/GFX/Background/eftBG.png") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
 }
