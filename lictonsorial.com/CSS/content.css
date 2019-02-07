@@ -172,8 +172,10 @@
               height: auto;
             }
             .promo {
+              margin: 5px;
               width: 250px;
               position: relative;
+              vertical-align: top;
               background: #0F1012;
               color: #f9f9f9;
               display: inline-block;
