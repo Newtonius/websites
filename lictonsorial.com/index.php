@@ -347,6 +347,8 @@
         <!--  FOOTER  -->
         <footer id="footer">
           <div class="footer_tag" id="contact">
+            <h2 style="font-family: 'ChopinScript';">Contact Us</h2>
+            <br/>
             <span class="footer_name">Long Island City Tonsorial</span>
             |
             <span class="footer_address">
