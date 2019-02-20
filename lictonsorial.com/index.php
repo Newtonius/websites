@@ -12,48 +12,53 @@
           <img src="/GFX/gallery/lic/lic (41).jpg">
         </div>
         <!-- Moving pop up -->
-        <div class="pop_class" id="pop_id">
+        <div class="pop_class" id="pop_id" onclick="close_pop()">
           <figure class="pop_img_figure">
             <img alt="" class="pop_img" src="GFX/content/moving_sign_2.png" />
           </figure>
           <button onclick="close_pop()">Already there fam!</button>
         </div>
         <!--  TOPBAR NAV -->
-        <ul class="nav">
-          <li>
-            <button onclick="open_sidenav()">☰</button>
-          </li>
-          <li>
-            <img src="GFX/icons/razorHeader.png" />
-          </li>
-          <li>
-            <span>
-              Barbershop and Shaving Parlor
-            </span>
-          </li>
+        <div>
+          <ul class="nav">
+            <li>
+              <button onclick="open_sidenav()">☰</button>
+            </li>
+            <li>
+              <img src="GFX/icons/razorHeader.png" />
+            </li>
+            <li>
+              <span>
+                Barbershop and Shaving Parlor
+              </span>
+            </li>
 
-          <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#aboutUs">About us</a></li>
-          <!-- Drop down nav
-          <li>
-              <a>Book Appointment</a>
-              <ul class="dropnav1">
-                <li>
-                  <a href="https://lictonsorial.resurva.com/book" target="_blank">
-                    At L.I.C.
-                  </a>
-                </li>
-                <li>
-                  <a href="http://baysidetonsorialbarbershopshavingparlor.resurva.com/" target="_blank">
-                    At Bayside
-                  </a>
-                </li>
-              </ul>
-          </li>
-          -->
-        </ul>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#aboutUs">About us</a></li>
+            <!-- Drop down nav
+            <li>
+                <a>Book Appointment</a>
+                <ul class="dropnav1">
+                  <li>
+                    <a href="https://lictonsorial.resurva.com/book" target="_blank">
+                      At L.I.C.
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://baysidetonsorialbarbershopshavingparlor.resurva.com/" target="_blank">
+                      At Bayside
+                    </a>
+                  </li>
+                </ul>
+            </li>
+            -->
+          </ul>
+          <ul>
+            <li>test</li>
+          </ul>
+        </div>
 
         <!-- Sidebar nav -->
         <ul class="side_nav" style="display: none;" id="sidenav">
@@ -101,7 +106,7 @@
                   -->
                  <span class="header_address">
                    <a href="https://www.google.com/maps/place/32-86+Steinway+St,+Astoria,+NY+11103/@40.7567727,-73.9212617,18.07z/data=!4m5!3m4!1s0x89c25f3b12995bb3:0x8aa3c15a60324055!8m2!3d40.7570534!4d-73.9208482" target="_blank">
-                     32-86 Steinway St, Long Island City NY, 11101<br/>
+                     32-86 Steinway St, Long Island City NY, 11103<br/>
                    </a>
                  </span>
 
@@ -235,7 +240,7 @@
                   <div class="gallery_frame">
                     <ul>
                       <?php
-                        $barbers = array("Luis","Geraldo","David","Justin");
+                        $barbers = array("Luis","Geraldo","Justin","Samy");
                         for ($i=0; $i < count($barbers); $i++):
                       ?>
                       <li>
@@ -258,7 +263,7 @@
                     <div class="cutWrapper">
                       <h3>Services</h3>
                       <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
-                      <img class="price_list" src="/GFX/content/services/priceList_2019_jan.png" />
+                      <img class="price_list" src="/GFX/content/services/priceList_2019_feb.png" />
                     </div>
                     <span class="anchor"></span>
                     <div class="products" id="products">
@@ -278,6 +283,7 @@
 
                           </ul>
                         </div>
+                        <!--
                         <div class="promo">
                           <div class="brand">
                             <img src="/GFX/icons/baxter_logo.png" height="55" width="150" alt="" />
@@ -300,6 +306,7 @@
                             <li>Oil Free Moisturizer $24</li>
                           </ul>
                         </div>
+                        -->
                         <div class="promo">
                           <div class="brand">
                             <img src="/GFX/icons/mrnatty_logo.png" height="39" width="200" alt="" />
@@ -327,12 +334,11 @@
                       <div class="gallery_frame">
                         <ul>
                           <?php
-                            $lic_pics = array("22","24","34","28","29","33","38","39","45","49");
-                            for ($i=0; $i < count($lic_pics); $i++):
+                            for ($i=1; $i<9; $i++):
                           ?>
                           <li>
                             <figure class="img-container">
-                                <img class="site_gallery" src="/GFX/gallery/lic/<?php echo "lic ($lic_pics[$i])"; ?>.jpg" alt="" />
+                                <img class="site_gallery" src="/GFX/gallery/lic/<?php echo "lic_new ($i)"; ?>.jpg" alt="<?php echo "lic_new ($i)"; ?>" />
                             </figure>
                           </li>
                           <?php endfor; ?>
@@ -353,7 +359,7 @@
             |
             <span class="footer_address">
              <a href="https://www.google.com/maps/place/32-86+Steinway+St,+Astoria,+NY+11103/@40.7567727,-73.9212617,18.07z/data=!4m5!3m4!1s0x89c25f3b12995bb3:0x8aa3c15a60324055!8m2!3d40.7570534!4d-73.9208482" target="_blank">
-               32-86 Steinway St, Long Island City NY, 11101
+               32-86 Steinway St, Long Island City NY, 11103
              </a>
             </span>
             |

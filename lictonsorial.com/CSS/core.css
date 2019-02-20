@@ -80,9 +80,6 @@ html {
       margin-right: auto;
       width: 50%;
   }
-    #pop_id {
-
-    }
     .pop_img {
       height: 100%;
       width: 100%;
@@ -93,7 +90,6 @@ html {
     width: 100%;
     padding: 20px;
     background: none;
-    border: 0;
     font-family: 'BeachmanScript';
     text-align: center;
     font-size: 28pt;
