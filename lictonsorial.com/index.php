@@ -9,7 +9,7 @@
     <!--  ENTIRE PAGE WRAPPER  -->
     <div id="wrapper" class="index_wrapper">
         <div class="bg">
-          <img src="/GFX/gallery/lic/lic (41).jpg">
+          <img src="/GFX/gallery/lic/lic_new (1).jpg">
         </div>
         <!-- Moving pop up -->
         <div class="pop_class" id="pop_id" onclick="close_pop()">
@@ -277,9 +277,9 @@
                           </div>
                           <span class="motto"> Pomade, cream, and clay that will exceed your expectations.</span>
                           <ul class="features">
-                            <li>Original $18</li>
-                            <li>Super Hold $18</li>
-                            <li>Matte Cream $18</li>
+                            <li><span class="item">Original</span> ---------------------- <span class="price">$18</span></li>
+                            <li><span class="item">Super Hold</span> ------------------ <span class="price">$18</span></li>
+                            <li><span class="item">Matte Cream</span> ---------------- <span class="price">$18</span></li>
 
                           </ul>
                         </div>
@@ -313,9 +313,9 @@
                           </div>
                           <span class="motto">Master Barber to Royals, Ragtaggle and Ruffians.</span>
                           <ul class="features">
-                            <li>Dub $20</li>
-                            <li>Paste $20</li>
-                            <li>Moisturizing Butter $20</li>
+                            <li><span class="item">Dub</span> ------------------------- <span class="price">$20</span></li>
+                            <li><span class="item">Paste</span> ------------------------ <span class="price">$20</span></li>
+                            <li><span class="item">Moisturizing Butter</span> -------- <span class="price">$20</span></li>
                           </ul>
                         </div>
                       </div>

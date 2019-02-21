@@ -215,8 +215,13 @@
               /* margin: 10px 0 0 0; */
               padding: 10px;
               text-align: left;
-              font-family: 'Bellefair';
             }
+              .promos li .item {
+                font-family: 'Bellefair';
+              }
+              .promos li .price {
+                font-family: 'Cash Currency';
+              }
 
             .gallery {
               width: 100%;
