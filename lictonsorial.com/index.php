@@ -240,7 +240,7 @@
                   <div class="gallery_frame">
                     <ul>
                       <?php
-                        $barbers = array("Luis","Geraldo","Justin","Samy");
+                        $barbers = array("Luis","Geraldo","Justin","Samy_new");
                         for ($i=0; $i < count($barbers); $i++):
                       ?>
                       <li>
