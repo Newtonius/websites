@@ -190,7 +190,7 @@
                                 </div>
                                 <div class="hour_row">
                                   <div class="cell" id="sunday">Sunday</div>
-                                  <div class="cell" id="suHours">12pm - 5pm</div>
+                                  <div class="cell" id="suHours">11am - 7pm</div>
                                 </div>
                               </div>
                               <div class="status" id="status"></div>
@@ -263,7 +263,7 @@
                     <div class="cutWrapper">
                       <h3>Services</h3>
                       <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
-                      <img class="price_list" src="/GFX/content/services/priceList_2019_feb.png" />
+                      <img class="price_list" src="/GFX/content/services/priceList_2019_mar.png" />
                     </div>
                     <span class="anchor"></span>
                     <div class="products" id="products">
