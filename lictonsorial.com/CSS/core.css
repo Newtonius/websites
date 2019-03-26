@@ -34,13 +34,6 @@ html {
   height: auto;
   z-index: -455;
 }
-@media screen and (max-width: 1000px) {
-  .index_wrapper .bg img{
-    width: 120%;
-    height: 100%;
-    margin: -50px;
-  }
-}
 /*
 .index_wrapper {
     background:url("/GFX/gallery/lic/lic (41).jpg") no-repeat center;
@@ -81,8 +74,11 @@ html {
       width: 50%;
   }
     .pop_img {
-      height: 100%;
-      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 60%;
+      width: 60%;
     }
   .pop_class button {
     margin-left: auto;
@@ -132,3 +128,15 @@ p {
       color: #999;
       text-decoration: none;
     }
+
+@media screen and (max-width: 1000px) {
+  .index_wrapper .bg img{
+    width: 120%;
+    height: 100%;
+    margin: -50px;
+  }
+  .pop_img {
+    height: 100%;
+    width: 100%;
+  }
+}

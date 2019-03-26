@@ -14,7 +14,7 @@
         <!-- Moving pop up -->
         <div class="pop_class" id="pop_id" onclick="close_pop()">
           <figure class="pop_img_figure">
-            <img alt="" class="pop_img" src="GFX/content/moving_sign_2.png" />
+            <img alt="" class="pop_img" src="GFX/content/GrandOpening_flyer-min.jpg" />
           </figure>
           <button onclick="close_pop()">Already there fam!</button>
         </div>

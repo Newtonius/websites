@@ -8,7 +8,7 @@
         <meta HTTP-EQUIV="Expires" CONTENT="-1">
         <meta name="robots" content="noindex">
         <link rel="stylesheet" href="CSS/core.css" type="text/css" />
-        <link rel="shortcut icon" href="/GFX/siteGFX/icon_heart1.png" />
+        <link rel="shortcut icon" href="" />
     </head>
     <body>
 
