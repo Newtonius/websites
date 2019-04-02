@@ -264,7 +264,7 @@
                     <div class="cutWrapper">
                       <h3>Services</h3>
                       <img class="underline" src="/GFX/icons/title-underline2.png" /><br/>
-                      <img class="price_list" src="/GFX/content/services/priceList_2019_mar.png" />
+                      <img class="price_list" src="/GFX/content/services/priceList_2019_apr.png" />
                     </div>
                     <span class="anchor"></span>
                     <div class="products" id="products">
