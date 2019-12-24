@@ -3,6 +3,7 @@
 }
 html {
   background:rgba(0, 0, 0, 1);
+  scroll-behavior: smooth;
 }
 @font-face {
     font-family: 'Cash Currency';
@@ -28,30 +29,36 @@ html {
     font-family: 'BeachmanScript';
     src: url('../fonts/BeachmanScript.ttf');
 }
-.index_wrapper .bg img{
-  position: fixed;
-  width: 100%;
-  height: auto;
-  z-index: -455;
+@font-face {
+    font-family: 'LibelSuit';
+    src: url('../fonts/libel-suit-rg.ttf');
 }
 /*
-.index_wrapper {
-    background:url("/GFX/gallery/lic/lic (41).jpg") no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
+.bg_wrapper {
+  width: vw;
+  height: vh;
+  position: fixed;
+  z-index: -455;
+  border: 1px solid red;
+}
+  .bg_wrapper .bg_container {
+    overflow: hidden;
+  }
+    .bg_wrapper .bg_container.bg img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+*/
+
+body {
+  background-image: url(current_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
 }
 
-.lic_wrapper {
-    background:url("/GFX/gallery/lic/lic (41).jpg") no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.bayside_wrapper {
-    background:url("/GFX/gallery/bayside/Bayside (3).jpg") no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-*/
 #wrapper, #header, #content, #footer {
     width: 100%;
 }
@@ -77,21 +84,30 @@ html {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 60%;
-      width: 60%;
+      height: 55%;
+      width: 55%;
     }
   .pop_class button {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    padding: 20px;
+    margin-top: 10px;
+    width: 250px;
+    padding: 5px;
     border: none;
     background: none;
     font-family: 'BeachmanScript';
     text-align: center;
     font-size: 28pt;
-    color: #fff;
+    border-radius: 15px;
+    transition: 0.25s all ease-out;
   }
+    .pop_class button:hover {
+      background:rgba(24,75,141,0.5);
+    }
+    .pop_class button a,visited {
+      color: #fff;
+      text-decoration: none;
+    }
 @keyframes pop_up_animation {
   from {opacity: 0;}
   to {opacity: 1;}
@@ -104,9 +120,6 @@ span.anchor {
     display: block;
     height: 60px !important;
 }
-p {
-  font-family: "Bellefair";
-}
 #footer {
     height: 220px;
     background:rgba(0,0,0,0.75);
@@ -114,9 +127,9 @@ p {
     z-index: 35;
 }
   .footer_tag {
-    padding: 75px;
+    padding: 50px;
     font-family: "Bellefair";
-    font-size: 15px;
+    font-size: 18pt;
     color: #999;
     text-align: center;
   }
@@ -136,7 +149,8 @@ p {
     margin: -50px;
   }
   .pop_img {
-    height: 100%;
-    width: 100%;
+    margin-left: -20px;
+    height: 125%;
+    width: 125%;
   }
 }

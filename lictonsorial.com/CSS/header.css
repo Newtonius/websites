@@ -24,23 +24,23 @@
       .header_items li:nth-child(2) {
         float: none;
       }
-      .header_items #lic_button a,visited {
-        background:rgba(0, 0, 0, 0.65);
-        text-decoration: none;
-        color: #fff;
-        display: inline-flex;
-        transition: 0.25s all ease-in;
-      }
-        .header_items #lic_button a:hover {
-            color: #FFD700;
-            background:rgba(0, 0, 0, 1);
-            text-shadow: 2px 2px 15px #FFD700;
+        .buttons a,visited {
+          background:rgba(0, 0, 0, 0.65);
+          text-decoration: none;
+          color: #fff;
+          display: inline-flex;
+          transition: 0.25s all ease-in;
         }
-        .header_items li p {
-          padding: 10px 20px;
-          font-size: 20pt;
-          font-family: 'Wacamoler';
-        }
+          .buttons a:hover {
+              color: #FFD700;
+              background:rgba(0, 0, 0, 1);
+              text-shadow: 2px 2px 15px #FFD700;
+          }
+            .buttons p {
+              padding: 10px 20px;
+              font-size: 20pt;
+              font-family: 'LibelSuit';
+            }
 
       .header_items figure {
         width: auto;
@@ -53,7 +53,8 @@
       .header_info {
         color: #fff;
         font-family: 'Bellefair';
-        font-size: 16pt;
+        font-weight: bold;
+        font-size: 20pt;
         padding: 10px;
         text-align: center;
       }
