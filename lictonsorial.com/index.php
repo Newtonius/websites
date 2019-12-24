@@ -15,7 +15,7 @@
 
       <link rel="shortcut icon" href="GFX/icons/icon.png"/>
       <link rel="stylesheet" href="CSS/core.css?v=1.0" type="text/css"/>
-      <link rel="stylesheet" href="CSS/nav.css?v=1.0" type="text/css"/>
+      <link rel="stylesheet" href="CSS/nav.css?v=1.2" type="text/css"/>
       <link rel="stylesheet" href="CSS/content.css?v=1.17" type="text/css"/>
       <link rel="stylesheet" href="CSS/header.css?v=1.0" type="text/css"/>
 
@@ -63,6 +63,24 @@
       </center>
     </div>
     -->
+    <!-- TOPBAR Store icons -->
+    <div class="top_store_bar">
+      <div>
+        <figure>
+          <p>Download our app at</p>
+        </figure>
+        <a href="https://play.google.com/store/apps/details?id=com.conversion.sbx.barbershop" target="_blank">
+          <figure>
+            <img src="GFX/icons/PS_logo.png" alt="Google Playstore Logo" />
+          </figure>
+        </a>
+        <a href="https://apps.apple.com/us/app/lic-tonsorial-barber-shop/id1482864410" target="_blank">
+          <figure>
+            <img src="GFX/icons/AS_logo.png" alt="Apple Store Logo" />
+          </figure>
+        </a>
+      </div>
+    </div>
     <!--  TOPBAR NAV -->
     <div>
       <ul class="nav">
@@ -504,6 +522,46 @@
                       <li>
                         <figure class="img-container">
                             <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 7.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 8.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 9.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 10.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 11.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 12.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 13.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 14.jpg" alt="LIC Tonsorial 7" />
+                        </figure>
+                      </li>
+                      <li>
+                        <figure class="img-container">
+                            <img class="site_gallery" src="/GFX/gallery/lic/LIC Tonsorial 15.jpg" alt="LIC Tonsorial 7" />
                         </figure>
                       </li>
                     </ul>
