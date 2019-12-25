@@ -8,15 +8,17 @@
       <meta http-equiv="Pragma" content="no-cache" />
       <meta http-equiv="Expires" content="0" />
 
-      <link rel="stylesheet" href="CSS/core.css?v=1.0" type="text/css"/>
+      <link rel="stylesheet" href="CSS/core.css?v=1.01" type="text/css"/>
   </head>
   <body>
-
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-      Select images to upload:
-      <input type="file" name="fileToUpload" id="fileToUpload">
-      <input type="submit" value="Upload Image" name="submit">
-    </form>
-
+    <div class="upload_form">
+      <form action="PHP/upload.php" method="post" enctype="multipart/form-data">
+        <h2>Select images or videos to upload.</h2>
+        <p>Allowed Image formats: <span>.jpg, .jpeg, .png, .tiff</span></p>
+        <p>Allowed Video Formats: <span>.mp4, .mov, .webm, .ogg, .avi, .wmv</span></p>
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload Image" name="submit">
+      </form>
+    </div>
   </body>
 </html>

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Monte-Reg';
+    src: url('../fonts/Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'Monte-Bold';
+    src: url('../fonts/Montserrat-Bold.otf');
+}
+.upload_form {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .upload_form form h2 {
+    font-family: 'Monte-Bold';
+  }
+  .upload_form form p {
+    font-family: 'Monte-Reg';
+    font-size: 12pt;
+  }
+    .upload_form form span {
+      color: green;
+    }
+  .upload_form form input {
+    margin-left: 25px;
+  }
