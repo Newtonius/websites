@@ -8,7 +8,7 @@
       <meta http-equiv="Pragma" content="no-cache" />
       <meta http-equiv="Expires" content="0" />
 
-      <link rel="stylesheet" href="CSS/core.css?v=1.01" type="text/css"/>
+      <link rel="stylesheet" href="CSS/core.css?v=1.03" type="text/css"/>
   </head>
   <body>
 
@@ -17,7 +17,8 @@
         <h2>Select Image(s) or Video(s) To Upload.</h2>
         <p>Allowed Image Formats: <span>.jpg, .jpeg, .png, .tiff</span></p>
         <p>Allowed Video Formats: <span>.mp4, .mov, .webm, .ogg, .avi, .wmv</span></p>
-        <p>Max per-file Size Allowed: <span>15 MB</span></p>
+        <p>Max per-file Size Allowed: <span>25 MB</span></p>
+        <p>Amount of files Allowed per Upload: <span>100</span></p>
         <input type="file" name="filesToUpload[]" id="fileToUpload" multiple>
         <input type="submit" value="Upload Image" name="submit">
       </form>
