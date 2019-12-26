@@ -17,7 +17,7 @@
         <h2>Select Image(s) or Video(s) To Upload.</h2>
         <p>Allowed Image Formats: <span>.jpg, .jpeg, .png, .tiff</span></p>
         <p>Allowed Video Formats: <span>.mp4, .mov, .webm, .ogg, .avi, .wmv</span></p>
-        <p>Max File Size Allowed: <span>3MB</span></p>
+        <p>Max per-file Size Allowed: <span>15 MB</span></p>
         <input type="file" name="filesToUpload[]" id="fileToUpload" multiple>
         <input type="submit" value="Upload Image" name="submit">
       </form>
