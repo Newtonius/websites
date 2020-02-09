@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Monte-Reg';
+    src: url('../fonts/Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'Monte-Bold';
+    src: url('../fonts/Montserrat-Bold.otf');
+}
+.upload_form {
+  width: 485px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .upload_form h2 {
+    font-family: 'Monte-Bold';
+  }
+  .upload_form p {
+    font-family: 'Monte-Reg';
+    font-size: 12pt;
+  }
+    .upload_form span {
+      color: green;
+    }
+  .upload_form select {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .upload_form form input {
+    margin-left: 15px;
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .upload_form form input:hover {
+    border-color: black;
+  }
+  .upload_form form input:active {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }

@@ -8,17 +8,33 @@
       <meta http-equiv="Pragma" content="no-cache" />
       <meta http-equiv="Expires" content="0" />
 
-      <link rel="stylesheet" href="CSS/core.css?v=1.03" type="text/css"/>
+      <link rel="stylesheet" href="CSS/uploadhub.css?v=1.04" type="text/css"/>
   </head>
   <body>
 
     <div class="upload_form">
+      <h2>Select Image(s) or Video(s) To Upload.</h2>
+      <p>Allowed Image Formats: <span>.jpg, .jpeg, .png, .tiff</span></p>
+      <p>Allowed Video Formats: <span>.mp4, .mov, .webm, .ogg, .avi, .wmv</span></p>
+      <p>Max per-file Size Allowed: <span>25 MB</span></p>
+      <p>Amount of files Allowed per Upload: <span>100</span></p>
+
+      <p>Select Family folder to upload to:</p>
+      <select name="familySelection" method="post">
+        <option value="BolanosFolder">BolanosFolder</option>
+        <option value="RendonFolder">RendonFolder</option>
+      </select>
+      <p>Select an existing folder to upload to:</p>
+      <select>
+        <option value=""></option>
+      </select>
+      <p>Or create a new folder:</p>
+      <form>
+        <input type="text" name="folderName" placeholder="'Name of folder'"></input>
+      </form>
+      <br>
+      <br>
       <form action="" method="post" enctype="multipart/form-data">
-        <h2>Select Image(s) or Video(s) To Upload.</h2>
-        <p>Allowed Image Formats: <span>.jpg, .jpeg, .png, .tiff</span></p>
-        <p>Allowed Video Formats: <span>.mp4, .mov, .webm, .ogg, .avi, .wmv</span></p>
-        <p>Max per-file Size Allowed: <span>25 MB</span></p>
-        <p>Amount of files Allowed per Upload: <span>100</span></p>
         <input type="file" name="filesToUpload[]" id="fileToUpload" multiple>
         <input type="submit" value="Upload Image" name="submit">
       </form>
@@ -28,7 +44,8 @@
       <?php
 
         // $target_dir = "uploads/" - specifies the directory where the file is going to be placed
-        $target_dir = "uploads/";
+        $b_target_dir = "uploads/BolanosFolder/";
+        $r_target_dir = "uploads/RendonFolder/";
         // $target_file specifies the path of the file to be uploaded
         // $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
         // $uploadOk=1 is not used yet (will be used later)
@@ -36,9 +53,11 @@
         // $imageFileType holds the file extension of the file (in lower case)
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
         $allowedFileTypes = array("jpg", "jpeg", "png", "tiff", "mp4", "mov", "webm", "ogg", "avi", "wmv");
-        $maxFileSize = (15*1024*1024);
+        $maxFileSize = (25*1024*1024);
+        // Get value of drop down menu
 
         if (isset($_POST["submit"])) {
+          $select_val = $_POST['familySelection'];
           // Check if array is empty
           if(!empty(array_filter($_FILES['filesToUpload']['name']))) {
             // Cycle through array of files
@@ -48,37 +67,75 @@
               $file_name = $_FILES['filesToUpload']['name'][$key];
               $file_size = $_FILES['filesToUpload']['size'][$key];
               $file_ext = pathinfo($file_name, PATHINFO_EXTENSION);
-              $file_path = $target_dir.$file_name;
+              $b_file_path = $b_target_dir.$file_name;
+              $r_file_path = $r_target_dir.$file_name;
 
               // Check if ext is allowed - in_array cycles through array '$allowedFileTypes'
               if (in_array(strtolower($file_ext), $allowedFileTypes)) {
                 // Check if file exceeds limit
                 if ($file_size < $maxFileSize) {
-                  // Check if file exists, if it does - add the current time to it and save it anyways
-                  if(!(file_exists($file_path))) {
-
-                    if(move_uploaded_file($file_tmpname, $file_path)) {
-                      echo '
-                      <script type="text/javascript">
-                        document.getElementById("upload_status").innerHTML = "File(s) succesfully uploaded!";
-                      </script>';
-                    } else {
+                  echo '
+                  <script type="text/javascript">
+                    document.getElementById("upload_status").innerHTML = "'.$select_val.'";
+                  </script>';
+                  // BOLANOS FAMILY UPLOAD
+                  if ($select_val === "BolanosFolder") {
+                    // Check if file exists, if it does - add the current time to it and save it anyways
+                    echo '
+                    <script type="text/javascript">
+                      document.getElementById("upload_status").innerHTML = "It gets here 2";
+                    </script>';
+                    if(!(file_exists($b_file_path))) {
+                      if(move_uploaded_file($file_tmpname, $b_file_path)) {
                         echo '
                         <script type="text/javascript">
-                          document.getElementById("error_status").innerHTML = "Error 4:  Error Uploading file(s).";
+                          document.getElementById("upload_status").innerHTML = "File(s) succesfully uploaded!";
                         </script>';
+                      } else {
+                          echo '
+                          <script type="text/javascript">
+                            document.getElementById("error_status").innerHTML = "Error 4:  Error Uploading file(s).";
+                          </script>';
+                          echo '
+                          <script type="text/javascript">
+                            document.getElementById("upload_status").innerHTML = "File(s) NOT uploaded. Please report error to Angel.";
+                          </script>';
+                      }
+                    } else {
+                        $b_file_path = $b_target_dir.time().$file_name;
+                        move_uploaded_file($file_tmpname, $b_file_path);
                         echo '
                         <script type="text/javascript">
-                          document.getElementById("upload_status").innerHTML = "File(s) NOT uploaded. Please report error to Angel.";
+                          document.getElementById("upload_status").innerHTML = "File(s) succesfully uploaded!";
                         </script>';
                     }
-                  } else {
-                      $file_path = $target_dir.time().$file_name;
-                      move_uploaded_file($file_tmpname, $file_path);
-                      echo '
-                      <script type="text/javascript">
-                        document.getElementById("upload_status").innerHTML = "File(s) succesfully uploaded!";
-                      </script>';
+                  } elseif ($select_val === "RendonFolder") {
+                    // RENDON FAMILY UPLOAD
+                    if(!(file_exists($b_file_path))) {
+                      if(move_uploaded_file($file_tmpname, $r_file_path)) {
+                        echo '
+                        <script type="text/javascript">
+                          document.getElementById("upload_status").innerHTML = "File(s) succesfully uploaded!";
+                        </script>';
+                      } else {
+                          echo '
+                          <script type="text/javascript">
+                            document.getElementById("error_status").innerHTML = "Error 4:  Error Uploading file(s).";
+                          </script>';
+                          echo '
+                          <script type="text/javascript">
+                            document.getElementById("upload_status").innerHTML = "File(s) NOT uploaded. Please report error to Angel.";
+                          </script>';
+                      }
+                    } else {
+                        $r_file_path = $r_target_dir.time().$file_name;
+                        move_uploaded_file($file_tmpname, $r_file_path);
+                        echo '
+                        <script type="text/javascript">
+                          document.getElementById("upload_status").innerHTML = "File(s) succesfully uploaded!";
+                        </script>';
+                    }
+
                   }
                 } else {
                     echo '

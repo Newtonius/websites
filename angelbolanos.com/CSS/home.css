@@ -1,0 +1,42 @@
+.quote {
+  position: relative;
+  color: #fff;
+  font-family: 'Montserrat Italic';
+  font-size: 15pt;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 150px;
+  width: 50%;
+}
+
+.welcome {
+  position: relative;
+  font-size: 40pt;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-family: 'Earth 3d';
+  animation: fadeIn 2s ease-in-out;
+}
+
+.cell p {
+  color: #fff;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .quote {
+    font-size: 12pt;
+    padding: 20px;
+    width: 70%;
+  }
+}

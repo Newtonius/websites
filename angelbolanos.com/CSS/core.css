@@ -1,46 +1,226 @@
-@font-face {
-    font-family: 'Monte-Reg';
-    src: url('../fonts/Montserrat-Regular.otf');
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  /*
+  background: #222;
+  */
+  background-image: url(../GFX/Background/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
 }
 @font-face {
-    font-family: 'Monte-Bold';
-    src: url('../fonts/Montserrat-Bold.otf');
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Bold.ttf');
 }
-.upload_form {
-  width: 500px;
+@font-face {
+    font-family: 'Montserrat Italic';
+    src: url('/fonts/Montserrat-Italic.ttf');
+}
+@font-face {
+    font-family: 'Axile';
+    src: url('/fonts/Axile.otf');
+}
+@font-face {
+    font-family: 'Yeysk';
+    src: url('/fonts/Yeysk.otf');
+}
+
+@font-face {
+    font-family: 'Earth 3d';
+    src: url('/fonts/earthorbiterdeep3d.ttf');
+}
+@font-face {
+    font-family: 'Alien';
+    src: url('/fonts/alienleague.ttf');
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -5000;
+}
+.site-header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 155;
+}
+.site-header h1 {
+  background:rgba(20,20,20,0.70);
+  color: #fff;
+  text-align: center;
+  padding: 25px 30px 0px 30px;
+  text-shadow: 2px 2px 20px #fff;
+  width: 275px;
+  height: 100%;
+  font-family: 'Yeysk';
+  font-size: 20pt;
+  animation: neon_header 5s infinite ease-in-out;
+  /* border-bottom: 5px solid rgba(255,255,255,0.75); */
+}
+
+@keyframes neon_header {
+  0% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
+  }
+  10% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  20% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
+  }
+  30% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  40% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.8);
+  }
+  50% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
+  }
+  60% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  70% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.9);
+  }
+  80% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.2);
+  }
+  90% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,1);
+  }
+  100% {
+    text-shadow: 2px 2px 20px rgba(255,255,255,.8);
+  }
+}
+
+.side-nav {
+  position: relative;
+  width: 100%;
+  background:rgba(20,20,20,0.70);
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  list-style-type: none;
+}
+.side-nav:hover {
+}
+.side-nav a,visited {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.25s color;
+  display: inline;
+}
+.nav-icons {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  transition: all 0.25s;
+}
+.nav-icons:hover {
+  background:rgba(0,0,0,1);
+}
+.nav-icons a:hover .nav-icons a img {
+  display: none;
+}
+.nav-icons a:hover .nav-icons p {
   display: block;
+}
+.nav-icons a img {
+  width: 45px;
+  height: 45px;
+  padding: 25px;
+  display: inline-flex;
+}
+.nav-icons a {
+  width: 100%;
+}
+.nav-icons p {
+  font-family: 'Montserrat Italic';
+  display: none;
+}
+
+.banner_scroller {
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  font-family: 'Alien';
+  font-size: 15pt;
+  background:rgba(48,46,64,0.95);
+  padding: 5px;
+  margin-top: 80px;
+  position: fixed;
+  z-index: 155;
+}
+.banner_scroller a, visited {
+  text-decoration: none;
+  color:rgb(255,178,14);
+}
+
+#anchor {
+  height: 100px !important;
+  display: block;
+}
+
+.content-wrapper {
+  height: auto;
+  width: 100%;
+  background:rgba(20,20,20,0.20);
+  position: relative;
+  align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .site-header h1 {
+    padding-top: 80px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .nav-icons a img {
+    width: 35px;
+    height: 35px;
+    padding: 25px;
+    display: inline-flex;
+  }
+}
+
+.construction {
+  width: 150px;
+  height: 215px;
   margin-left: auto;
   margin-right: auto;
 }
-  .upload_form form h2 {
-    font-family: 'Monte-Bold';
-  }
-  .upload_form form p {
-    font-family: 'Monte-Reg';
-    font-size: 12pt;
-  }
-    .upload_form form span {
-      color: green;
-    }
-  .upload_form form input {
-    margin-left: 15px;
-    content: 'Select some files';
-    display: inline-block;
-    background: linear-gradient(top, #f9f9f9, #e3e3e3);
-    border: 1px solid #999;
-    border-radius: 3px;
-    padding: 5px 8px;
-    outline: none;
-    white-space: nowrap;
-    -webkit-user-select: none;
-    cursor: pointer;
-    text-shadow: 1px 1px #fff;
-    font-weight: 700;
-    font-size: 10pt;
-  }
-  .upload_form form input:hover {
-    border-color: black;
-  }
-  .upload_form form input:active {
-    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
-  }
+
+#site-footer {
+  height: 100px;
+  width: 100%;
+  background:rgba(20,20,20,0.85);
+  color: #ccc;
+  font-size: 14pt;
+  font-family: "Alien";
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#site-footer p {
+  padding-top: 20px;
+  font-weight: 600;
+}
